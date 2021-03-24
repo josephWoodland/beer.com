@@ -2,12 +2,15 @@
 
 \*\* ----- UX -----
 
-**_ Project Goals
+\*\*\_ Project Goals
+
+This website has been desgined at teh request of a new start up called 'Buy Me A Drink.com'
+
 _** Player Goals
 **_ Parental Goals
 _** Developer and Buiness Goals
 **_ User Stories
-_** Design Choices
+\*\* Design Choices
 \*\*\* Wireframes
 
 \*\* ----- FEATURES -----
