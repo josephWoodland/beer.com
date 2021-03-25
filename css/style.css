@@ -53,6 +53,42 @@ html {
   font-size: 62.5%;
 }
 
+.nav-bar {
+  height: 7rem;
+  background-color: #a5d4e2ef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bar img {
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.nav-bar__logo {
+  color: #339cb1;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+.nav-bar ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  display: flex;
+  align-self: center;
+}
+.nav-bar ul li a {
+  color: #339cb1;
+  text-decoration: none;
+  margin-right: 3rem;
+}
+.nav-bar input {
+  height: 3rem;
+  align-self: center;
+}
+.nav-bar-icon {
+  margin-right: 0.5rem;
+}
+
 /* ----- Components ----- */
 
 /*# sourceMappingURL=style.css.map */

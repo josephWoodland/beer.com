@@ -1,0 +1,41 @@
+.nav-bar {
+  height: 7rem;
+  background-color: $color-primary-transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  img {
+    height: 4rem;
+    margin-top: 1.5rem;
+  }
+
+  &__logo {
+    color: $color-icon-fill;
+    text-align: center;
+    margin-left: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: $font-size-copy;
+    display: flex;
+    align-self: center;
+
+    li a {
+      color: $color-icon-fill;
+      text-decoration: none;
+      margin-right: 3rem;
+    }
+  }
+
+  input {
+    height: 3rem;
+    align-self: center;
+  }
+
+  &-icon {
+    margin-right: 0.5rem;
+  }
+}
