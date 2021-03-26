@@ -1,34 +1,36 @@
 /* ------ variables ------*/
+@import url("https://use.typekit.net/wvj2sos.css");
 h1 {
-  font-family: "Acumin Pro" serif;
+  font-family: Acumin Pro, serif;
   font-size: 4.8rem;
   font-weight: 300;
   color: #fd6328;
 }
 
 h2 {
-  font-family: "Acumin Pro" serif;
-  font-size: 3rem;
+  font-family: Acumin Pro, serif;
+  font-size: 3.4rem;
   font-weight: 400;
   color: #707070;
 }
 
 h3 {
-  font-family: "Acumin Pro" serif;
+  font-family: Acumin Pro, serif;
   font-size: 2.4rem;
   font-weight: 400;
   color: #707070;
 }
 
 h4 {
-  font-family: "Acumin Pro" serif;
-  font-size: 3rem;
-  font-weight: 300;
+  font-family: Acumin Pro, serif;
+  font-size: 3.4rem;
+  font-weight: 400;
+  line-height: 5rem;
   color: #f3f7fb;
 }
 
 h5 {
-  font-family: "Acumin Pro" serif;
+  font-family: Acumin Pro, serif;
   font-size: 0.8rem;
   font-weight: 300;
   color: #f3f7fb;
@@ -38,6 +40,35 @@ p {
   font-family: "helvetica Neue", sans-serif;
   font-size: 2rem;
   color: #707070;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  font-family: "helvetica Neue", sans-serif;
+}
+.btn__hero {
+  background-color: #fd6328;
+  color: #f3f7fb;
+  font-size: 2.4rem;
+  width: 32rem;
+  height: 4rem;
+  box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.3);
+  border: 1px solid #fd6328;
+  border-radius: 4px;
+}
+.btn__hero:hover {
+  background-color: transparent;
+  color: #fd6328;
+}
+.btn__hero:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+.btn__hero:focus {
+  outline: none;
+  background-color: transparent;
+  color: #fd6328;
 }
 
 .active {
@@ -55,16 +86,48 @@ p {
 
 html {
   font-size: 62.5%;
+  background-color: #f8f8f8;
 }
 
 .hero {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
   height: 750px;
-  background-image: url(assets/images/jpg/hero.jpg);
-  background-size: cover;
+  background-image: url(../images/png/hero.png);
+  background-size: 1366px;
+  background-position: top center;
+  position: relative;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.hero__info {
+  margin-left: -60px;
+  margin-top: 130px;
+  height: 654px;
+  width: 840px;
+  background-image: url(../images/svg/blue-hero.svg);
+  background-size: contain;
+  background-repeat: none;
   display: flex;
   flex-direction: column;
 }
+.hero__info img {
+  margin-left: 6rem;
+  margin-top: 10rem;
+  max-width: 52.6rem;
+}
+.hero__info h4 {
+  margin-left: 6rem;
+  margin-top: 6rem;
+  max-width: 62.2rem;
+}
+.hero__info button {
+  margin-left: 6.7rem;
+  margin-top: 2.6rem;
+}
+
 .nav {
   height: 7rem;
   background-color: #a5d4e2ef;
@@ -72,7 +135,6 @@ html {
 .nav-bar {
   margin-left: auto;
   margin-right: auto;
-  align-self: center;
   display: flex;
   max-width: 1366px;
   flex-direction: row;
@@ -80,20 +142,21 @@ html {
 }
 .nav-bar img {
   height: 4rem;
-  margin-top: 1.5rem;
 }
 .nav-bar__logo {
   color: #339cb1;
   text-align: center;
   margin-left: 0.5rem;
+  margin-top: 1.5rem;
 }
 .nav-bar__items {
   display: flex;
+  margin-top: 1rem;
 }
 .nav-bar__items ul {
   list-style: none;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.6rem;
   display: flex;
   align-self: center;
 }
@@ -147,6 +210,7 @@ html {
   opacity: 0.7;
 }
 .nav-bar__items-icon {
+  margin-top: 0.5rem;
   margin-right: 0.5rem;
 }
 

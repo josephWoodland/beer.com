@@ -1,1 +1,33 @@
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  font-family: $font-primary;
 
+  &__hero {
+    background-color: $color-orange;
+    color: #f3f7fb;
+    font-size: 2.4rem;
+    width: 32rem;
+    height: 4rem;
+    box-shadow: $color-shadow-hover;
+    border: 1px solid $color-orange;
+    border-radius: 4px;
+  }
+  &__hero {
+    &:hover {
+      background-color: transparent;
+      color: $color-orange;
+    }
+
+    &:active {
+      box-shadow: $color-shadow-active;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: transparent;
+      color: $color-orange;
+    }
+  }
+}

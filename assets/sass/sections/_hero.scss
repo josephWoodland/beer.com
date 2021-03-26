@@ -1,17 +1,43 @@
 .hero {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1366px;
   height: 750px;
-  background-image: url(assets/images/jpg/hero.jpg);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
+  background-image: url(../images/png/hero.png);
+  background-size: 1366px;
+  background-position: top center;
+  position: relative;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 
-  img {
-  }
+  &__info {
+    margin-left: -60px;
+    margin-top: 130px;
+    height: 654px;
+    width: 840px;
+    background-image: url(../images/svg/blue-hero.svg);
+    background-size: contain;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    // padding-left: 60px;
 
-  h4 {
-  }
+    img {
+      margin-left: 6rem;
+      margin-top: 10rem;
+      max-width: 52.6rem;
+    }
 
-  button {
+    h4 {
+      margin-left: 6rem;
+      margin-top: 6rem;
+      max-width: 62.2rem;
+    }
+
+    button {
+      margin-left: 6.7rem;
+      margin-top: 2.6rem;
+    }
   }
 }
