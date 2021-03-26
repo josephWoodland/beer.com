@@ -27,25 +27,67 @@
 
     h3 {
       color: $color-orange;
+      text-align: left;
     }
     img {
       width: 10.15rem;
       color: $color-icon-fill;
     }
 
+    p {
+      text-align: left;
+    }
+
     &__sign-up {
       grid-row: 2 / span 3;
       grid-column: 3 / span 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      h3 {
+        margin-top: 1rem;
+      }
+      p {
+        margin-top: -1rem;
+      }
     }
 
     &__find {
-      grid-row: 5 / span 3;
+      grid-row: 3 / span 3;
       grid-column: 7 / span 4;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-top: 3rem;
+      h3 {
+      }
+      p {
+        margin-top: -0.2rem;
+      }
+      img {
+        align-self: flex-end;
+        margin-right: -3rem;
+        margin-top: -1rem;
+      }
     }
 
     &__choose {
       grid-row: 7 / span 3;
       grid-column: 5 / span 4;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      h3 {
+        margin-top: 1rem;
+      }
+      p {
+        margin-top: -0.2rem;
+      }
+      img {
+        align-self: center;
+        margin-left: 4rem;
+        margin-top: -1rem;
+      }
     }
   }
 }

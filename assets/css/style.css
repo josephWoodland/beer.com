@@ -155,22 +155,61 @@ html {
 }
 .how__steps h3 {
   color: #fd6328;
+  text-align: left;
 }
 .how__steps img {
   width: 10.15rem;
   color: #339cb1;
 }
+.how__steps p {
+  text-align: left;
+}
 .how__steps__sign-up {
   grid-row: 2/span 3;
   grid-column: 3/span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.how__steps__sign-up h3 {
+  margin-top: 1rem;
+}
+.how__steps__sign-up p {
+  margin-top: -1rem;
 }
 .how__steps__find {
-  grid-row: 5/span 3;
+  grid-row: 3/span 3;
   grid-column: 7/span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.how__steps__find p {
+  margin-top: -0.2rem;
+}
+.how__steps__find img {
+  align-self: flex-end;
+  margin-right: -3rem;
+  margin-top: -1rem;
 }
 .how__steps__choose {
   grid-row: 7/span 3;
   grid-column: 5/span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.how__steps__choose h3 {
+  margin-top: 1rem;
+}
+.how__steps__choose p {
+  margin-top: -0.2rem;
+}
+.how__steps__choose img {
+  align-self: center;
+  margin-left: 4rem;
+  margin-top: -1rem;
 }
 
 .nav {
