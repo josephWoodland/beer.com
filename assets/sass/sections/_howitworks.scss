@@ -1,8 +1,23 @@
 .how {
+  max-width: 1366px;
+  height: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   h2 {
+    text-align: center;
+    margin-top: 12rem;
   }
+
   p {
+    max-width: 915px;
+    text-align: center;
+    margin-top: 3.4rem;
   }
+
   &__steps {
     &__sign-up {
     }

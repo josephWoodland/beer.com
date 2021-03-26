@@ -128,6 +128,24 @@ html {
   margin-top: 2.6rem;
 }
 
+.how {
+  max-width: 1366px;
+  height: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how h2 {
+  text-align: center;
+  margin-top: 12rem;
+}
+.how p {
+  max-width: 915px;
+  text-align: center;
+  margin-top: 3.4rem;
+}
 .nav {
   height: 7rem;
   background-color: #a5d4e2ef;
