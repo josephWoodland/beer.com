@@ -1,6 +1,6 @@
 .how {
   max-width: 1366px;
-  height: 750px;
+  height: 1100px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -19,13 +19,33 @@
   }
 
   &__steps {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(10, 70px);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 0rem;
+
+    h3 {
+      color: $color-orange;
+    }
+    img {
+      width: 10.15rem;
+      color: $color-icon-fill;
+    }
+
     &__sign-up {
+      grid-row: 2 / span 3;
+      grid-column: 3 / span 2;
     }
 
     &__find {
+      grid-row: 5 / span 3;
+      grid-column: 7 / span 4;
     }
 
     &__choose {
+      grid-row: 7 / span 3;
+      grid-column: 5 / span 4;
     }
   }
 }
