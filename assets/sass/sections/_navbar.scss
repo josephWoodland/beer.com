@@ -6,7 +6,7 @@
   justify-content: space-between;
 
   img {
-    height: 3.5rem;
+    height: 4rem;
     margin-top: 1.5rem;
   }
 
@@ -30,6 +30,10 @@
         color: $color-icon-fill;
         text-decoration: none;
         margin-right: 2.4rem;
+        transition-duration: 0.2s;
+      }
+      li a:hover {
+        border-bottom: 2px solid $color-orange;
       }
     }
 

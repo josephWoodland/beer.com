@@ -40,6 +40,10 @@ p {
   color: #707070;
 }
 
+.active {
+  border-bottom: 2px solid #fd6328;
+}
+
 /* ------ sections ------*/
 *,
 *::after,
@@ -61,7 +65,7 @@ html {
   justify-content: space-between;
 }
 .nav-bar img {
-  height: 3.5rem;
+  height: 4rem;
   margin-top: 1.5rem;
 }
 .nav-bar__logo {
@@ -83,6 +87,10 @@ html {
   color: #339cb1;
   text-decoration: none;
   margin-right: 2.4rem;
+  transition-duration: 0.2s;
+}
+.nav-bar__items ul li a:hover {
+  border-bottom: 2px solid #fd6328;
 }
 .nav-bar__items-search {
   height: 5rem;

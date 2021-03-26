@@ -29,7 +29,7 @@ Nav-Bar
 The SVG item I created and exported in xd for the logo is not able to change the colour. Not sure what the issue is.
 
 Search input in the nav-bar.
-This caused me a few issues. Much more then I expected. Mianly around aligning the items within the nav-ber flex box.
+This caused me a few issues. Much more then I expected. Mianly around aligning the items within the nav-bar flex box.
 
 One thing that slowed me up a little was being able to target the indevidual elements.
 
