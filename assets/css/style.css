@@ -154,6 +154,7 @@ html {
   margin-top: 1rem;
 }
 .nav-bar__items ul {
+  font-family: "helvetica Neue", sans-serif;
   list-style: none;
   text-transform: uppercase;
   font-size: 1.6rem;
