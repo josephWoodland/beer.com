@@ -160,6 +160,7 @@ html {
 }
 .footer__items {
   max-width: 1366px;
+  max-height: 20rem;
   margin: 0 auto 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -173,6 +174,15 @@ html {
   text-transform: uppercase;
   margin-bottom: 3.5rem;
 }
+.footer__items__contact-link {
+  font-size: 2rem;
+  text-decoration: none;
+  color: inherit;
+}
+.footer__items__contact-link:hover, .footer__items__contact-link:active {
+  color: #fd6328;
+  border-bottom: 1px solid #fd6328;
+}
 .footer__items__middle {
   display: flex;
   flex-direction: column;
@@ -184,9 +194,28 @@ html {
 .footer__items__middle-social {
   margin-bottom: 5rem;
 }
+.footer__items__middle-social a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.footer__items__middle-social a:hover {
+  color: #339cb1;
+  font-size: 2.5rem;
+}
+.footer__items__middle-social a.fa-twitter {
+  margin: 0 3rem 0 3rem;
+}
+.footer__items__middle-copywrite {
+  text-align: center;
+}
+.footer__items__middle-copywrite-copy {
+  font-size: 0.8rem;
+}
 .footer__items__jobs {
   margin-top: auto;
   margin-bottom: auto;
+  text-align: end;
 }
 .footer__items__jobs-header {
   text-transform: uppercase;

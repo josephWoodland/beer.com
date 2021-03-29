@@ -10,13 +10,11 @@
   }
   &__items {
     max-width: 1366px;
+    max-height: 20rem;
     margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 2rem;
-
-    a {
-    }
 
     &__contact {
       margin-top: auto;
@@ -24,6 +22,16 @@
       &-header {
         text-transform: uppercase;
         margin-bottom: 3.5rem;
+      }
+      &-link {
+        font-size: $font-size-copy;
+        text-decoration: none;
+        color: inherit;
+        &:hover,
+        &:active {
+          color: $color-orange;
+          border-bottom: 1px solid $color-orange;
+        }
       }
     }
 
@@ -38,15 +46,35 @@
 
       &-social {
         margin-bottom: 5rem;
+        a {
+          color: white;
+          font-size: 2rem;
+          text-decoration: none;
+
+          &:hover {
+            color: $color-icon-fill;
+            font-size: 2.5rem;
+          }
+
+          &.fa-twitter {
+            margin: 0 3rem 0 3rem;
+          }
+        }
       }
 
       &-copywrite {
+        text-align: center;
+        &-copy {
+          font-size: $font-size-copywrite;
+        }
       }
     }
 
     &__jobs {
       margin-top: auto;
       margin-bottom: auto;
+      text-align: end;
+
       &-header {
         text-transform: uppercase;
         margin-bottom: 3.5rem;
