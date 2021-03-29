@@ -37,6 +37,13 @@ with aligning the items I had issue with placeing the search bar correctly, addi
 
 Finishing off the search bar with a border on focus and then and making clicking on the area around the icon also make the bar focused rasied some more issues with aligning the content. I have worked around it by adding another div element and then adding a top margin to get them aligned. I do not feel like this is the most efficiate way to do this.
 
+-- SVG --
+
+The SVG images that I made in XD and exported were not able to change the colour of the logo. This ment that I just had to re export the SVG icons in the colour that is needed for the webpage.
+
+--Footer--
+I had alot of trouble with the layout of the footer, when I had built it like in the wireframes it did not look quite right. So I redesigned in the coder, which did take longer than it shoudl of done.
+
 \*\* ----- DEPLOYMENT ------
 
 \*\* ----- CREDITS -----

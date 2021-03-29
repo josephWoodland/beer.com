@@ -151,27 +151,48 @@ html {
 }
 
 .footer {
-  height: 10rem;
+  height: 25rem;
   background-color: #2b2b2b;
   color: #f3f7fb;
+}
+.footer__logo img {
+  align-self: center;
 }
 .footer__items {
   max-width: 1366px;
   margin: 0 auto 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding-top: 2rem;
+}
+.footer__items__contact {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .footer__items__contact-header {
   text-transform: uppercase;
+  margin-bottom: 3.5rem;
 }
-.footer__items__copywrite h5 {
-  font-size: 0.8rem;
-  font-weight: 400;
+.footer__items__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__items__middle-logo {
+  margin-bottom: 5rem;
+}
+.footer__items__middle-social {
+  margin-bottom: 5rem;
+}
+.footer__items__jobs {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .footer__items__jobs-header {
   text-transform: uppercase;
+  margin-bottom: 3.5rem;
 }
+
 .how {
   max-width: 1366px;
   height: 1100px;

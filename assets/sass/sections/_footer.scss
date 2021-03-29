@@ -1,38 +1,56 @@
 .footer {
-  height: 10rem;
+  height: 25rem;
   background-color: $color-footer;
   color: $color-white-text;
 
   &__logo {
+    img {
+      align-self: center;
+    }
   }
   &__items {
     max-width: 1366px;
     margin: 0 auto 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 2rem;
 
     a {
     }
 
     &__contact {
+      margin-top: auto;
+      margin-bottom: auto;
       &-header {
         text-transform: uppercase;
+        margin-bottom: 3.5rem;
       }
     }
 
-    &__copywrite h5 {
-      font-size: $font-size-copywrite;
-      font-weight: 400;
+    &__middle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-logo {
+        margin-bottom: 5rem;
+      }
+
+      &-social {
+        margin-bottom: 5rem;
+      }
+
+      &-copywrite {
+      }
     }
 
     &__jobs {
+      margin-top: auto;
+      margin-bottom: auto;
       &-header {
         text-transform: uppercase;
+        margin-bottom: 3.5rem;
       }
-    }
-
-    &__social {
     }
   }
 }
