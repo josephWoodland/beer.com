@@ -30,4 +30,30 @@
       color: $color-orange;
     }
   }
+
+  &__profile {
+    height: 4rem;
+    background-color: $color-backgound;
+    width: 17.5rem;
+    border: 1px solid $color-icon-fill;
+    color: $color-icon-fill;
+    align-self: flex-end;
+    margin-top: auto;
+    box-shadow: $color-shadow-active;
+
+    &:hover {
+      border: 3px solid $color-icon-fill;
+    }
+
+    &:active {
+      box-shadow: $color-shadow-active;
+    }
+
+    &:focus {
+      outline: none;
+      border: 3px solid $color-icon-fill;
+      color: $color-orange;
+      box-shadow: $color-shadow-active-1;
+    }
+  }
 }

@@ -55,9 +55,11 @@
 
     &-hero {
       max-width: 683px;
+      display: flex;
+      flex-direction: column;
 
       &-img {
-        border: 1px solid black;
+        border: 1px solid $color-grey-text;
         box-shadow: $color-shadow-active;
       }
     }
