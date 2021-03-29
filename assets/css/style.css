@@ -128,7 +128,6 @@ p {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  overflow: hidden;
 }
 
 html {
@@ -350,13 +349,6 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-@media only screen and (max-width: 900px) {
-  .nav-bar {
-    margin: none;
-    align-content: center;
-    justify-content: center;
-  }
 }
 .nav-bar img {
   height: 4rem;
