@@ -47,6 +47,7 @@ p {
   text-align: center;
   border: none;
   font-family: "helvetica Neue", sans-serif;
+  cursor: pointer;
 }
 .btn__hero {
   background-color: #fd6328;
