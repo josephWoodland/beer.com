@@ -317,7 +317,7 @@ html {
 .example {
   width: 100%;
   height: 746px;
-  background-image: url(../images/svg/example-background.svg);
+  background-image: url(../images/svg/example-backgroud.svg);
   background-size: cover;
   background-repeat: none;
   background-position-x: center;
@@ -325,13 +325,22 @@ html {
 .example h1 {
   text-align: center;
   font-size: 8rem;
-  margin-top: 8rem;
+  padding-top: 8rem;
 }
-.example__profle {
+.example__profile {
   max-width: 1366px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
 }
+.example__profile-bio {
+  max-width: 683px;
+}
+.example__profile-hero {
+  max-width: 683px;
+}
+
 /* ----- Components ----- */
 
 /*# sourceMappingURL=style.css.map */
