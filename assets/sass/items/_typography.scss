@@ -11,19 +11,14 @@ $font-size-heading-medium: 3.4rem;
 $font-size-heading: 4.8rem;
 $font-size-heading-large: 8rem;
 
-// RESPONSIVE BREAKPOINTS
-$bp-large: 1400px;
-$bp-medium: 900px;
-$bp-small: 700px;
-$bp-xsmall: 600px;
-
-@media only screen and (max-width: $bp-medium) {
-  $font-size-copy: 20rem;
-  $font-size-copy-heading: 24rem;
-  $font-size-heading-medium: 34rem;
-  $font-size-heading: 48rem;
-  $font-size-heading-large: 8rem;
-}
+// @media only screen and (max-width: $bp-small) {
+// $font-size-nav: 1.6rem;
+// $font-size-copy: 2rem;
+// $font-size-copy-heading: 2.4rem;
+// $font-size-heading-medium: 3.4rem;
+// $font-size-heading: 4.8rem;
+// $font-size-heading-large: 8rem;
+// }
 h1 {
   // Logo text
   font-family: $font-heading;
