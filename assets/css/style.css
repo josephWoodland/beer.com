@@ -314,6 +314,24 @@ html {
   margin-right: 0.5rem;
 }
 
+.example {
+  width: 100%;
+  height: 746px;
+  background-image: url(../images/svg/example-background.svg);
+  background-size: cover;
+  background-repeat: none;
+  background-position-x: center;
+}
+.example h1 {
+  text-align: center;
+  font-size: 8rem;
+  margin-top: 8rem;
+}
+.example__profle {
+  max-width: 1366px;
+  margin-right: auto;
+  margin-left: auto;
+}
 /* ----- Components ----- */
 
 /*# sourceMappingURL=style.css.map */
