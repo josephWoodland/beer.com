@@ -1,0 +1,38 @@
+.footer {
+  height: 10rem;
+  background-color: $color-footer;
+  color: $color-white-text;
+
+  &__logo {
+  }
+  &__items {
+    max-width: 1366px;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 2rem;
+
+    a {
+    }
+
+    &__contact {
+      &-header {
+        text-transform: uppercase;
+      }
+    }
+
+    &__copywrite h5 {
+      font-size: $font-size-copywrite;
+      font-weight: 400;
+    }
+
+    &__jobs {
+      &-header {
+        text-transform: uppercase;
+      }
+    }
+
+    &__social {
+    }
+  }
+}
