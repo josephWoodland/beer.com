@@ -3,10 +3,7 @@
   background-color: $color-primary-transparent;
 
   &-bar {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    max-width: 1366px;
     flex-direction: row;
     justify-content: space-between;
 

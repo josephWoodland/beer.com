@@ -9,9 +9,7 @@
     }
   }
   &__items {
-    max-width: 1366px;
     max-height: 20rem;
-    margin: 0 auto 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 2rem;
