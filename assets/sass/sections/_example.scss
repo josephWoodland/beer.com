@@ -12,22 +12,54 @@
     padding-top: 8rem;
   }
   &__profile {
-    max-width: 1366px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 936px;
     display: flex;
-    flex-direction: column;
+    margin: 8rem auto 0 auto;
 
     &-bio {
-      max-width: 683px;
+      max-width: 480px;
+      margin-right: 2rem;
     }
     &-header {
+      display: flex;
+      border-bottom: 1px solid $color-grey-text;
+
+      img {
+        width: 10rem;
+        height: 10rem;
+        align-self: flex-start;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+
+      &-name {
+        margin-right: 12rem;
+      }
     }
 
-    &-picture {
+    &-statment {
+      border-bottom: 1px solid $color-grey-text;
+      h3 {
+        margin-bottom: 1.5rem;
+      }
+      p {
+        margin-bottom: 1.5rem;
+      }
     }
+    &-achivement {
+      &-header {
+        font-size: 2.4rem;
+        margin: 1.5rem 0 1.5rem 0;
+      }
+    }
+
     &-hero {
       max-width: 683px;
+
+      &-img {
+        border: 1px solid black;
+        box-shadow: $color-shadow-active;
+      }
     }
   }
 }

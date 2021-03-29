@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   font-family: Acumin Pro, serif;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-weight: 400;
   color: #707070;
 }
@@ -328,17 +328,47 @@ html {
   padding-top: 8rem;
 }
 .example__profile {
-  max-width: 1366px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 936px;
   display: flex;
-  flex-direction: column;
+  margin: 8rem auto 0 auto;
 }
 .example__profile-bio {
-  max-width: 683px;
+  max-width: 480px;
+  margin-right: 2rem;
+}
+.example__profile-header {
+  display: flex;
+  border-bottom: 1px solid #707070;
+}
+.example__profile-header img {
+  width: 10rem;
+  height: 10rem;
+  align-self: flex-start;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.example__profile-header-name {
+  margin-right: 12rem;
+}
+.example__profile-statment {
+  border-bottom: 1px solid #707070;
+}
+.example__profile-statment h3 {
+  margin-bottom: 1.5rem;
+}
+.example__profile-statment p {
+  margin-bottom: 1.5rem;
+}
+.example__profile-achivement-header {
+  font-size: 2.4rem;
+  margin: 1.5rem 0 1.5rem 0;
 }
 .example__profile-hero {
   max-width: 683px;
+}
+.example__profile-hero-img {
+  border: 1px solid black;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
 /* ----- Components ----- */
