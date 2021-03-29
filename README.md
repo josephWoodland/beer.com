@@ -50,3 +50,6 @@ I had alot of trouble with the layout of the footer, when I had built it like in
 
 unsplash images - all images on the site have been downoad from unsplash.com
 I have used font awsome for some of the icons on the page.
+
+To help me with the resonsive dropdown menu I used this page as reference.
+https://www.w3schools.com/css/css_dropdowns.asp
