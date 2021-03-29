@@ -98,6 +98,18 @@ p {
   height: 4rem;
   margin-top: auto;
 }
+.btn__form:hover {
+  border: 3px solid #339cb1;
+}
+.btn__form:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+.btn__form:focus {
+  outline: none;
+  border: 3px solid #339cb1;
+  color: #fd6328;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
 
 .active {
   border-bottom: 2px solid #fd6328;
