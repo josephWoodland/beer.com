@@ -65,33 +65,49 @@
         <button class="btn btn__hero" href="#">find out more</button>
       </div>
     </section>
-    <section class="contactus">
+    <section class="contact-us">
       <h1>Contact Us</h1>
       <form class="form" method="POST" action="contact-form-handler.php">
-        <div class="form__inputs">
-          <input
-            type="text"
-            class="form__inputs-name"
-            placeholder="Full Name"
-            id="name"
-            required
-          />
-          <input
-            type="email"
-            class="form__input-email"
-            placeholder="Email"
-            id="email"
-            required
-          />
-          <input type="submit" />
-        </div>
-        <div class="form__text-area">
-          <textarea
-            name="email-body"
-            id="email-body"
-            cols="30"
-            rows="10"
-          ></textarea>
+        <div class="form__box">
+          <div class="form__inputs">
+            <div class="form__input">
+              <input
+                type="text"
+                class="form__input-name"
+                placeholder="Full Name"
+                id="name"
+                required
+              />
+              <img
+                class="form__icon"
+                src="/assets/images/svg/email-icon.svg"
+                alt="icon of a profile"
+              />
+            </div>
+            <div class="form__input">
+              <input
+                type="email"
+                class="form__input-email"
+                placeholder="Email"
+                id="email"
+                required
+              />
+              <img
+                class="form__icon"
+                src="/assets/images/svg/email-icon.svg"
+                alt="icon of a profile"
+              />
+            </div>
+            <input type="submit" class="btn btn__form" />
+          </div>
+          <div class="form__text-area">
+            <textarea
+              name="email-body"
+              id="email-body"
+              cols="60"
+              rows="20"
+            ></textarea>
+          </div>
         </div>
       </form>
     </section>

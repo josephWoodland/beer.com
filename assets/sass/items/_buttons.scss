@@ -56,4 +56,11 @@
       box-shadow: $color-shadow-active-1;
     }
   }
+
+  &__form {
+    width: 38rem;
+    color: $color-orange;
+    height: 4rem;
+    margin-top: auto;
+  }
 }

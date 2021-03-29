@@ -92,6 +92,12 @@ p {
   color: #fd6328;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
+.btn__form {
+  width: 38rem;
+  color: #fd6328;
+  height: 4rem;
+  margin-top: auto;
+}
 
 .active {
   border-bottom: 2px solid #fd6328;
@@ -408,6 +414,23 @@ html {
   margin-right: 0.5rem;
 }
 
+.contact-us {
+  margin-top: 3rem;
+  width: 100%;
+  height: 746px;
+  background-image: url(../images/svg/example-backgroud.svg);
+  background-size: cover;
+  background-repeat: none;
+  background-position-x: center;
+  padding-top: 10rem;
+}
+.contact-us h1 {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 300;
+  margin-bottom: 9rem;
+}
+
 .example {
   width: 100%;
   height: 746px;
@@ -468,5 +491,46 @@ html {
 }
 
 /* ----- Components ----- */
+.form {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.form__box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form input,
+.form textarea {
+  border: 4px solid #fd6328;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+.form__input {
+  position: relative;
+}
+.form__input-name, .form__input-email {
+  height: 5rem;
+  width: 35rem;
+  color: #707070;
+  padding-left: 3rem;
+  margin-bottom: 3rem;
+}
+.form__icon {
+  height: 2rem;
+  position: absolute;
+  margin-left: -4rem;
+  margin-top: 1.5rem;
+}
+.form__text-area {
+  margin-left: 13rem;
+}
 
 /*# sourceMappingURL=style.css.map */
