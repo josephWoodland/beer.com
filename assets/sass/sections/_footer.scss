@@ -3,6 +3,7 @@
   height: 25rem;
   background-color: $color-footer;
   color: $color-white-text;
+  z-index: 10;
 
   &__logo {
     img {
