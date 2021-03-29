@@ -15,6 +15,18 @@
     border: 4px solid $color-orange;
     background-color: $color-backgound;
     border-radius: 8px;
+    font-size: $font-size-copy;
+    font-family: $font-primary;
+
+    &:focus {
+      outline: none;
+      box-shadow: $color-shadow-active;
+      border: 3px solid $color-primary;
+    }
+
+    &:focus:invalid {
+      border: 3px solid red;
+    }
   }
 
   &__inputs {
