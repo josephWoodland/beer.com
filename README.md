@@ -53,3 +53,5 @@ I have used font awsome for some of the icons on the page.
 
 To help me with the resonsive dropdown menu I used this page as reference.
 https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
+
+https://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack

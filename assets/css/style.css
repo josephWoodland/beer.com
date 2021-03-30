@@ -797,6 +797,99 @@ body {
   margin-top: 0.5rem;
   margin-right: 0.5rem;
 }
+@media screen and (max-width: 800px) {
+  .nav-bar__items {
+    display: none;
+  }
+  .nav-bar__small {
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+  }
+  .nav-bar__small input[type=checkbox] {
+    display: none;
+  }
+  .nav-bar__small ul {
+    font-family: "helvetica Neue", sans-serif;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    position: absolute;
+    background-color: #a5d4e2ef;
+    margin-left: 63%;
+    display: none;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 0 0 0 4px;
+    transition: all 0.2s ease-out;
+  }
+  .nav-bar__small input[type=checkbox]:checked ~ ul {
+    position: right;
+    margin-top: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  .nav-bar__small input[type=checkbox]:checked ~ ul li {
+    margin-top: 3rem;
+    text-align: right;
+  }
+  .nav-bar__small input[type=checkbox]:checked ~ ul li a {
+    color: #339cb1;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+  .nav-bar__small input[type=checkbox]:checked ~ ul li a:hover {
+    border-bottom: 2px solid #fd6328;
+  }
+  .nav-bar__small-search {
+    height: 5rem;
+    align-self: center;
+    margin-right: 15rem;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .nav-bar__small-search input {
+    width: 12rem;
+    height: 3.5rem;
+    align-self: center;
+    color: #339cb1;
+    border: 1px solid #fff;
+    border-radius: 4px 0 0 4px;
+    background: none;
+  }
+  .nav-bar__small-search input:focus {
+    outline: none;
+    border: 1.5px solid #339cb1;
+  }
+  .nav-bar__small-search-icon {
+    margin-top: 0.6rem;
+    display: flex;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 6rem;
+    font-size: 1.6rem;
+    color: #339cb1;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0 4px 4px 0;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-bar__small ::placeholder {
+    color: #339cb1;
+    opacity: 0.7;
+  }
+  .nav-bar__small-menu-icon-img::before {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .nav-bar__small-menu-btn:checked ~ .nav-bar__small-menu-icon-img::after {
+    transform: rotate(90deg);
+  }
+}
 
 .contact-us {
   margin-top: 3rem;

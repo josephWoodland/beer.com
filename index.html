@@ -53,31 +53,29 @@
           />
         </div>
         <div class="nav-bar__small">
-          <ul>
+              <div class="nav-bar__small-search">
+                </label>
+                    <input
+                    type="search"
+                    id="userSearch"
+                    name="userSearch"
+                    placeholder="Search.."
+                    />
+                    <label for="userSearch">
+                    <div class="nav-bar__small-search-icon">
+                    <i class="fas fa-search"></i>
+                    </div>
+                </label>
+              </div>
+          <input class="nav-bar__small-menu-btn" type="checkbox" id="menu-btn" />
+          <label class="nav-bar__small-menu-icon" for="menu-btn"><img class="nav-bar__small-menu-icon-img" src="./assets/images/svg/menu-icon.svg" alt="menu logo"
+            /></label>
+          <ul class="nav-bar__small-menu">
             <li><a class="active" href="./index.html">home</a></li>
             <li><a href="./notfound.html">creator</a></li>
             <li><a href="contact.html">contact</a></li>
+            <li><a href="./notfound.html">Profile</a></li>
           </ul>
-          <div class="nav-bar__items-search">
-            <input
-              type="search"
-              id="userSearch"
-              name="userSearch"
-              placeholder="Search Profiles..."
-            />
-            <label for="userSearch">
-              <div class="nav-bar__items-search-icon">
-                <i class="fas fa-search"></i>
-              </div>
-            </label>
-          </div>
-
-          <img
-            class="nav-bar__items-icon"
-            href="#"
-            src="./assets/images/svg/profile-icon.svg"
-            alt="Profile icon"
-          />
         </div>
       </div>
     </section>
