@@ -543,6 +543,93 @@ body {
     grid-column: 4/span 4;
   }
 }
+@media screen and (max-width: 600px) {
+  .how {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0rem;
+    margin-bottom: 10rem;
+  }
+  .how h2 {
+    text-align: center;
+    margin-top: 12rem;
+  }
+  .how p {
+    max-width: 90%;
+    text-align: center;
+    margin-top: 3.4rem;
+    margin-bottom: 4rem;
+  }
+  .how__steps {
+    display: flex;
+    width: 90%;
+    height: 600px;
+    flex-direction: column;
+    background-image: url(../images/svg/pink.svg);
+    background-position: center;
+    background-size: cover;
+  }
+  .how__steps h3 {
+    color: #fd6328;
+    text-align: center;
+  }
+  .how__steps-icon {
+    width: 10.15rem;
+    color: #339cb1;
+  }
+  .how__steps p {
+    text-align: center;
+  }
+  .how__steps__sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .how__steps__sign-up h3 {
+    margin-top: 1rem;
+  }
+  .how__steps__sign-up img {
+    align-self: center;
+    margin-left: 0rem;
+  }
+  .how__steps__find {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+  }
+  .how__steps__find p {
+    margin-top: 1rem;
+  }
+  .how__steps__find img {
+    align-self: center;
+  }
+  .how__steps__choose {
+    display: flex;
+    flex-direction: column;
+  }
+  .how__steps__choose h3 {
+    margin-top: 1rem;
+  }
+  .how__steps__choose p {
+    margin-top: 1rem;
+  }
+  .how__steps__choose img {
+    align-self: center;
+    margin-top: 0rem;
+  }
+  .how__steps-pink {
+    display: none;
+  }
+  .how__steps-orange {
+    display: none;
+  }
+  .how__steps-blue {
+    display: none;
+  }
+}
 
 .nav {
   height: 7rem;
