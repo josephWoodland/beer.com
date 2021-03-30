@@ -175,6 +175,12 @@ body {
   display: grid;
   grid-template-rows: 1fr;
 }
+@media screen and (max-width: 600px) {
+  .hero {
+    background-image: url(../images/svg/hero-small.svg);
+    background-size: cover;
+  }
+}
 .hero__info {
   margin-left: -60px;
   margin-top: 130px;
@@ -204,8 +210,9 @@ body {
 @media screen and (max-width: 600px) {
   .hero__info {
     height: 100%;
-    background-image: none;
-    background-color: #a5d4e2ef;
+    background-image: url(../images/svg/blue-background-small-screen.svg);
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
   }
