@@ -52,4 +52,4 @@ unsplash images - all images on the site have been downoad from unsplash.com
 I have used font awsome for some of the icons on the page.
 
 To help me with the resonsive dropdown menu I used this page as reference.
-https://www.w3schools.com/css/css_dropdowns.asp
+https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99

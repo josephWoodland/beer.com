@@ -7,10 +7,12 @@
   background-repeat: no-repeat;
   display: grid;
   grid-template-rows: 1fr;
+
   @media screen and (max-width: $bp-xsmall) {
     background-image: url(../images/svg/hero-small.svg);
     background-size: cover;
   }
+
   &__info {
     margin-left: -60px;
     margin-top: 130px;

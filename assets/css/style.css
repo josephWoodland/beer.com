@@ -720,6 +720,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
+.nav-bar__small {
+  display: none;
+}
 .nav-bar img {
   height: 4rem;
 }
