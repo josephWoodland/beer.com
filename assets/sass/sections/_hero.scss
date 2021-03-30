@@ -57,7 +57,25 @@
       @media screen and (max-width: $bp-small) {
         margin-top: 10%;
       }
+
+      @media screen and (max-width: $bp-small) {
+        margin-left: 0;
+      }
     }
+
+    &__logo {
+      @media only screen and (max-width: $bp-xsmall) {
+        margin: 20rem auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: max-content;
+        &-beer {
+          height: 10rem;
+        }
+      }
+    }
+
     h4 {
       margin-left: 6rem;
       margin-top: 6rem;
@@ -67,11 +85,19 @@
         margin-top: 4rem;
         max-width: 63rem;
       }
+      @media screen and (max-width: $bp-xsmall) {
+        margin: 1rem auto 0 auto;
+        max-width: 80%;
+        height: max-content;
+      }
     }
 
     button {
       margin-left: 6.7rem;
       margin-top: 2.6rem;
+      @media screen and (max-width: $bp-xsmall) {
+        margin: 2rem auto 0 auto;
+      }
     }
   }
 }

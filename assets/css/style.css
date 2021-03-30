@@ -150,6 +150,11 @@ html {
     font-size: 50%;
   }
 }
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
 
 body {
   overflow-x: hidden;
@@ -222,6 +227,23 @@ body {
     margin-top: 10%;
   }
 }
+@media screen and (max-width: 800px) {
+  .hero__info img {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero__info__logo {
+    margin: 20rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: max-content;
+  }
+  .hero__info__logo-beer {
+    height: 10rem;
+  }
+}
 .hero__info h4 {
   margin-left: 6rem;
   margin-top: 6rem;
@@ -234,9 +256,21 @@ body {
     max-width: 63rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .hero__info h4 {
+    margin: 1rem auto 0 auto;
+    max-width: 80%;
+    height: max-content;
+  }
+}
 .hero__info button {
   margin-left: 6.7rem;
   margin-top: 2.6rem;
+}
+@media screen and (max-width: 600px) {
+  .hero__info button {
+    margin: 2rem auto 0 auto;
+  }
 }
 
 .footer {
