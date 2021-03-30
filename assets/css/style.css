@@ -354,6 +354,71 @@ body {
   text-transform: uppercase;
   margin-bottom: 3.5rem;
 }
+@media screen and (max-width: 600px) {
+  .footer {
+    margin-top: 0rem;
+    height: max-content;
+    background-color: #2b2b2b;
+  }
+  .footer__logo img {
+    align-self: center;
+  }
+  .footer__items {
+    display: flex;
+    width: 90%;
+    height: max-content;
+  }
+  .footer__items__contact {
+    max-width: 40%;
+    text-align: center;
+  }
+  .footer__items__contact-header {
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    color: #fd6328;
+  }
+  .footer__items__contact-link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fd6328;
+  }
+  .footer__items__contact-link:hover, .footer__items__contact-link:active {
+    color: #fd6328;
+    border-bottom: 1px solid #fd6328;
+  }
+  .footer__items__middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__items__middle-logo {
+    margin-bottom: 3rem;
+  }
+  .footer__items__middle-social {
+    margin-bottom: 3rem;
+  }
+  .footer__items__middle-social a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .footer__items__middle-social a:hover {
+    color: #339cb1;
+    font-size: 2.5rem;
+  }
+  .footer__items__middle-social a.fa-twitter {
+    margin: 0 3rem 0 3rem;
+  }
+  .footer__items__middle-copywrite {
+    text-align: center;
+  }
+  .footer__items__middle-copywrite-copy {
+    font-size: 0.8rem;
+  }
+  .footer__items__jobs {
+    display: none;
+  }
+}
 
 .how {
   height: 1100px;
