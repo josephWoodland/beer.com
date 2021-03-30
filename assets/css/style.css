@@ -145,9 +145,18 @@ html {
   font-size: 62.5%;
   background-color: #f8f8f8;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 50%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 0 3rem 0 3rem;
   }
 }
 
@@ -159,7 +168,7 @@ html {
   position: relative;
   background-repeat: no-repeat;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .hero__info {
   margin-left: -60px;
@@ -168,13 +177,24 @@ html {
   width: 840px;
   background-image: url(../images/svg/blue-hero.svg);
   background-size: contain;
-  background-repeat: none;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .hero__info {
+    width: 75%;
+    height: 70%;
+    margin-top: auto;
     margin-left: 0rem;
+    background-position: left bottom;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero__info {
+    margin-top: 300px;
+    width: 100%;
+    height: 410px;
   }
 }
 .hero__info img {
@@ -182,10 +202,29 @@ html {
   margin-top: 10rem;
   max-width: 52.6rem;
 }
+@media screen and (max-width: 1400px) {
+  .hero__info img {
+    margin-left: 4rem;
+    margin-top: 6rem;
+    max-width: 50rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero__info img {
+    margin-top: 30%;
+  }
+}
 .hero__info h4 {
   margin-left: 6rem;
   margin-top: 6rem;
   max-width: 62.2rem;
+}
+@media screen and (max-width: 1400px) {
+  .hero__info h4 {
+    margin-left: 3rem;
+    margin-top: 4rem;
+    max-width: 63rem;
+  }
 }
 .hero__info button {
   margin-left: 6.7rem;
@@ -208,7 +247,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   padding-top: 2rem;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .footer__items {
     margin: 0 3rem 0 3rem;
   }
@@ -275,14 +314,14 @@ html {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .how {
     width: 100%;
     margin: 0rem 2rem 0 2rem;
     overflow: hidden;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .how {
     height: 786px;
   }
@@ -296,9 +335,10 @@ html {
   text-align: center;
   margin-top: 3.4rem;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .how p {
     margin: 0 3rem 0 3rem;
+    margin-top: 6rem;
   }
 }
 .how__steps {
@@ -308,7 +348,7 @@ html {
   grid-column-gap: 1.5rem;
   grid-row-gap: 0rem;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   .how__steps {
     grid-template-columns: repeat(10, 80px);
     grid-template-rows: repeat(8, 50px);
@@ -337,12 +377,17 @@ html {
 .how__steps__sign-up h3 {
   margin-top: 1rem;
 }
-.how__steps__sign-up p {
-  margin-top: -1rem;
-}
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .how__steps__sign-up {
-    grid-column: 2/span 3;
+    grid-row: 3/span 3;
+    grid-column: 3/span 2;
+  }
+  .how__steps__sign-up p {
+    margin-top: 0;
+  }
+  .how__steps__sign-up img {
+    margin-top: 1rem;
+    margin-left: auto;
   }
 }
 .how__steps__find {
@@ -353,8 +398,9 @@ html {
   justify-content: space-evenly;
   margin-top: 3rem;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .how__steps__find {
+    grid-row: 4/span 3;
     grid-column: 6/span 4;
   }
 }
@@ -366,7 +412,7 @@ html {
   margin-right: -3rem;
   margin-top: -1rem;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .how__steps__find img {
     align-self: flex-end;
     margin-right: 0;
@@ -380,7 +426,7 @@ html {
   flex-direction: column;
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .how__steps__choose {
     grid-column: 4/span 5;
   }
@@ -401,10 +447,10 @@ html {
   grid-column: 1/span 4;
   z-index: -1;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .how__steps-pink {
     grid-row: 2/span 3;
-    grid-column: 1/span 3;
+    grid-column: 2/span 3;
   }
 }
 .how__steps-orange {
@@ -412,7 +458,7 @@ html {
   grid-column: 9/span 4;
   z-index: -1;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .how__steps-orange {
     grid-row: 3/span 3;
     grid-column: 7/span 3;
@@ -423,7 +469,7 @@ html {
   grid-column: 5/span 4;
   z-index: -1;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .how__steps-blue {
     grid-row: 7/span 3;
     grid-column: 4/span 3;
@@ -542,7 +588,7 @@ html {
   background-repeat: none;
   background-position-x: center;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .example {
     height: 750px;
   }
@@ -552,7 +598,7 @@ html {
   font-size: 8rem;
   padding-top: 8rem;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .example h1 {
     padding-bottom: 6rem;
   }
@@ -563,7 +609,7 @@ html {
   margin: 8rem auto 0 auto;
   align-self: flex-end;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .example__profile {
     margin: 0 3rem 0 3rem;
   }
@@ -604,7 +650,7 @@ html {
   display: flex;
   flex-direction: column;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   .example__profile-hero {
     max-width: 45%;
   }

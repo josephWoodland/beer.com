@@ -24,6 +24,7 @@
     margin-top: 3.4rem;
     @media screen and (max-width: $bp-medium) {
       margin: 0 3rem 0 3rem;
+      margin-top: 6rem;
     }
   }
 
@@ -64,10 +65,18 @@
         margin-top: 1rem;
       }
       p {
-        margin-top: -1rem;
       }
       @media only screen and (max-width: $bp-medium) {
-        grid-column: 2 / span 3;
+        grid-row: 3 / span 3;
+        grid-column: 3 / span 2;
+
+        p {
+          margin-top: 0;
+        }
+        img {
+          margin-top: 1rem;
+          margin-left: auto;
+        }
       }
     }
 
@@ -79,6 +88,7 @@
       justify-content: space-evenly;
       margin-top: 3rem;
       @media only screen and (max-width: $bp-medium) {
+        grid-row: 4 / span 3;
         grid-column: 6 / span 4;
       }
       h3 {
@@ -127,7 +137,7 @@
       z-index: -1;
       @media screen and (max-width: $bp-medium) {
         grid-row: 2 / span 3;
-        grid-column: 1 / span 3;
+        grid-column: 2 / span 3;
       }
     }
     &-orange {
