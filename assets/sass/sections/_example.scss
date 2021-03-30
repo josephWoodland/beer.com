@@ -76,4 +76,68 @@
       }
     }
   }
+
+  @media screen and (max-width: $bp-xsmall) {
+    h1 {
+      text-align: center;
+      font-size: $font-size-heading-large;
+      padding-top: 8rem;
+    }
+    &__profile {
+      max-width: 80%;
+      display: flex;
+      margin: 2rem auto 0 auto;
+      flex-direction: column;
+      align-self: flex-end;
+
+      &-header {
+        img {
+          width: 10rem;
+          height: 10rem;
+          margin-left: auto;
+          border-radius: 50%;
+          margin-bottom: 1rem;
+        }
+
+        &-name {
+          margin-right: 0rem;
+        }
+      }
+
+      &-statment {
+        border-bottom: 1px solid $color-grey-text;
+        h3 {
+          margin-bottom: 1.5rem;
+        }
+        p {
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      &-achivement {
+        border-bottom: 1px solid $color-grey-text;
+        margin-bottom: 2rem;
+
+        &-header {
+          font-size: 2.4rem;
+          margin: 1.5rem 0 1.5rem 0;
+        }
+
+        p {
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      &-hero {
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 3rem auto;
+
+        &-img {
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
 }

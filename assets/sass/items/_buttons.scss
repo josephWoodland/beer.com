@@ -42,6 +42,10 @@
     margin-top: auto;
     box-shadow: $color-shadow-active;
 
+    @media screen and (max-width: $bp-xsmall) {
+      width: 100%;
+    }
+
     &:hover {
       border: 3px solid $color-icon-fill;
     }

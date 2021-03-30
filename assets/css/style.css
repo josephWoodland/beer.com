@@ -81,6 +81,11 @@ p {
   margin-top: auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 600px) {
+  .btn__profile {
+    width: 100%;
+  }
+}
 .btn__profile:hover {
   border: 3px solid #339cb1;
 }
@@ -813,6 +818,59 @@ body {
 .example__profile-hero-img {
   border: 1px solid #707070;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 600px) {
+  .example h1 {
+    text-align: center;
+    font-size: 8rem;
+    padding-top: 8rem;
+  }
+  .example__profile {
+    max-width: 80%;
+    display: flex;
+    margin: 2rem auto 0 auto;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+  .example__profile-header img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .example__profile-header-name {
+    margin-right: 0rem;
+  }
+  .example__profile-statment {
+    border-bottom: 1px solid #707070;
+  }
+  .example__profile-statment h3 {
+    margin-bottom: 1.5rem;
+  }
+  .example__profile-statment p {
+    margin-bottom: 1.5rem;
+  }
+  .example__profile-achivement {
+    border-bottom: 1px solid #707070;
+    margin-bottom: 2rem;
+  }
+  .example__profile-achivement-header {
+    font-size: 2.4rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+  .example__profile-achivement p {
+    margin-bottom: 1.5rem;
+  }
+  .example__profile-hero {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 3rem auto;
+  }
+  .example__profile-hero-img {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* ----- Components ----- */
