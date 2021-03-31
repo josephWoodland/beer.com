@@ -64,21 +64,22 @@
       @media screen and (max-width: $bp-small) {
         margin-top: 10%;
       }
-
-      @media screen and (max-width: $bp-small) {
-        margin-left: 0;
-      }
     }
 
     &__logo {
       @media only screen and (max-width: $bp-xsmall) {
-        margin: 20rem auto 0 auto;
+        margin: 20rem auto 0 auto !important;
         display: flex;
         flex-direction: column;
         width: 90%;
         height: max-content;
+
         &-beer {
           height: 10rem;
+          margin: 5% auto 5% auto !important;
+        }
+        &-title {
+          margin: 5% auto 5% auto !important;
         }
       }
     }
@@ -96,6 +97,7 @@
         margin: 1rem auto 0 auto;
         max-width: 80%;
         height: max-content;
+        text-align: center;
       }
     }
 

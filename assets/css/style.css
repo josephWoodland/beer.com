@@ -247,14 +247,9 @@ body {
     margin-top: 10%;
   }
 }
-@media screen and (max-width: 800px) {
-  .hero__info img {
-    margin-left: 0;
-  }
-}
 @media only screen and (max-width: 600px) {
   .hero__info__logo {
-    margin: 20rem auto 0 auto;
+    margin: 20rem auto 0 auto !important;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -262,6 +257,10 @@ body {
   }
   .hero__info__logo-beer {
     height: 10rem;
+    margin: 5% auto 5% auto !important;
+  }
+  .hero__info__logo-title {
+    margin: 5% auto 5% auto !important;
   }
 }
 .hero__info h4 {
@@ -281,6 +280,7 @@ body {
     margin: 1rem auto 0 auto;
     max-width: 80%;
     height: max-content;
+    text-align: center;
   }
 }
 .hero__info button {
