@@ -193,15 +193,17 @@
 
         &-menu {
           &-icon {
-            &-img::before {
-              cursor: pointer;
-              margin-top: 0.5rem;
-              margin-right: 0.5rem;
-            }
-          }
+            cursor: pointer;
+            margin-top: 0.5rem;
+            margin-right: 0.5rem;
 
-          &-btn:checked ~ &-icon-img::after {
-            transform: rotate(90deg);
+            &-btn:focus {
+              animation: turn 1s ease-in forwards;
+            }
+
+            &-btn:focus {
+              animation: none;
+            }
           }
         }
       }

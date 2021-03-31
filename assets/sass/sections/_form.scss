@@ -4,6 +4,7 @@
   &__box {
     display: flex;
     margin: 0 auto 0 auto;
+    flex-direction: column;
   }
 
   input,
@@ -28,7 +29,7 @@
   &__inputs {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
+    margin-right: 5%;
   }
 
   &__input {
@@ -47,11 +48,18 @@
   &__icon {
     height: 2rem;
     position: absolute;
-    margin-left: -4rem;
-    margin-top: 1.5rem;
+    margin-top: -7rem;
+    margin-left: 35rem;
+
+    @media screen and (max-width: $bp-xsmall) {
+      margin-left: -4rem;
+      margin-top: 1.5rem;
+    }
   }
 
   &__text-area {
-    margin-left: 13rem;
+    box-sizing: border-box;
+    max-width: 60%;
+    margin-bottom: 3rem;
   }
 }

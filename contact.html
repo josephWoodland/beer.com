@@ -27,9 +27,9 @@
         />
         <div class="nav-bar__items">
           <ul>
-            <li><a href="./index.html">home</a></li>
+            <li><a class="active" href="./index.html">home</a></li>
             <li><a href="./notfound.html">creator</a></li>
-            <li><a class="active" href="./contact.html">contact</a></li>
+            <li><a href="contact.html">contact</a></li>
           </ul>
           <div class="nav-bar__items-search">
             <input
@@ -51,6 +51,31 @@
             src="./assets/images/svg/profile-icon.svg"
             alt="Profile icon"
           />
+        </div>
+        <div class="nav-bar__small">
+              <div class="nav-bar__small-search">
+                </label>
+                    <input
+                    type="search"
+                    id="userSearch"
+                    name="userSearch"
+                    placeholder="Search.."
+                    />
+                    <label for="userSearch">
+                    <div class="nav-bar__small-search-icon">
+                    <i class="fas fa-search"></i>
+                    </div>
+                </label>
+              </div>
+          <input class="nav-bar__small-menu-btn" type="checkbox" id="menu-btn" />
+          <label class="nav-bar__small-menu-icon" for="menu-btn"><img tabindex="0"  class="nav-bar__small-menu-icon-img" src="./assets/images/svg/menu-icon.svg" alt="menu logo"
+            /></label>
+          <ul class="nav-bar__small-menu">
+            <li><a class="active" href="./index.html">home</a></li>
+            <li><a href="./notfound.html">creator</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="./notfound.html">Profile</a></li>
+          </ul>
         </div>
       </div>
     </section>
@@ -98,16 +123,19 @@
                 alt="icon of a profile"
               />
             </div>
-            <input type="submit" class="btn btn__form" />
           </div>
+          
           <div class="form__text-area">
             <textarea
               name="email-body"
               id="email-body"
-              cols="60"
-              rows="15"
+              cols="35"
+              rows="10"
+              placeholder="Please put your comment here....."
             ></textarea>
+            
           </div>
+          <input type="submit" class="btn btn__form" />
         </div>
       </form>
     </section>

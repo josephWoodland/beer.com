@@ -55,3 +55,8 @@ To help me with the resonsive dropdown menu I used this page as reference.
 https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
 
 https://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack
+
+https://stackoverflow.com/questions/4847996/css-animation-onclick
+
+textarea not beign responsive enough;
+https://www.studentstutorial.com/html/responsive-textarea
