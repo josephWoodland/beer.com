@@ -1,24 +1,82 @@
 - Read me for Joseph Woodland's milestone project. ----- Beer.com -----
 
+\*\* ------ Project Brief --------
+
+To design a simple website for a new potential start up called 'Buy Me a Drink.com'
+
+The client would like a simple and clean website to quickly inform potential users of the start up what service the company is trying to provide.
+
+Brand colours have been decided already and handed over, the websites that they said to use for insperation were:
+
+
 \*\* ----- UX -----
 
-\*\*\_ Project Goals
 
-This website has been desgined at teh request of a new start up called 'Buy Me A Drink.com'
+I decided to use a main width of the initial content to be 1366px as at the time of doing the research for the website this was the most popular size screen to view a website. According to Statcounter at the time. 
 
-_** Player Goals
-**_ Parental Goals
-_** Developer and Buiness Goals
-**_ User Stories
-\*\* Design Choices
-\*\*\* Wireframes
+1366x768 (22.98%)
+1920x1080 (20.7%)
+1536x864 (7.92%)
+1440x900 (7.23%)
+1280x720 (4.46%)
+
+knowing that nearly 45% of destop users used the top two resolutions I thought it was important to make sure that they were catered for, not only in the screen width but in the height of the main sections( particulary the hero section). 
+
+Also with 55% using mobile to veiw websites and with the client expressing the use of faceboook advertising. We paid perticular attention to the very low pixel width count screens.
+
+The initial wireframe design I created in Adobe XD.
+
+(link to wireframes)
+
+
+After the wireframes were signed of We created a mood board around the brand guidlines and website ideas. 
+
+After then I added the brand colour to the wireframes and also branded all the asstets that I created. 
+
+(link to colour wireframes)
+
 
 \*\* ----- FEATURES -----
 
 **_ Existing Features
+
+As the main goal of the website was to track intrest in the project the feature lists was quite small. 
+
+Need a way for potential users to get in contact with the founders. 
+
+        I achived this by having a simple form set up on a seperate page. Which would capture inputs into the text area and then send this as a email to the founders. 
+
+        Also at the request of the client the form would be on a seperate page so this can be easliy linked to via facebook advertising.
+
+Need a way to track any hits to the website.
+
+        For this I installed Google Analytics into the website. This allowed all data and hits to the website to be tracked. From thier the cliens can see how much interest the project has.
+
+
 _** Features Left to Implement
 
+There will be alot of features to implement if the interest is there for the project. 
+
+        User Sign in
+
+            As the buisness is baised around users 'gifting' other users the value of a drink. There will need to be a secure log in area for each user to have a profile. This will have bank details saved to be able to make purchases.
+        
+        Transaction intergration
+
+            There will need to be a=intergrated payment feature where one users can pay each other.
+
+        Creator section
+
+            There will need to be a seperate section for the recivers of the gift. This will be set out like a dashboard with all the payment information on it. 
+
 \*\* ----- TECHNOLOGIES USED -----
+
+The language that I have used to build the website is HTML and CSS.
+
+I used a CSS compiler so I could write and organise the code using SCSS. 
+
+I used a node module
+
 
 \*\*\* ----- TESTING -----
 
