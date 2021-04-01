@@ -50,6 +50,8 @@ p {
   cursor: pointer;
 }
 .btn__hero {
+  margin-left: 6.7rem;
+  margin-top: 2.6rem;
   background-color: #fd6328;
   color: #f3f7fb;
   font-size: 2.4rem;
@@ -58,6 +60,11 @@ p {
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.3);
   border: 1px solid #fd6328;
   border-radius: 4px;
+}
+@media screen and (max-width: 600px) {
+  .btn__hero {
+    margin: 2rem auto 0 auto;
+  }
 }
 .btn__hero:hover {
   background-color: transparent;
@@ -281,15 +288,6 @@ body {
     max-width: 80%;
     height: max-content;
     text-align: center;
-  }
-}
-.hero__info button {
-  margin-left: 6.7rem;
-  margin-top: 2.6rem;
-}
-@media screen and (max-width: 600px) {
-  .hero__info button {
-    margin: 2rem auto 0 auto;
   }
 }
 

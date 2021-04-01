@@ -100,13 +100,5 @@
         text-align: center;
       }
     }
-
-    button {
-      margin-left: 6.7rem;
-      margin-top: 2.6rem;
-      @media screen and (max-width: $bp-xsmall) {
-        margin: 2rem auto 0 auto;
-      }
-    }
   }
 }

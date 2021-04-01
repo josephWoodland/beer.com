@@ -5,7 +5,13 @@
   font-family: $font-primary;
   cursor: pointer;
 
+
   &__hero {
+
+      margin-left: 6.7rem;
+      margin-top: 2.6rem;
+      
+    
     background-color: $color-orange;
     color: #f3f7fb;
     font-size: 2.4rem;
@@ -14,6 +20,10 @@
     box-shadow: $color-shadow-hover;
     border: 1px solid $color-orange;
     border-radius: 4px;
+
+    @media screen and (max-width: $bp-xsmall) {
+      margin: 2rem auto 0 auto;
+    }
   }
   &__hero {
     &:hover {
