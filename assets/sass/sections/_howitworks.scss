@@ -34,7 +34,7 @@
 
   &__steps {
     display: grid;
-    grid-template-columns: repeat(12, minmax(100px));
+    grid-template-columns: repeat(12, max(100px));
     grid-template-rows: repeat(10, 70px);
     grid-column-gap: 1.5rem;
     grid-row-gap: 0rem;

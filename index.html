@@ -16,9 +16,17 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Beer.com</title>
     <link rel="icon" href="./assets/images/svg/beer-logo.svg" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VWTY0C8QCW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VWTY0C8QCW');
+    </script>
   </head>
   <body>
-    <section class="nav">
+    <nav class="nav">
       <div class="nav-bar width">
         <img
           class="nav-bar__logo"
@@ -29,7 +37,7 @@
           <ul>
             <li><a class="active" href="./index.html">home</a></li>
             <li><a href="./notfound.html">creator</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li><a href="./contact.html">contact</a></li>
           </ul>
           <div class="nav-bar__items-search">
             <input
@@ -39,33 +47,33 @@
               placeholder="Search Profiles..."
             />
             <label for="userSearch">
-              <div class="nav-bar__items-search-icon">
+              <span class="nav-bar__items-search-icon">
                 <i class="fas fa-search"></i>
-              </div>
+              </span>
             </label>
           </div>
 
           <img
             class="nav-bar__items-icon"
-            href="#"
             src="./assets/images/svg/profile-icon.svg"
             alt="Profile icon"
           />
         </div>
         <div class="nav-bar__small">
               <div class="nav-bar__small-search">
-                </label>
+                    <label>
                     <input
                     type="search"
-                    id="userSearch"
-                    name="userSearch"
+                    id="userSearch1"
+                    name="userSearch1"
                     placeholder="Search.."
                     />
-                    <label for="userSearch">
-                    <div class="nav-bar__small-search-icon">
+                    </label>
+                    <label for="userSearch1">
+                    <span class="nav-bar__small-search-icon">
                     <i class="fas fa-search"></i>
-                    </div>
-                </label>
+                    </span>
+                   </label>
               </div>
           <input class="nav-bar__small-menu-btn" type="checkbox" id="menu-btn" />
           <label class="nav-bar__small-menu-icon" for="menu-btn"><img tabindex="0"  class="nav-bar__small-menu-icon-img" src="./assets/images/svg/menu-icon.svg" alt="menu logo"
@@ -73,12 +81,12 @@
           <ul class="nav-bar__small-menu">
             <li><a class="active" href="./index.html">home</a></li>
             <li><a href="./notfound.html">creator</a></li>
-            <li><a href="contact.html">contact</a></li>
+            <li><a href="./contact.html">contact</a></li>
             <li><a href="./notfound.html">Profile</a></li>
           </ul>
         </div>
       </div>
-    </section>
+    </nav>
     <section class="hero width">
       <div class="hero__info">
         <div class="hero__info__logo">
@@ -98,7 +106,7 @@
           family, podcasters, your boyfriends <br />neighbours sister in law…
           basically anyone.
         </h4>
-        <button class="btn btn__hero" href="contact.html">find out more</button>
+        <a class="btn btn__hero" href="./contact.html">Find out more</a>
       </div>
     </section>
     <section class="how width">
@@ -200,7 +208,7 @@
             src="./assets/images/jpg/climb-picture.jpg"
             alt="A picture of Leigh completeting his challange"
           />
-          <button class="btn btn__profile">Buy a Drink</button>
+          <a class="btn btn__profile" href="./notfound.html">buy a drink</a>
         </div>
       </div>
     </section>
@@ -209,7 +217,7 @@
         <div class="footer__items__contact">
           <h5 class="footer__items__contact-header">say hello</h5>
           <h5>Please feel free to reach out to us with any questions.</h5>
-          <a href="contact.html" class="footer__items__contact-link"
+          <a href="mailto:joseph@workit-app.com" class="footer__items__contact-link"
             >info@but-me-a-drink.com</a
           >
         </div>
