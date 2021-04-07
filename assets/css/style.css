@@ -1038,6 +1038,7 @@ body {
 .creator-page__info-text {
   display: flex;
   flex-direction: column;
+  margin-left: 3.5rem;
 }
 .creator-page__info-text h2 {
   color: #fd6328;
@@ -1047,7 +1048,7 @@ body {
 }
 .creator-page__info-text p {
   font-size: 2.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .creator-page__info-text li {
   font-size: 2rem;
@@ -1055,7 +1056,8 @@ body {
   font-family: "helvetica Neue", sans-serif;
   text-align: left;
   margin-top: 1rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
+  margin-left: 3rem;
 }
 .creator-page__info-text li::marker {
   content: url(../images/svg/small-short.svg);
@@ -1067,6 +1069,7 @@ body {
   width: 100%;
 }
 .creator-page__info-images img {
+  margin-top: 5%;
   width: 100%;
 }
 

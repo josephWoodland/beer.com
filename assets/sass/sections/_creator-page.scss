@@ -20,6 +20,7 @@
     &-text {
       display: flex;
       flex-direction: column;
+      margin-left: 3.5rem;
 
       h2{
         color: $color-orange;
@@ -29,7 +30,7 @@
       }
       p{
         font-size: $font-size-copy-heading;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
 
       li {
@@ -38,7 +39,8 @@
         font-family: $font-primary;
         text-align: left;
         margin-top: 1rem;
-        padding-left: .5rem;
+        padding-left: 1rem;
+        margin-left: 3rem;
       }
 
       li::marker{
@@ -58,7 +60,7 @@
     &-images {
       width: 100%;
       img{
-        // margin-top: 20%;
+        margin-top: 5%;
         width: 100%;
       }
     }
