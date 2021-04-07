@@ -790,6 +790,9 @@ body {
 .how-creators__steps__sign-up h3 {
   margin-top: 1rem;
 }
+.how-creators__steps__sign-up-content {
+  display: flex;
+}
 @media only screen and (max-width: 900px) {
   .how-creators__steps__sign-up {
     grid-row: 3/span 3;
@@ -803,7 +806,7 @@ body {
     margin-left: auto;
   }
 }
-.how-creators__steps__find {
+.how-creators__steps__create {
   grid-row: 5/span 3;
   grid-column: 6/span 5;
   display: flex;
@@ -811,63 +814,69 @@ body {
   justify-content: space-evenly;
   margin-top: 3rem;
 }
+.how-creators__steps__create-content {
+  display: flex;
+}
 @media only screen and (max-width: 900px) {
-  .how-creators__steps__find {
+  .how-creators__steps__create {
     grid-row: 4/span 3;
     grid-column: 7/span 4;
   }
 }
-.how-creators__steps__find p {
+.how-creators__steps__create p {
   margin-top: -0.2rem;
 }
-.how-creators__steps__find img {
+.how-creators__steps__create img {
   align-self: flex-end;
   margin-right: -3rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 900px) {
-  .how-creators__steps__find img {
+  .how-creators__steps__create img {
     align-self: flex-end;
     margin-right: 0;
     margin-top: 0;
   }
 }
-.how-creators__steps__choose {
+.how-creators__steps__paid {
   grid-row: 8/span 3;
   grid-column: 2/span 5;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
+.how-creators__steps__paid-content {
+  display: flex;
+}
 @media only screen and (max-width: 900px) {
-  .how-creators__steps__choose {
+  .how-creators__steps__paid {
     grid-column: 3/span 6;
     grid-row: 7/span 3;
   }
 }
-.how-creators__steps__choose h3 {
+.how-creators__steps__paid h3 {
   margin-top: 1rem;
 }
 @media only screen and (max-width: 900px) {
-  .how-creators__steps__choose h3 {
+  .how-creators__steps__paid h3 {
     margin-top: -10rem;
   }
 }
-.how-creators__steps__choose p {
+.how-creators__steps__paid p {
   margin-top: -0.2rem;
 }
 @media only screen and (max-width: 900px) {
-  .how-creators__steps__choose p {
+  .how-creators__steps__paid p {
     margin-top: -9rem;
   }
 }
-.how-creators__steps__choose img {
+.how-creators__steps__paid img {
   align-self: center;
   margin-left: 4rem;
   margin-top: -1rem;
 }
 @media only screen and (max-width: 900px) {
-  .how-creators__steps__choose img {
+  .how-creators__steps__paid img {
     margin-top: -9rem;
   }
 }
