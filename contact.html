@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Beer.com</title>
     <link rel="icon" href="./assets/images/svg/beer-logo.svg" />
+
   </head>
   <body>
-    <section class="nav">
+    <nav class="nav">
       <div class="nav-bar width">
         <img
           class="nav-bar__logo"
@@ -27,9 +28,9 @@
         />
         <div class="nav-bar__items">
           <ul>
-            <li><a href="./index.html">home</a></li>
-            <li><a href="./notfound.html">creator</a></li>
-            <li><a  class="active" href="./contact.html">contact</a></li>
+            <li><a class="active" href="./index.html">home</a></li>
+            <li><a href="./creator.html">creator</a></li>
+            <li><a href="./contact.html">contact</a></li>
           </ul>
           <div class="nav-bar__items-search">
             <input
@@ -39,46 +40,46 @@
               placeholder="Search Profiles..."
             />
             <label for="userSearch">
-              <div class="nav-bar__items-search-icon">
+              <span class="nav-bar__items-search-icon">
                 <i class="fas fa-search"></i>
-              </div>
+              </span>
             </label>
           </div>
 
           <img
             class="nav-bar__items-icon"
-            href="#"
             src="./assets/images/svg/profile-icon.svg"
             alt="Profile icon"
           />
         </div>
         <div class="nav-bar__small">
               <div class="nav-bar__small-search">
-                </label>
+                    <label>
                     <input
                     type="search"
-                    id="userSearch"
-                    name="userSearch"
+                    id="userSearch1"
+                    name="userSearch1"
                     placeholder="Search.."
                     />
-                    <label for="userSearch">
-                    <div class="nav-bar__small-search-icon">
+                    </label>
+                    <label for="userSearch1">
+                    <span class="nav-bar__small-search-icon">
                     <i class="fas fa-search"></i>
-                    </div>
-                </label>
+                    </span>
+                   </label>
               </div>
           <input class="nav-bar__small-menu-btn" type="checkbox" id="menu-btn" />
           <label class="nav-bar__small-menu-icon" for="menu-btn"><img tabindex="0"  class="nav-bar__small-menu-icon-img" src="./assets/images/svg/menu-icon.svg" alt="menu logo"
             /></label>
           <ul class="nav-bar__small-menu">
-            <li><a href="./index.html">home</a></li>
-            <li><a href="./notfound.html">creator</a></li>
-            <li><a class="active" href="./contact.html">contact</a></li>
-            <li><a href="./notfound.html">Profile</a></li>
+            <li><a class="active" href="./index.html">home</a></li>
+            <li><a href="./creator.html">creator</a></li>
+            <li><a href="./contact.html">contact</a></li>
+            <li><a href="./creator.html">Profile</a></li>
           </ul>
         </div>
       </div>
-    </section>
+    </nav>
     <section class="hero width">
       <div class="hero__info">
         <div class="hero__info__logo">
