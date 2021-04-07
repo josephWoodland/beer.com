@@ -722,6 +722,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: -100;
 }
 @media screen and (max-width: 1400px) {
   .how-creators {
@@ -1018,6 +1019,7 @@ body {
   background-image: url(../images/svg/example-backgroud.svg);
   background-size: cover;
   background-position-x: center;
+  z-index: -100;
 }
 .creator-page h1 {
   text-align: center;
@@ -1029,6 +1031,22 @@ body {
   display: flex;
   margin: 8rem auto 0 auto;
 }
+.creator-page__info-text h2 {
+  color: #fd6328;
+  font-size: 4.8rem;
+  text-align: center;
+}
+.creator-page__info-text p {
+  text-align: left;
+  margin-top: 2rem;
+}
+.creator-page__info-images {
+  width: 100%;
+}
+.creator-page__info-images img {
+  width: 100%;
+}
+
 .nav {
   height: 7rem;
   background-color: #a5d4e2ef;
