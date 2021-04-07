@@ -60,14 +60,16 @@
 
     &__sign-up {
       grid-row: 2 / span 3;
-      grid-column: 2 / span 4;
+      grid-column: 2 / span 5;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       h3 {
         margin-top: 1rem;
+        padding-top: 1rem;
       }
       p {
+        margin-top: -0.2rem;
       }
 
       &-content {
@@ -89,7 +91,7 @@
 
     &__create {
       grid-row: 5 / span 3;
-      grid-column: 6 / span 5;
+      grid-column: 7 / span 5;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -158,7 +160,7 @@
 
     &-pink {
       grid-row: 2 / span 3;
-      grid-column: 1 / span 4;
+      grid-column: 1 / span 3;
       z-index: -1;
       @media screen and (max-width: $bp-medium) {
         grid-row: 2 / span 3;
@@ -166,7 +168,7 @@
       }
     }
     &-orange {
-      grid-row: 3 / span 4;
+      grid-row: 4 / span 4;
       grid-column: 9 / span 4;
       z-index: -1;
 
@@ -176,8 +178,8 @@
       }
     }
     &-blue {
-      grid-row: 6 / span 3;
-      grid-column: 5 / span 4;
+      grid-row: 7 / span 3;
+      grid-column: 3 / span 4;
       z-index: -1;
       @media screen and (max-width: $bp-medium) {
         grid-row: 7 / span 3;
