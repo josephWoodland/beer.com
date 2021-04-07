@@ -18,21 +18,36 @@
     margin: 8rem auto 0 auto;
     
     &-text {
+      display: flex;
+      flex-direction: column;
 
       h2{
         color: $color-orange;
-        font-size: $font-size-heading;
+        font-size: $font-size-heading-medium;
         text-align: center;
+        margin-bottom: 2rem;
+      }
+      p{
+        font-size: $font-size-copy-heading;
+        margin-bottom: 1rem;
       }
 
       li {
+        font-size: $font-size-copy;
+        color: $color-grey-text;
+        font-family: $font-primary;
         text-align: left;
         margin-top: 1rem;
         padding-left: .5rem;
       }
+
       li::marker{
         content: url(../images/svg/small-short.svg);
         // font-size: 1rem;
+      }
+
+      li:last-child{
+        margin-bottom: 3rem;
       }
 
       a{

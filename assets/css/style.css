@@ -80,32 +80,36 @@ p {
   background-color: transparent;
   color: #fd6328;
 }
-.btn__profile {
-  height: 4rem;
+.btn__blue {
+  padding: 1rem 0 1rem 0;
   background-color: #f8f8f8;
   width: 17.5rem;
+  font-size: 2rem;
   border: 1px solid #339cb1;
   color: #339cb1;
-  align-self: flex-end;
+  align-self: center;
   margin-top: auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 @media screen and (max-width: 600px) {
-  .btn__profile {
+  .btn__blue {
     width: 100%;
   }
 }
-.btn__profile:hover {
+.btn__blue:hover {
   border: 3px solid #339cb1;
 }
-.btn__profile:active {
+.btn__blue:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
-.btn__profile:focus {
+.btn__blue:focus {
   outline: none;
   border: 3px solid #339cb1;
   color: #fd6328;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+.btn__blue-creator {
+  margin-top: auto;
 }
 .btn__form {
   width: 38rem;
@@ -1031,18 +1035,33 @@ body {
   display: flex;
   margin: 8rem auto 0 auto;
 }
+.creator-page__info-text {
+  display: flex;
+  flex-direction: column;
+}
 .creator-page__info-text h2 {
   color: #fd6328;
-  font-size: 4.8rem;
+  font-size: 3.4rem;
   text-align: center;
+  margin-bottom: 2rem;
+}
+.creator-page__info-text p {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
 }
 .creator-page__info-text li {
+  font-size: 2rem;
+  color: #707070;
+  font-family: "helvetica Neue", sans-serif;
   text-align: left;
   margin-top: 1rem;
   padding-left: 0.5rem;
 }
 .creator-page__info-text li::marker {
   content: url(../images/svg/small-short.svg);
+}
+.creator-page__info-text li:last-child {
+  margin-bottom: 3rem;
 }
 .creator-page__info-images {
   width: 100%;
