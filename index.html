@@ -18,6 +18,7 @@
       <div class="nav-bar width">
         <img
           class="nav-bar__logo"
+          href="#open-modal"
           src="./assets/images/svg/beer-logo-blue.svg"
           alt="Beer.com logo"
         />
@@ -41,12 +42,10 @@
             </label>
           </div>
 
-          <img
-            class="nav-bar__items-icon"
-            src="./assets/images/svg/profile-icon.svg"
-            alt="Profile icon"
-          />
-        </div>
+          <a class="nav-bar__items-icon" href="#open-modal">
+            <i class="fas fa-user"></i>
+          </a>
+          </div>
         <div class="nav-bar__small">
               <div class="nav-bar__small-search">
                     <label>
@@ -255,5 +254,11 @@
     src="https://kit.fontawesome.com/cc9939a825.js"
     crossorigin="anonymous"
   ></script>
+  <div id="open-modal" class="modal">
+    <div class="modal__window">
+      <a href="#" class="modal-close"><i class="fas fa-times"></i></a>
+      <h1>Log In</h1>
+    </div>
+    </div>
   </body>
 </html>

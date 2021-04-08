@@ -145,3 +145,6 @@ https://stackoverflow.com/questions/4847996/css-animation-onclick
  
 textarea not being responsive enough;
 https://www.studentstutorial.com/html/responsive-textarea
+
+Here is were I researched how to do a css only open model
+https://codepen.io/timothylong/pen/HhAer

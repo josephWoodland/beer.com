@@ -95,6 +95,14 @@
       &-icon {
         margin-top: 0.5rem;
         margin-right: 0.5rem;
+        cursor: pointer;
+        color: $color-icon-fill;
+        font-size: 4rem;
+
+        &:hover{
+          color: $color-orange;
+        }
+
       }
     }
 

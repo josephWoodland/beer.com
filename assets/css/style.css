@@ -1161,6 +1161,12 @@ body {
 .nav-bar__items-icon {
   margin-top: 0.5rem;
   margin-right: 0.5rem;
+  cursor: pointer;
+  color: #339cb1;
+  font-size: 4rem;
+}
+.nav-bar__items-icon:hover {
+  color: #fd6328;
 }
 @media screen and (max-width: 800px) {
   .nav-bar__items {
@@ -1425,6 +1431,35 @@ body {
   .example__profile-hero-img {
     margin-bottom: 1.5rem;
   }
+}
+
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 500;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  display: flex;
+}
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal__window {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  margin: 0 auto 0 auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background: white;
 }
 
 /* ----- Components ----- */
