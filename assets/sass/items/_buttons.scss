@@ -1,3 +1,9 @@
+/* //////////////////////////////////////////////////////////////////////////////// 
+------------------------------- Buttons  --------------------------------------
+//////////////////////////////////////////////////////////////////////////////////*/
+
+/* --------------------------- Hero Section Button  -----------------------------*/
+
 .btn {
   text-transform: uppercase;
   text-align: center;
@@ -42,6 +48,17 @@
     }
   }
 
+}
+/* --------------------------- Blue Button  -----------------------------*/
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  font-family: $font-primary;
+  cursor: pointer;
+  text-decoration: none;
+
   &__blue {
     padding: 1rem 0 1rem 0;
     background-color: $color-backgound;
@@ -83,7 +100,17 @@
 
     }
   }
+}
 
+/* --------------------------- Form Button  -----------------------------*/
+
+.btn {
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  font-family: $font-primary;
+  cursor: pointer;
+  text-decoration: none;
   &__form {
     width: 38rem;
     color: $color-orange;
