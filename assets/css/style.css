@@ -131,6 +131,12 @@ p {
 .btn__blue-creator {
   margin-top: auto;
 }
+@media screen and (max-width: 600px) {
+  .btn__blue-creator {
+    margin-top: 2rem;
+    width: 60%;
+  }
+}
 .btn__blue-login {
   padding: 1rem 6rem;
   margin-left: 0rem !important;
@@ -779,35 +785,35 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: -100;
+  overflow: hidden;
 }
 @media screen and (max-width: 1400px) {
   .how-creators {
     width: 100%;
     margin: 0rem 2rem;
-    overflow: hidden;
   }
 }
 @media screen and (max-width: 1200px) {
   .how-creators {
     width: 95%;
     margin: 0rem auto;
-    overflow: hidden;
   }
 }
-@media only screen and (max-width: 900px) {
-  .how-creators {
-    height: 1010px;
-  }
-}
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .how-creators {
     width: 100%;
+    margin: 0 0rem;
+    height: 1200px;
   }
 }
 .how-creators h2 {
   text-align: center;
   margin-top: 12rem;
+}
+@media only screen and (max-width: 600px) {
+  .how-creators h2 {
+    margin-top: 0rem;
+  }
 }
 .how-creators p {
   max-width: 915px;
@@ -839,6 +845,11 @@ body {
 .how-creators__steps-icon {
   width: 10.15rem;
   color: #339cb1;
+}
+@media only screen and (max-width: 600px) {
+  .how-creators__steps-icon {
+    width: 8rem;
+  }
 }
 .how-creators__steps p {
   text-align: left;
@@ -882,6 +893,13 @@ body {
   .how-creators__steps__sign-up-content {
     display: flex;
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .how-creators__steps__sign-up img {
+    align-self: center;
+    height: 7rem;
+    width: 7rem;
   }
 }
 .how-creators__steps__create {
@@ -930,6 +948,8 @@ body {
 @media only screen and (max-width: 600px) {
   .how-creators__steps__create img {
     align-self: center;
+    height: 6rem;
+    width: 6rem;
   }
 }
 .how-creators__steps__paid {
@@ -965,21 +985,11 @@ body {
 }
 @media only screen and (max-width: 900px) {
   .how-creators__steps__paid h3 {
-    margin-top: -10rem;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .how-creators__steps__paid h3 {
     margin-top: 3rem;
   }
 }
 .how-creators__steps__paid p {
   margin-top: -0.2rem;
-}
-@media only screen and (max-width: 900px) {
-  .how-creators__steps__paid p {
-    margin-top: -9rem;
-  }
 }
 @media only screen and (max-width: 900px) {
   .how-creators__steps__paid p {
@@ -993,12 +1003,14 @@ body {
 }
 @media only screen and (max-width: 900px) {
   .how-creators__steps__paid img {
-    margin-top: -9rem;
+    margin-top: 0rem;
+    z-index: 900;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .how-creators__steps__paid img {
-    margin-top: 0rem;
+    height: 6rem;
+    width: 6rem;
   }
 }
 .how-creators__steps-pink {
@@ -1162,6 +1174,16 @@ body {
   background-position-x: center;
   z-index: -100;
 }
+@media only screen and (max-width: 900px) {
+  .creator-page {
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .creator-page {
+    height: 800px;
+  }
+}
 .creator-page h1 {
   text-align: center;
   font-size: 8rem;
@@ -1172,10 +1194,21 @@ body {
   display: flex;
   margin: 8rem auto 0 auto;
 }
+@media only screen and (max-width: 900px) {
+  .creator-page__info {
+    flex-direction: column-reverse;
+    margin: 0rem;
+  }
+}
 .creator-page__info-text {
   display: flex;
   flex-direction: column;
   margin-left: 3.5rem;
+}
+@media only screen and (max-width: 900px) {
+  .creator-page__info-text {
+    align-content: center;
+  }
 }
 .creator-page__info-text h2 {
   color: #fd6328;
@@ -1183,9 +1216,20 @@ body {
   text-align: center;
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 900px) {
+  .creator-page__info-text h2 {
+    margin-top: 5rem;
+  }
+}
 .creator-page__info-text p {
   font-size: 2.4rem;
   margin-bottom: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  .creator-page__info-text p {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 }
 .creator-page__info-text li {
   font-size: 2rem;
@@ -1195,6 +1239,12 @@ body {
   margin-top: 1rem;
   padding-left: 1rem;
   margin-left: 3rem;
+}
+@media only screen and (max-width: 900px) {
+  .creator-page__info-text li {
+    width: 50%;
+    margin: 2rem auto;
+  }
 }
 .creator-page__info-text li::marker {
   content: url(../images/svg/small-short.svg);
@@ -1230,6 +1280,9 @@ body {
 }
 .nav-bar img {
   height: 4rem;
+}
+.nav-bar i {
+  margin-right: 3rem;
 }
 .nav-bar__logo {
   color: #339cb1;
@@ -1320,6 +1373,9 @@ body {
   .nav-bar__small input[type=checkbox] {
     display: none;
   }
+  .nav-bar__small img {
+    margin-right: 2rem;
+  }
   .nav-bar__small ul {
     font-family: "helvetica Neue", sans-serif;
     list-style: none;
@@ -1327,7 +1383,7 @@ body {
     font-size: 2.4rem;
     position: absolute;
     background-color: #a5d4e2ef;
-    margin-left: 63%;
+    margin-left: 60%;
     display: none;
     padding: 0 2rem 2rem 2rem;
     border-radius: 0 0 0 4px;

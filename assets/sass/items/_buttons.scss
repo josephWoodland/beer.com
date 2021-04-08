@@ -92,6 +92,10 @@
 
     &-creator {
       margin-top: auto;
+      @media screen and (max-width: $bp-xsmall) {
+        margin-top: 2rem;
+        width: 60%;
+      }
     }
 
     &-login{

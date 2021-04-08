@@ -11,6 +11,15 @@
   background-position-x: center;
   z-index: -100;
 
+  @media only screen and (max-width: $bp-medium) {
+    height: 1000px
+  }
+  @media only screen and (max-width: $bp-xsmall) {
+    height: 800px
+  }
+
+  
+
   h1 {
     text-align: center;
     font-size: $font-size-heading-large;
@@ -20,21 +29,36 @@
     max-width: 1366px;
     display: flex;
     margin: 8rem auto 0 auto;
+
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column-reverse;
+      margin: 0rem;
+    }
     
     &-text {
       display: flex;
       flex-direction: column;
       margin-left: 3.5rem;
+      @media only screen and (max-width: $bp-medium) {
+        align-content: center;
+      }
 
       h2{
         color: $color-orange;
         font-size: $font-size-heading-medium;
         text-align: center;
         margin-bottom: 2rem;
+        @media only screen and (max-width: $bp-medium) {
+          margin-top: 5rem;
+        }
       }
       p{
         font-size: $font-size-copy-heading;
         margin-bottom: 2rem;
+        @media only screen and (max-width: $bp-medium) {
+          text-align: center;
+          margin-bottom: 3rem;
+        }
       }
 
       li {
@@ -45,11 +69,17 @@
         margin-top: 1rem;
         padding-left: 1rem;
         margin-left: 3rem;
+
+        @media only screen and (max-width: $bp-medium) {
+          width: 50%;
+          margin: 2rem auto;
+
+        }
       }
 
       li::marker{
         content: url(../images/svg/small-short.svg);
-        // font-size: 1rem;
+
       }
 
       li:last-child{
@@ -67,6 +97,7 @@
         margin-top: 5%;
         width: 100%;
       }
+      
     }
   }
 }

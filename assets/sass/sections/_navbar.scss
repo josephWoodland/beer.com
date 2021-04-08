@@ -21,7 +21,9 @@
 
     img {
       height: 4rem;
-      // margin-top: 1.5rem;
+    }
+    i{
+      margin-right: 3rem;
     }
 
     &__logo {
@@ -124,6 +126,9 @@
         input[type="checkbox"] {
           display: none;
         }
+        img{
+          margin-right: 2rem;
+        }
 
         ul {
           font-family: $font-primary;
@@ -132,7 +137,7 @@
           font-size: $font-size-copy-heading;
           position: absolute;
           background-color: $color-primary-transparent;
-          margin-left: 63%;
+          margin-left: 60%;
           display: none;
           padding: 0 2rem 2rem 2rem;
           border-radius: 0 0 0 4px;
