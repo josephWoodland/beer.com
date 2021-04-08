@@ -111,6 +111,10 @@ p {
 .btn__blue-creator {
   margin-top: auto;
 }
+.btn__blue-login {
+  padding: 1rem 6rem;
+  margin-left: 10.5rem;
+}
 .btn__form {
   width: 38rem;
   color: #fd6328;
@@ -1454,12 +1458,25 @@ body {
 }
 .modal__window {
   width: 400px;
-  height: 400px;
+  height: 300px;
   align-self: center;
   margin: 0 auto 0 auto;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
-  background: white;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+}
+.modal__window a {
+  color: #339cb1;
+  margin-left: auto;
+  font-size: 2rem;
+}
+.modal__window a :hover {
+  color: #fd6328;
+}
+.modal__window input {
+  border: 2px solid #339cb1;
 }
 
 /* ----- Components ----- */

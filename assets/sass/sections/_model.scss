@@ -19,12 +19,28 @@
 
     &__window {
       width: 400px;
-      height: 400px;
+      height: 300px;
       align-self: center;
       margin: 0 auto 0 auto;
-      padding: 2rem;
+      padding: 3rem;
       border-radius: 10px;
-      background: white;
+      background:$color-backgound;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        color: $color-icon-fill;
+        margin-left: auto;
+        font-size: 2rem;
+        
+        :hover {
+          color: $color-orange;
+        }
+      }
+
+      input {
+        border: 2px solid $color-icon-fill;
+      }
     }
 
   }
