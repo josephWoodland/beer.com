@@ -784,13 +784,25 @@ body {
 @media screen and (max-width: 1400px) {
   .how-creators {
     width: 100%;
-    margin: 0rem 2rem 0 2rem;
+    margin: 0rem 2rem;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .how-creators {
+    width: 95%;
+    margin: 0rem auto;
     overflow: hidden;
   }
 }
 @media only screen and (max-width: 900px) {
   .how-creators {
-    height: 900px;
+    height: 1010px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .how-creators {
+    width: 100%;
   }
 }
 .how-creators h2 {
@@ -804,13 +816,7 @@ body {
 }
 @media screen and (max-width: 1400px) {
   .how-creators p {
-    margin: 0 3rem 0 3rem;
-  }
-}
-@media screen and (max-width: 900px) {
-  .how-creators p {
-    margin: 0 3rem 0 3rem;
-    margin-top: 6rem;
+    margin: 1rem 3rem 0 3rem;
   }
 }
 .how-creators__steps {
@@ -820,11 +826,10 @@ body {
   grid-column-gap: 1.5rem;
   grid-row-gap: 0rem;
 }
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .how-creators__steps {
-    grid-template-columns: repeat(10, 9%);
-    grid-template-rows: repeat(8, 8%);
-    grid-column-gap: 0rem;
+    display: flex;
+    flex-direction: column;
   }
 }
 .how-creators__steps h3 {
@@ -845,6 +850,24 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
 }
+@media screen and (max-width: 1200px) {
+  .how-creators__steps__sign-up {
+    grid-row: 2/span 3;
+    grid-column: 3/span 5;
+  }
+}
+@media screen and (max-width: 900px) {
+  .how-creators__steps__sign-up {
+    grid-row: 2/span 3;
+    grid-column: 4/span 4;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .how-creators__steps__sign-up {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .how-creators__steps__sign-up h3 {
   margin-top: 1rem;
   padding-top: 1rem;
@@ -855,17 +878,10 @@ body {
 .how-creators__steps__sign-up-content {
   display: flex;
 }
-@media only screen and (max-width: 900px) {
-  .how-creators__steps__sign-up {
-    grid-row: 3/span 3;
-    grid-column: 2/span 2;
-  }
-  .how-creators__steps__sign-up p {
-    margin-top: 0;
-  }
-  .how-creators__steps__sign-up img {
-    margin-top: 1rem;
-    margin-left: auto;
+@media only screen and (max-width: 600px) {
+  .how-creators__steps__sign-up-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 .how-creators__steps__create {
@@ -879,10 +895,28 @@ body {
 .how-creators__steps__create-content {
   display: flex;
 }
+@media only screen and (max-width: 600px) {
+  .how-creators__steps__create-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .how-creators__steps__create {
+    grid-row: 5/span 3;
+    grid-column: 7/span 4;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .how-creators__steps__create {
+    grid-row: 5/span 3;
+    grid-column: 6/span 4;
+  }
+}
 @media only screen and (max-width: 900px) {
   .how-creators__steps__create {
-    grid-row: 4/span 3;
-    grid-column: 7/span 4;
+    grid-row: 5/span 3;
+    grid-column: 5/span 4;
   }
 }
 .how-creators__steps__create p {
@@ -893,11 +927,9 @@ body {
   margin-right: -3rem;
   margin-top: -1rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .how-creators__steps__create img {
-    align-self: flex-end;
-    margin-right: 0;
-    margin-top: 0;
+    align-self: center;
   }
 }
 .how-creators__steps__paid {
@@ -910,10 +942,22 @@ body {
 .how-creators__steps__paid-content {
   display: flex;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
+  .how-creators__steps__paid-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1400px) {
   .how-creators__steps__paid {
-    grid-column: 3/span 6;
-    grid-row: 7/span 3;
+    grid-column: 3/span 5;
+    grid-row: 8/span 3;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .how-creators__steps__paid {
+    grid-row: 8/span 3;
+    grid-column: 4/span 6;
   }
 }
 .how-creators__steps__paid h3 {
@@ -924,12 +968,22 @@ body {
     margin-top: -10rem;
   }
 }
+@media only screen and (max-width: 900px) {
+  .how-creators__steps__paid h3 {
+    margin-top: 3rem;
+  }
+}
 .how-creators__steps__paid p {
   margin-top: -0.2rem;
 }
 @media only screen and (max-width: 900px) {
   .how-creators__steps__paid p {
     margin-top: -9rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .how-creators__steps__paid p {
+    margin-top: 0rem;
   }
 }
 .how-creators__steps__paid img {
@@ -942,15 +996,34 @@ body {
     margin-top: -9rem;
   }
 }
+@media only screen and (max-width: 900px) {
+  .how-creators__steps__paid img {
+    margin-top: 0rem;
+  }
+}
 .how-creators__steps-pink {
   grid-row: 2/span 3;
   grid-column: 1/span 3;
   z-index: -1;
 }
+@media screen and (max-width: 1400px) {
+  .how-creators__steps-pink {
+    grid-row: 2/span 3;
+    grid-column: 2/span 3;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .how-creators__steps-pink {
+    grid-row: 2/span 3;
+    grid-column: 3/span 3;
+  }
+}
 @media screen and (max-width: 900px) {
   .how-creators__steps-pink {
     grid-row: 2/span 3;
-    grid-column: 1/span 3;
+    grid-column: 4/span 3;
+    margin-left: -4rem;
+    margin-top: -4rem;
   }
 }
 .how-creators__steps-orange {
@@ -958,10 +1031,17 @@ body {
   grid-column: 9/span 4;
   z-index: -1;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
   .how-creators__steps-orange {
-    grid-row: 4/span 3;
+    grid-row: 6/span 3;
     grid-column: 8/span 3;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .how-creators__steps-orange {
+    grid-row: 5/span 3;
+    grid-column: 7/span 3;
+    margin-left: 2rem;
   }
 }
 .how-creators__steps-blue {
@@ -969,16 +1049,17 @@ body {
   grid-column: 3/span 4;
   z-index: -1;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .how-creators__steps-blue {
-    grid-row: 7/span 3;
-    grid-column: 4/span 3;
+    grid-row: 8/span 3;
+    grid-column: 3/span 3;
   }
 }
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .how-creators__steps-blue {
-    grid-row: 7/span 3;
-    grid-column: 4/span 4;
+    grid-row: 8/span 2;
+    grid-column: 4/span 3;
+    margin-left: -5rem;
   }
 }
 @media screen and (max-width: 600px) {
