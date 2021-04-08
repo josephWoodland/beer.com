@@ -96,8 +96,16 @@
 
     &-login{
       padding: 1rem 6rem;
-      margin-left: 10.5rem;
+      margin-left: 0rem !important;
 
+      @media screen and (max-width: $bp-small) {
+        margin: 3rem 0rem !important;
+      
+        }
+
+      @media screen and (max-width: $bp-xsmall) {
+        width: 17.5rem;
+      }
     }
   }
 }

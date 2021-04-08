@@ -133,7 +133,17 @@ p {
 }
 .btn__blue-login {
   padding: 1rem 6rem;
-  margin-left: 10.5rem;
+  margin-left: 0rem !important;
+}
+@media screen and (max-width: 800px) {
+  .btn__blue-login {
+    margin: 3rem 0rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn__blue-login {
+    width: 17.5rem;
+  }
 }
 
 /* --------------------------- Form Button  -----------------------------*/
@@ -1491,6 +1501,10 @@ body {
 /* //////////////////////////////////////////////////////////////////////////////// 
 -------------------------------- Modal ---------------------------------
 //////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////////////////////////////////////// 
+The code for this CSS only modal was heavily influenced by research I done into the subject.
+The link to the page when I got the code from is in the README file. 
+//////////////////////////////////////////////////////////////////////////////////*/
 .modal {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
@@ -1521,6 +1535,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 800px) {
+  .modal__window {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal__window {
+    width: 100%;
+    height: 250px;
+  }
+}
+.modal__window h1 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
 .modal__window a {
   color: #339cb1;
   margin-left: auto;
@@ -1531,6 +1560,19 @@ body {
 }
 .modal__window input {
   border: 2px solid #339cb1;
+  margin: 1rem auto;
+}
+@media screen and (max-width: 800px) {
+  .modal__window input {
+    width: 60%;
+    margin-left: 15% !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal__window input {
+    width: 90%;
+    margin-left: 3% !important;
+  }
 }
 
 /* ----- Components ----- */
