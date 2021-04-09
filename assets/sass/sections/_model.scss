@@ -46,7 +46,7 @@ The link to the page when I got the code from is in the README file and here htt
       }
 
       
-      h2 {
+      h1 {
         margin-bottom: 1rem;
         text-align: center;
       }
@@ -64,6 +64,7 @@ The link to the page when I got the code from is in the README file and here htt
       input {
         border: 2px solid $color-icon-fill;
         margin: 1rem auto;
+        width: 90%;
 
         @media screen and (max-width: $bp-small) {
           width: 60%;

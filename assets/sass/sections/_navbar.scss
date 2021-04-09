@@ -199,9 +199,12 @@
             justify-content: center;
 
             @media screen and (max-width: $bp-small) {
+              margin-top: 0.7rem;
+  
+              }
+            @media screen and (max-width: $bp-xsmall) {
             height: 3.65rem;
             margin-top: 0.68rem;
-
 
             }
           }

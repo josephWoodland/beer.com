@@ -9,6 +9,9 @@
   background-color: $color-footer;
   color: $color-white-text;
   z-index: 10;
+  @media screen and (max-width: $bp-small) {
+    height:30rem
+  }
 
   h1{
     font-family: $font-heading;
@@ -16,7 +19,7 @@
     font-weight: 300;
     color: $color-white-text;
   }
-  
+
   &__logo {
     img {
       align-self: center;
