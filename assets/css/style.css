@@ -1183,7 +1183,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .creator-page {
-    height: 800px;
+    height: 900px;
   }
 }
 .creator-page h2 {
@@ -1418,7 +1418,7 @@ body {
     border: 1px solid #fff;
     border-radius: 4px 0 0 4px;
     background: none;
-    margin-top: 0.6rem;
+    margin-top: 0.7rem;
   }
   .nav-bar__small-search input:focus {
     outline: none;
@@ -1635,7 +1635,7 @@ body {
 //////////////////////////////////////////////////////////////////////////////////*/
 /* //////////////////////////////////////////////////////////////////////////////// 
 The code for this CSS only modal was heavily influenced by research I done into the subject.
-The link to the page when I got the code from is in the README file. 
+The link to the page when I got the code from is in the README file and here https://codepen.io/timothylong/pen/HhAer
 //////////////////////////////////////////////////////////////////////////////////*/
 .modal {
   position: fixed;
