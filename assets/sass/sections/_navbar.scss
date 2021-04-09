@@ -77,10 +77,10 @@
           border: 1.5px solid $color-icon-fill;
         }
         &-icon {
-          margin-top: 0.65rem;
+          margin-top: 0.7rem;
           display: flex;
           cursor: pointer;
-          height: 3.5rem;
+          height: 3.7rem;
           width: 6rem;
           font-size: 1.6rem;
           color: $color-icon-fill;
@@ -184,15 +184,16 @@
             border: 1.5px solid $color-icon-fill;
           }
           &-icon {
-            margin-top: 0.75rem;
+            margin-top: 0.7rem;
             display: flex;
             cursor: pointer;
-            height: 3.5rem;
+            height: 3.6rem;
             width: 6rem;
             font-size: 1.6rem;
             color: $color-icon-fill;
             background-color: #fff;
             border-radius: 0 4px 4px 0;
+            border-bottom: 1px solid #fff;
             align-self: center;
             align-items: center;
             justify-content: center;
