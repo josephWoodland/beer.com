@@ -1048,13 +1048,13 @@ body {
       .nav-bar__items ::placeholder {
         color: #339cb1;
         opacity: 0.7; }
-      .nav-bar__items-icon {
+      .nav-bar__items-profile-link {
         margin-top: 0.5rem;
         margin-right: 0.5rem;
         cursor: pointer;
         color: #339cb1;
         font-size: 4rem; }
-        .nav-bar__items-icon:hover {
+        .nav-bar__items-profile-link:hover {
           color: #fd6328; }
     @media screen and (max-width: 800px) {
       .nav-bar__items {

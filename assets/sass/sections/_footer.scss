@@ -10,6 +10,13 @@
   color: $color-white-text;
   z-index: 10;
 
+  h1{
+    font-family: $font-heading;
+    font-size: $font-size-nav;
+    font-weight: 300;
+    color: $color-white-text;
+  }
+  
   &__logo {
     img {
       align-self: center;

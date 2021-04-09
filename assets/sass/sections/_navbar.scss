@@ -96,7 +96,7 @@
         opacity: 0.7;
       }
 
-      &-icon {
+      &-profile-link {
         margin-top: 0.5rem;
         margin-right: 0.5rem;
         cursor: pointer;
@@ -197,6 +197,13 @@
             align-self: center;
             align-items: center;
             justify-content: center;
+
+            @media screen and (max-width: $bp-small) {
+            height: 3.65rem;
+            margin-top: 0.68rem;
+
+
+            }
           }
         }
         ::placeholder {

@@ -52,6 +52,12 @@
           margin-top: 5rem;
         }
       }
+
+      h3{
+        color: $color-orange;
+        margin-bottom: 2rem;
+        text-align: center;
+      }
       p{
         font-size: $font-size-copy-heading;
         margin-bottom: 2rem;
@@ -93,8 +99,9 @@
 
     &-images {
       width: 100%;
+      margin: auto;
+      
       img{
-        margin-top: 5%;
         width: 100%;
       }
       
