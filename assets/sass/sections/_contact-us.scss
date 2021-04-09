@@ -9,7 +9,7 @@
   background-image: url(../images/svg/example-backgroud.svg);
   background-size: cover;
   background-position-x: center;
-  padding-top: 10rem;
+  padding-top: 9rem;
 
   @media screen and (max-width: $bp-form) {
     margin-top: 5rem;
@@ -22,11 +22,11 @@
     height: 500px;
   }
 
-  h1 {
+  h2 {
     text-align: center;
     font-size: 7rem;
     font-weight: 300;
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
 
     @media screen and (max-width: $bp-form) {
       margin-bottom: 5rem;

@@ -24,7 +24,6 @@
     width: 32rem;
     height: 4rem;
     box-shadow: $color-shadow-hover;
-    border: 1px solid $color-orange;
     border-radius: 4px;
 
     @media screen and (max-width: $bp-xsmall) {
@@ -35,6 +34,8 @@
     &:hover {
       background-color: transparent;
       color: $color-orange;
+      border: 1px solid $color-orange;
+
     }
 
     &:active {
@@ -124,10 +125,12 @@
   cursor: pointer;
   text-decoration: none;
   &__form {
-    width: 38rem;
+
+    width: 60%;
     color: $color-orange;
     height: 4rem;
     margin-top: auto;
+    align-self: center;
 
     &:hover {
       border: 3px solid $color-icon-fill;

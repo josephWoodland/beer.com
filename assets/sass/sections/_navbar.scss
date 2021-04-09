@@ -85,7 +85,6 @@
           font-size: 1.6rem;
           color: $color-icon-fill;
           background-color: #fff;
-          border: 1px solid #fff;
           border-radius: 0 4px 4px 0;
           align-self: center;
           align-items: center;
@@ -171,7 +170,7 @@
 
           input {
             width: 12rem;
-            height: 3.5rem;
+            height: 3.3rem;
             align-self: center;
             color: $color-icon-fill;
             border: 1px solid #fff;
@@ -185,7 +184,7 @@
             border: 1.5px solid $color-icon-fill;
           }
           &-icon {
-            margin-top: 0.6rem;
+            margin-top: 0.75rem;
             display: flex;
             cursor: pointer;
             height: 3.5rem;
@@ -193,7 +192,6 @@
             font-size: 1.6rem;
             color: $color-icon-fill;
             background-color: #fff;
-            border: 1px solid #fff;
             border-radius: 0 4px 4px 0;
             align-self: center;
             align-items: center;

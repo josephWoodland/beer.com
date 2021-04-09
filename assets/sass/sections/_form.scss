@@ -11,6 +11,10 @@
     flex-direction: column;
   }
 
+  textarea {
+    width: 100%;
+  }
+
   input,
   textarea {
     border: 4px solid $color-orange;
@@ -55,15 +59,11 @@
     margin-top: -7rem;
     margin-left: 35rem;
 
-    @media screen and (max-width: $bp-xsmall) {
-      margin-left: -4rem;
-      margin-top: 1.5rem;
-    }
+
   }
 
   &__text-area {
     box-sizing: border-box;
-    max-width: 60%;
     margin-bottom: 3rem;
   }
 }
