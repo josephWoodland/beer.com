@@ -1332,7 +1332,7 @@ body {
   border: 1.5px solid #339cb1;
 }
 .nav-bar__items-search-icon {
-  margin-top: 0.7rem;
+  margin-top: 0.69rem;
   display: flex;
   cursor: pointer;
   height: 3.7rem;
@@ -1412,7 +1412,7 @@ body {
   }
   .nav-bar__small-search input {
     width: 12rem;
-    height: 3.3rem;
+    height: 3.4rem;
     align-self: center;
     color: #339cb1;
     border: 1px solid #fff;
@@ -1425,10 +1425,10 @@ body {
     border: 1.5px solid #339cb1;
   }
   .nav-bar__small-search-icon {
-    margin-top: 0.7rem;
+    margin-top: 0.68rem;
     display: flex;
     cursor: pointer;
-    height: 3.6rem;
+    height: 3.5rem;
     width: 6rem;
     font-size: 1.6rem;
     color: #339cb1;
