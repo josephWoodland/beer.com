@@ -394,7 +394,7 @@ To test if the layout of the website would deliver the client’s goals, I used 
 
 - What did the test subject remember after 5 seconds on the hero section of the creator page?
 
-        Beer.com is something to do wit earning more money from content.
+        Beer.com is something to do with earning more money from content.
 
 - How did the test subject remember how the service works?
 
@@ -482,7 +482,7 @@ I decided to add a Modal which would be triggared by the profile icon in the nav
 
 ## Nav-bar
 
-	The search input and icon alignment. This took a significant amount of adjusting and re-adjusting; I am still not 100% happy with the outcome, as I feel the code I have written to make minor adjustments makes the code look a bit unkept/untidy.
+	The search input and icon alignment. This took a significant amount of adjusting and re-adjusting; I am still not 100% happy with the outcome, as I feel the code I have written to make minor adjustments makes the code look a bit unkept/untidy. 
 
 ## CSS Grid - Whitespace
 
@@ -534,7 +534,7 @@ Clone this project from GitHub by the Git Desktop:
 - In the clone, Repository Modal choose where you would like it to be stored locally
 - The clone has been created and stored in your local file.
 
-Further reading and troubleshooting on cloning a repository from GitHub can be found
+Further reading and troubleshooting on cloning a repository from GitHub can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Running the code
 
@@ -544,10 +544,22 @@ Once you have got the files in your coder of choice, run `npm install` to instal
 To use the `watch:sass` and the live reload modules for the development environment in the terminal use npm start, once this has started a window with the website loaded with the current code.
 
 # Future Features
-###
+### Email links
+- Before the site is live I will have to link the forms and emiail links properly so they work with a live email.
+
+### Goolge/Facebook Anyalitics
+
+- This feature is needed to track the users to the website, and how they behave. 
+
+### Profiles
+- Further down the line I will have to implment users profiles that will be kept behind a log in functionality.
+
+### Scrolling Profiles
+- We will need a section that will highlight user profiles, and what they have done to deserve the drink donation.
 
 # CREDITS 
- 
+
+I used the slack comminity to help me with structuring the README.
 
 To help me with the responsive dropdown menu I used this page as reference. 
  
@@ -563,3 +575,4 @@ https://www.studentstutorial.com/html/responsive-textarea
 Here is were I researched how to do a css only open model
 
 https://codepen.io/timothylong/pen/HhAer
+
