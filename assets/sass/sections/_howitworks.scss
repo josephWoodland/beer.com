@@ -184,7 +184,11 @@
     flex-direction: column;
     align-items: center;
     margin-left: 0rem;
-    // margin-bottom: 5rem;
+    
+    @media screen and (max-width: $bp-fold) {
+      height: 1100px;
+      margin-bottom: 0rem;
+    }
 
     h2 {
       text-align: center;
@@ -207,6 +211,10 @@
       background-position: center;
       background-size: cover;
 
+      @media screen and (max-width: $bp-fold) {
+        height: 1100px;
+      }
+
       h3 {
         color: $color-orange;
         text-align: center;
@@ -224,6 +232,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+
         h3 {
           margin-top: 1rem;
         }

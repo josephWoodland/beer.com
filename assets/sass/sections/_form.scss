@@ -10,8 +10,24 @@
     display: flex;
     margin: 0 auto 0 auto;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
+
+    @media screen and (max-width: $bp-small){
+      width: 50%;
+    }
+    @media screen and (max-width: $bp-xsmall){
+      width: 60%;
+    }
+    @media screen and (max-width: $bp-fold) {
+      width: 80%;
+    }
   }
+
+  @media screen and (max-width: $bp-small){
+    width: 100%;
+
+  }
+
   textarea{
     padding-top: 3rem;
   }

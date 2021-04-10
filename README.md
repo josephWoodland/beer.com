@@ -2,11 +2,11 @@
 
 
 ## Intro
-This website has been developed for a new start-up called, But Me a Beer.com. The Founders core goals for the website are:
+This website has been developed for a new start-up called, Buy Me a Beer.com, a new online donation service.  The start-up founder's core goals for the website are:
 
-- To get the brand out to potential users of the service
-- To get an indecation of the popularity of the idea
-- To lead generate for potential content creator partners
+- To inform potential users of the new service
+- To gauge the level of interest/popularity in the new service
+- To generate leads for potential content creators
  
 
 ![image of mockups](assets-readme/README-mockup.png)
@@ -19,23 +19,34 @@ This website has been developed for a new start-up called, But Me a Beer.com. Th
 
 This is a copy of the [brief](assets-readme/Website%20Guideline.pdf)
 
-### Target Visitors
+### Target Audience
 
-There are two potentila audiances who will be visiting the website:
+There are two target audiences for the website:
 
-- Genral users(users), who would be large groups of users who would be looking to use the platfom to gift value amounts to other users.
-- Content Creators(creators), these visitors to the website would be interested in using the service provided by the compnay to further monetize the sicail media content the already create.
+- General users (Users): users who want to donate a gift to someone, by donating the value/amount of the gift they want to send. These are also the existing and target audience for Content Creators.
+- Content Creators (Creators): visitors who create content and want another medium to promote their content to fundraise/generate additional income through donations or gifts received. This audience is how the client will make money, taking a percentage of the donations they receive. As the content creators targeted are primarily desktop users, this site will have a desktop first approach to design.
   
-## Goals for each audience
+## Audience Goals 
 ### Users
-  - to gauge interest if this idea could be popular and potentially have a large user base. Potentially tracking this via Website hits and social media activity.
+  - As a user I want to understand what the donation service is
+  - As a user I want to fhow this donation service is different from other donation services
+  - As a user I want to register for more information.
 
 ### Creators 
-- to gauge the interest of anyone who is currently or thinks about making money from creating content on social media. To try and get contact information from this user group, primarily by email and secondly via social media contact.
+- As a creator I want to understand how I can use this donation service to fundraise/ recieve donations from fans and followers.
+- As a creator I want to register my interest to use the service.
 
+## Website Goals
+ ### Users
+- To measure interest in the donation service to indicate the potential/scaleability of the user base
+- To track user activity across the site; tracking unique visitors, repeat site visitors, duration on site and other related site metrics to validate user interest.
+
+### Creators 
+- To gauge the interest of exisiting or potential creators who generate income through creating content on social media.
+- To obtain contact information from creator audiences/visitors; primarily by email as well as through social media handles.
 ## Inspiration
 
-Websites that are described to the clients as there competition are
+This site was inspired by elements of the following competitor websites.These sites, like Beer.com have two distinct audiences each with a different objective/use for the services provided. These sites create a space for each audience, in some using a search function for donors/users while directing creators/fundraisers to sign up/in. It's essential for a quality UX that Beer.com also delivers a clear user journey and experience for each target audience. To deliver this, I was inspired to produce a separate page for the Creator audience, to separate the jourey and experience between Creators and Users so each receives the experience and journeys they need to fundraise and donate respectively. 
 
 [BuyMeACoffee](https://www.buymeacoffee.com/)
 
@@ -46,89 +57,91 @@ Websites that are described to the clients as there competition are
 
 ## Summary of the brief
 
-To hit the goals of the website, it needs to be clean clear and simple layout so the visitor can foucus and take in quickly the nessesary informatino and content on the website. 
+The site should have a clean, clear and simple layout so the visitor can eaisly find and quickly understand the sites purpose and offering.
 
-Three pages one for each visitor audince and a contact page, with a form that is easily accesible from anywher in the website.
+The site should be easy to navigate for both target audiences, even if they will use the site in different ways or require different infomration. Both tarhet audiences should be able to leave their contact details to receive further information. 
 
-Multipule call to actions and links to make interaction with the visitors and the clients as easy as possible
+There should be several opportunities for site visitors to engage and interact with the site content, in an easy and functional way. 
 
-Section on the website which are clear in their goal and delivar the nesesarry information, with nothing on the website without a perspouse.
+The sites content should be relevant, concise and engaging without having unneccesary information. There shoud be nothing on the site without a purpose or that does not add value to the site objectives or building the brand image. 
 
-To stick to the brand guildlines for colours and feel of the brand. Relaxed, friendly and inviting.
+The site should conform to brand guildlines and the brand TOV,, look and feel. These should be relaxed, friendly and inviting. 
 
 
 # UX 
 
-## User jerourny
+## User Journey
 
-This is an example of a sucsesfull user jeroiny for both audiances
+This is an example of a successful user journey for both audiences.
 
-### User
-- Has been directed to the hero section of the home page from a advertising link on social media.
-- Looking for more information about the service that the company provides.
-- Once seeing the Basic concept of the company, I need some more detailed information.
-- Now that I have some more information I would like to get in contact with the company to find out more and express interest in using the service further down the line.
-- Follow social media links.
+### The User:
+- I have been redirected to the hero section of the home page from an add on my Facebook app using my Google Pixel 3.
+- I am looking for more information about the service that the Beer.com provides.
+- I've read the hero home page section and now understand Beer.com allows me to donate to anyone for any reason. I'm still interested and now want more detailed information on how I can get involved. 
+- I click the hero section call to action button for 'More Information' or scroll down to see the 'More Information' section immediately below.
+- I now have all the information I need and would like to register (for more information at a later date). I click the 'Contact us' button in the header and complete the 'Contact Us' form. 
+- I've completed the form and before leaving the site I click one of the social icons in the footer to follow Beer.com on social. 
+- I feel really good about the experience, it only took a few minutes, my questions were answered and I don't have to do anything else as I know I will be contacted later.
 
-### Creator 
-- I have followed a link through my platform or via email, as I am looking to increase the revenue that I make from my content.
-- This company can help me do that.
-- This seams pretty straight forward.
-- I can get in contact wit the comapny in hope that they can help me make more money.
+### The Creator 
+- I have followed a link from an advert on the content live streaming platform I use while editing a video on my Macbook. 
+- I have been redirected to the hero section of the Creator page.
+- I've read the hero Creator page section and now understand Beer.com helps content creators like me to fundraise.
+- I'm still interested and now want more detailed information on how I can use Beer.com to make money through my content creation. 
+- If I'm eager I want to get in touch right away so I click the 'Contact Us' button in the hero section which stands out. If I want a little more information I scroll down to immediately see 3 clear simple 'How it works' steps. 
+- I now understand exactly how I can use Beer.com to start making money with my content creation. I'm excited it was so straight forward and simple and I click 'Contact Us' to register my interest and details.
+- I want to keep up to date with Beer.com so I click their Twitter icon in the footer before I leave the site. 
 
 
 
-I could see that the most popular screen sizes for desktop, with 40% of users, 
 
 
-## Sections of the Website
+## Sections of the website
 
-### General layout
+### General Layout
 
-After reasearching what size I should format the webiste to, while taking into the user profiles and user goals. As the Creators are the primary revenue target for the client and they will be most likely viewing from desktop size screens. Looking at [statcounter](https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide)
+When deciding the most appropriate screen size for the site, I took into account the user goals and the client brief. As the Creators are the primary revenue target for the client, and predominantly desktop users, I chose the screen dimensions below. This choice was validated by my research, which showed this is one of the most popular/widely used screen formats for desktop heavy users. Looking at [statcounter](https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide)
 
 -1920x1080px
 
 -1366x768px
 
-I decided to adopt these gudlines throught the website, with a formatted width of 1366px and a height for the linked hero section of 768px. 
+I adopted these guidelines throughout the website, with a formatted width of 1366px and a height for the linked hero section of 768px. 
 
-Also taking into account that 55% of websites viewed through mobile and knowing that the clients is using social media advertising to target possible users it was important that the wedbite is fully responsive and has been designed to look appealing and also to achive the goals set out.
+It was imporant the website is fully responsive, taking into account that 55% of websites are viewed from mobiles and knowing the client is using social media advertising to target possible users. 
 
-The overall design of the website must also stick to the brand guidlines and colours. It was important to the client to get the feel of the comapny accross in design. Throught the brand colours and through the design. Something that feels relaxed friendly and modern, so trying were possible to not use straight lines and a ridged structure and layout of the website. But also trust worthy as they will be taking sesitive details from users, so everything has to work, and also not seem messy and childish.
 
 
 ## Navigation bar
 
-The navigation bar must be accesibly throughout the website and have sections to navigate to clearly marked and easy to understand.
+The navigation bar must be accessible throughout the website, with clearly marked sections to navigate around the site. 
 
 ## Landing/Creator page
 
-The pages for each of the audinsce groups should be consistant in layout and flow were possible. 
+The pages for each target audience group should be consistent in layout and flow where possible. 
  
 ### Hero Section
 
-The landing section needs to have a clear and informative, this must not have too much text to read, and consistant over all the pages of the site. With the goal for users to understand the business within the first 10 seconds of landing on the page. This must have a call to action on the button which will give the visitor the ability to get in contact with the founders, for more information. 
+To meet the client brief and user journey expectations, the landing section will be clear, concise and informative. This approach will be consistent across all site pages for uniformity and conistency. The concise layout/approach is key to ensuring users understand the business concept within the first moments of landing on the page. When building this section I will ensure there is a clear call to action button to encourage/direct the user to take the next action on the site.  
 
 ### Information/How to section
 
-A key requirement is to inform the user of how they can sign up and use the service, therefore a clear section dedicated to this is needed next. This section must very very simple and not cluttered with lots of images and text. With the aim in mind just to simply give the user a little more information and not overwhlem. We want the user to want to get to the bottom of the page.
-
-### Future feature section
-
-Once the user has got to this point they should have a good understanding of the service that is being offered by the company. The next section should go into more detail about how the finished product will look. With most of the features set out in a manner that is easy to understand, from a quick glance. With a call to action button to try and get the visitor to make contact.
-
-### Footer
-
-Like the Hero section this will be consistant throught the website.This should be a clear section that will also be used to promote the social links the company. By this point in the joernoy the visitor should have enough informatin to know what the servic the company is trying to provied. So they can make an informed desicion on wheather it is somthing that they would be interested in. So it is important that the website makes it very easy for them to achvive the indevidual audiances goal. So we will have links to social in the middle of the footer section and driect email contact either side. 
+A key requirement is to inform the user of how they can sign up and use the service, therefore I will include a clear section dedicated to this. I will create a simple and uncluttered Information section as this sections purpose is providing the user with the information they need to progress through their site journey; rather than overwhelm with too much content in one section. 
 
 ### Form section
 
-This should be clear to understand and not asking anything more than the basic information to give the cleint a lead to chase up.
+This section has a simple but important function, to capture the right contact data to ensure the client can re-engage with users directly. It's key for the UX the form does not look overbearing to complete, therefore the form will be restricted to requesting essential contact information only. 
+
+
+
+### Footer
+
+Like the Hero section the footer will be consistent throughout the website. It will feature and promote the social media links and icons. This is a familar convention that  most sites adopt and that the users will likely expect to see, and understand the social icons are linked to relevant social accounts.
+
 
 ## Basic Wireframes
 
-Here is a sample of the original wireframes for the desktop that was sign of by the client to be branded
+Here is a sample of the original wireframes for the desktop site that was approved by the client. 
 
 ![desktop](assets-readme/xd/Blue/Landing-info-%20Page%20w-1920px.png)
 
@@ -136,7 +149,7 @@ Other wireframes are [here](assets-readme/xd/Blue/Beer-Wireframes.xd)
 
 # Design
 
-As expressed in the Website brief, the brand structure has been agreed by the client already.
+The design elements were influenced and informed by the clients brief, specifically the clients brand guidelines which included the look and feel and TOV (tone of voice).
 
 ## Fonts
 
@@ -150,11 +163,12 @@ As expressed in the Website brief, the brand structure has been agreed by the cl
 
 ## Imagery and Style
 
-The style of the website needs to be clean, with plenty of white space which will give it a modern feel. Using the brand colours through the flow of the website, as this will be the first bit of marketing copy that the user will be exposed to. It is important to get the visitor used to the colour scheme straight away. Having a none traditional and abstract theme to the website led us to use some interesting design choices. Instead of using clean traditional photos, we are using imagery that has gone through cartoon filters to give the website an abstract feel, also I have stayed away from using straight uniformed shapes. Using colors and shapes to force the eye of the user to the part of the page where the information that the client wants them to know. 
+- I used a hero image of a group of people sharing a drink, to tye in the website/client business name and purpose. I decided to overlay the image with a filter so the image appears as an illustration, to soften the image. 
+- I recognised the original image was too distracting, drawing attention away from the intro copy. The addition of the filter balanced the image and allowed it to sit more succinctly and naturally within the homepage banner, balancing well with the hero copy.
+- I included illustrative icons to demonstrate the actions users should take, to bring the content to life and make sure the site was not too text heavy in content. This decision was informed by my research and other sites that had a strong UX and the trend of these sites incorporating similar features.
+- I kept the flow of the site engaging and fun by using hand drawn graphic elements. For example the borders between the site sections have hand drawn lines, providing a slight uneven surface which delivers a more human touch feel and experience to the site.
+- I layered different textures to bring content to life; overlaying text above hand drawn graphic elements. This stopped the site feeling corporate and block-structured.
 
-To follow on with the ‘none confirmatory’ style of the website the heights of the sections will not be rigid throughout the pages, other than the hero sections the height will vary in size. Still with the screen height of 768px, so there will be very clearly defined sections to be viewed. This will give the users a feeling that the company is relaxed and friendly. 
-
-The biggest challenge to the design brief with this project was to walk the line between having something purposefully designed in a way to be friendly and less formal. Without looking messy, unconsidered and potentislly childish. 
 
 ### Main colours
 
@@ -169,7 +183,7 @@ More wireframes can be found [here](assets-readme/xd/Branded/Beer.com-HF.xd)
 
 ## Features for the website
 
-### Resposive design on all divices 
+### Responsive design on all devices 
 
 - Website must be responsive.
 
@@ -179,11 +193,12 @@ More wireframes can be found [here](assets-readme/xd/Branded/Beer.com-HF.xd)
 
 ### Links to email contacts
 
-- Visitors must be able to email and contact the clients.
+- Visitors must be able to contact the clients through the built in contact form.
+  
 
 ### Links to social media
 
--Visitors must be able to link to the companies social media pages
+- Visitors must be able to link to the brand's social media pages.
 
 ## Technologies Used
 
@@ -195,28 +210,28 @@ CSS - CSS has been used to style the HTML5 elements
 
 ## Architecture - SCSS
 
-As I am coding different pages with many reused elements throughout the website, which could potentially also need individual formatting tweaks I decided to use a CSS Preprocessor on this project. 
+As I am coding different pages with many reused elements throughout the website - which could potentially also need individual formatting tweaks - I decided to use a CSS Preprocessor on this project. 
 
 Using the import feature of SCSS would first allow me to structure the architecture of the project in a much cleaner way. This style of architecture allows for smaller files that can be easily connected. 
 
-Also allowing the use of variables makes the upkeep of the website much smoother, and also helps greatly with the responsive design. Giving the option to just change the variable and this will change every time that variable has been used throughout the code.
+In addition,  allowing the use of variables makes the site maintenance smoother, and helps significantly with the responsive design. Giving the option to just change the variable and this will change every time that variable has been used throughout the code.
 
-Using the nesting feature of SCSS allows for cleaner code making upkeep and bug fixes easier to locate and maintain.
+Using the nesting feature of SCSS allows for cleaner code making site up-keep and bug fixes easier to locate and address.
 
 ## VS Code
 
 I used VS Code as my code editor. In the code editor, the extensions that I used were:
 
-- Prettier - to automatically format my code for any basic formatting mistakes and to have a consistent style throughout the code.
+- Prettier - to automatically format my code for basic formatting mistakes and to have a consistent style throughout the code.
 - Npm - I used this extension to give npm support for the version of VS Code I have.
-- Image preview - I used this extension that shows a preview of any linked images in my code to help me quickly see if the URL path is correct and to the right image.
-- Markdown all in one - I used this so I could edit the readme file with live preview in VS Code.
+- Image preview - I used this extension that shows a preview of any linked images in my code to help me quickly identify if the URL path is correct and to identify the right image.
+- Markdown all in one - I used this which enabled me to edit the readme file with live preview in VS Code.
 
 ## Node modules
 
-I used basic node modules to help me code in a smoother and more organised mannor.
+I used basic node modules to help me code in a smoother and more organised approach.
 
-- Devsever - I used the dev server module to live to reload my project, on a change of the code. This made it easier to see changes that I am making to the code.
+- Devsever - I used the dev server module to live to reload my project, on a change of the code. This made it easier to see changes I had been making to the code.
 
 - Node-sass - I used this to node so I could use the SCSS file and architecture.
 
@@ -224,7 +239,7 @@ I used basic node modules to help me code in a smoother and more organised manno
 
 - Autoprefixer - I used this extension to add prefixes to my code for added browser support.
   
-- Font Awesome - I used this extension to intergrate some free icons into the page.
+- Font Awesome - I       used this extension to integrate free icons into the page.
 
 ## Outside libraries
 
@@ -232,29 +247,29 @@ I used basic node modules to help me code in a smoother and more organised manno
 
 - Adobe font Typekit - I used Adobe font library for the font family on the website.
 
-- Google fonts - I used the google fonts for one of the font families on the website
+- Google fonts - I used the google fonts for one of the font families on the website.
 
 ## CSS Pseudo-classes
 
-- Hover: I used the hover class to change the state of various items over the page, all buttons, and icons. This helps identify to the website visitor that the user can interact with this object.
+- Hover: I used the hover class to change the state of various items over the page, all buttons, and icons. This is a familar convetion that signals to the site visitor the interactive site elements/features they can engage with.
 
 - Active: I used the active class to change some CSS properties of an object to indicate to the visitors that this object has been interacted with.
 
-- Focus: I used the focus class to help potential visitors to the website who need extra accessibly help to navigate through the website.
+- Focus: I used the focus class to visitors to the website who need extra accessibly support when navigating the website.
 
 - Target: I used the target class to activate the modal on the interaction of the profile icon.
 
 ## Software Used
 
-- Git - Was used to managing the different versions of my project and used different branches to test and to add new features/sections to the website. Once these have been tested they are then merged into the master branch and then using Git Desktop pushed to the Git Hub repository.
+- Git - Was used to manage the different versions of my project, using different branches to test and add new features/sections to the website. Once tested they were then merged into the master branch and then, using Git Desktop pushed to the Git Hub repository.
 
-- Git Desktop - I used this to easily manage commits and oush them to the GitHub repository 
+- Git Desktop - I used this to manage commits and push them to the GitHub repository 
 
 - GitHub - I used GitHub to store the version of the project remotely.
 
 - Adobe XD - I used XD to create and build the wireframes, to design some of the unique icons on the page and the unique color patterns on the page.
 
-- Photoshop - I used photoshop to edit the hero image on the page, I used some filters on the image to create the cartoon effect on the image.
+- Photoshop - I used photoshop to edit the hero image on the page, I used some filters on the image to create the illustrated filter effect on the image.
 
 ## Online resources
 
@@ -266,26 +281,26 @@ I used basic node modules to help me code in a smoother and more organised manno
 
 # Testing
 
-## Automated Code validation
+## Automated Code Validation
 
 I passed the code through the online code checking tool [w3validator](https://validator.w3.org/)
 
 - Html Code has passed through the validator with no issues.
 
-- CSS code passed through the validator with no issues - I have three warnings that I believe are necessary for the website to run. Two are around importing the fonts into the stylesheet. The other is a warning around using pointer-events, which I need to be able to close the modal. 
+- CSS code passed through the validator with no issues. I have three warnings that I believe are necessary for the website to run. Two are around importing the fonts into the stylesheet. The other is a warning around using pointer-events, which I need to be able to close the modal. 
 
 ### Chrome DevTools 
  
- I run an audit on all pages mobile and desktop
+ I completed an audit on all pages for mobile and desktop.
 
 - ### Performance = Good
 	This test was well performing across all sites and pages scoring 100 on a desktop on 96 across the mobile pages.
 
 - ### Accessibility = Good
-    This test was also well-performing, with 90 on mobile and 92-93 across the desktop pages, being marked down on the font awesome icons imported for the footer using [aria-hidden=” true”]. I researched to see if this was something that I could change, I could not find a solution to this. Also, the score was marked down due to there being a lack of contrast between foreground colors and background. This is down to a design decision that I am reluctant to change. The areas picked out with this issue I checked and believe there is sufficient contrast there for the users to understand the text.
+    This test was also performed well, with 90 on mobile, 92-93 across the desktop pages, and being marked down on the font awesome icons imported for the footer using [aria-hidden=” true”]. I researched to investigate if I could change this outcome, however, I could not find a solution. In addition, the score was marked down due to there being a lack of contrast between foreground colors and background. This was a result of a design decision that I am reluctant to change. I checked the areas highlighted with this issue and believe there is sufficient contrast for the users to understand the text, without impacting the quality of their UX or ability to engage with the site.
 
 - ### Best Practices = Good
-    High performing across all pages and formats, 93 and above. Made down due to an incorrect aspect ratio of an icon, after looking at the icon I believe this is not an issue to be delt with. The aspect is .09% out on a small icon that is sized to fit in place on the center grid. 
+    High performing across all pages and formats, 93 and above. Made down due to an incorrect aspect ratio of an icon. After investigation, I believe this is not an issue that needs a resolution. The aspect is .09% out on a small icon that is sized to fit in place on the center grid. 
 
 - ### SEO = Good 
     100 on all pages both desktop and mobile.
@@ -295,18 +310,18 @@ I passed the code through the online code checking tool [w3validator](https://va
 
 ### Testing Environments
 
-I used branches in Git to try and create a safer environment to develop different features and sections of the website. Once the initial section/feature had been finished then the initial test had been completed, the branch would then be merged with the master branch. Initially, I would delete the branch but after speaking with my mentor I decided to keep them for reference.
+I used branches in Git to create a safer environment to develop different features and sections of the website. Once the initial section/feature had been finished and the initial test had been completed, the branch would merge with the master branch. Initially, I would delete the branch but after speakiconsultation with my mentor I decided to keep them for reference.
 
-I used two sets of hardware to undergo building and the testing of the website. A 28 inc Imac and a 13inch Macbook air with the M1 processor. On both, I was primarily using the Google Chrome web browser. Testing on other environments has been made remotely, with the pandemic I have not been able to use other people’s equipment to test on.
+I used two sets of hardware to undergo building and the completing the tests for the website; using a 28 inc Imac and a 13inch Macbook air with the M1 processor. On both, I was primarily using the Google Chrome web browser. Testing on other environments has been completed remotely; due to the COVID-19 lockdown resctrictions I have not been able to use other people’s equipment to test on, however I am confident the remote testing was still sufficient.
 
 ### Desktop testing:
 
-platforms :
+Platforms :
 
 - Mac book air 2020 M1 -OS Big Sur
 - iMac - OS Catalina
 
-Borwsers:
+Browsers:
 
 - Chrome
 - Firefox
@@ -324,9 +339,9 @@ Browsers:
 
 ## Testing - Design Responsiveness
 
-### Simulated testing
+### Simulated Testing
 
-For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness the whole way through the development process. Updating the code as I noticed anything that was not quite right with the layout of the page.
+For each section on each page, I tested various screen sizes in the development environment. Using the Google Developer tools I tested the responsiveness throughout the development process. I updated the code as I tested, noting anything that appeared irregular or out of sync with the layout of the page.
 
 Tested with Chrome DevTools using profiles for with screen sizes:
 - Moto G4
@@ -348,37 +363,38 @@ Also used the responsive profiles preset in the dev tools of:
 - Laptop (1024px)
 - Laptop L (1440px)
 
+## Major testing issues identified 
 
-Hero section on mobile devices in landscape mode.
-How it works section on a small number of mobile devices in landscape mode, can cut small part of an icon off.
+        1. Issue: Safari on desktop in a small window and on small iphone screen would cut off the bottom of sections.
+        Resolution applied: increasing the pixel height of certain sections on a small screen.
 
-These issues can be fixed with time. As the likely hood of anyone veiwing the website from these devices in landscape mode are very very small. The added time and possible change to the formate for deivices in protrait mode is somehting that will have to be looked at before website is live on the internet.
-
-Using my pixel in portraite mode on the contact page would encounter a bug where the placemnt on the incons inside the imput boxes would be off screen creating white space. I fixed this by addeding `overflow: hidden;' to the main element on that page.
+        2. Issue: Using my pixel in portrait mode on the contact page would encounter a bug where the placement on the icons inside the input boxes would be off screen, creating white space. 
+        Resolution applied: I fixed this by changing the containing div to `display: flex;` and re-formatting the icon to appear in the left hand side of the input box.
 
 ### User testing
 
-To test if the layout of the website would hit the Client’s goals. I got two sets of 5 brand new users to use the website. One group as the user-focused group and one for the creator focus group. The overall results of this are as follows. 
+To test if the layout of the website would deliver the client’s goals, I used two groups each with 5 new users to use the website. One group was the 'user' audience and the other the 'creator' audience.  The overall results of this test are as follows. 
 
 ### User Tests
 
 - What did most users remember about the business after the 5-second showing?
 
-        The constant feedback was that the company is around gifting drinks or meeting up with friends and family. 
-- What did users remember about the signup process?
+        The constant feedback was that Beer.com is about gifting drinks or meeting up with friends and family. 
+
+- What did users remember about the sign-up process?
         
-        Everyone recognized that you can sign in through social media platforms. 
-- After asking the Creator to try and contact the company, how did they get on? Could they find the Social Media links
+        Everyone recognised that you can sign in through using their exisiting social media accounts.
+- After asking the Creator to try and contact Beer.com, how did they get on? Could they find the Social Media links?
 
-        All got to the page very quickly, one user got ‘stuck’ for a little while on the top one the page, all others scrolled down to the form very quickly.
+        All test users understood where to find the 'Contact Us' form very quickly. One user spent a little more time than the other users on the top of the page to locate the link. though all others scrolled down to locate the form very quickly and easily.
 
-        Socail media links were found by all users within 10 seconds of the question being asked.
+        Social media links were found by all users within 10 seconds of the question being asked.
 
 ### Creator Tests
 
 - What did the test subject remember after 5 seconds on the hero section of the creator page?
 
-        Something about earning more money from content.
+        Beer.com is something to do wit earning more money from content.
 
 - How did the test subject remember how the service works?
 
@@ -390,15 +406,15 @@ To test if the layout of the website would hit the Client’s goals. I got two s
 
 - After asking the Creator to try and contact the company, how did they get on?
 
-        All straight away click on the contact section in the NavBar, within 5 seconds of being asked the question, and read the top section for a few seconds then down to the form with no issues.
+        All immediately clicked on the 'Contact Us' section in the NavBar, within 5 seconds of being asked the question, and read the top section for a few seconds then down to the form with no issues.
 
 - What device do you normally use to look at websites?
 
-        All said Laptop or Desktop screens mainly, but do go on social media on their pnones alot.
+        All said laptop or desktop screens mainly, but do go on social media on their pnones a lot.
 
 ## Testing Checklists
 
-Testing all links/buttons clicked to have the desired outcome. To pass link will have to direct the user to the right page or section, also have interaction on the hover of the cursor.
+Testing all links/buttons clicked to have the desired outcome. To pass, links will have to direct the user to the right page or section, as well as have some interaction with the site by the hoveringthe cursor over the interactive elements/features.
 
 ### Navbar 
 
@@ -424,25 +440,25 @@ Testing all links/buttons clicked to have the desired outcome. To pass link will
 
 - Contact us links to the form on the contact page, all pages - **Pass**
 
-### Example Profile section on the Home page
+### Example profile section on the Home page
 
 - Button links to the creator page - **Pass**
 
-### Example creator Dashboard 
+### Example creator dashboard 
 
 - Tell me more button links to the contact page Hero section - **Pass**
 
 ### Form inputs 
 	
 - Highlights red on focus - **Pass**
-- Colour (border turns blue)feedback with the correct style of input - **Pass**
+- Colour (border turns blue) feedback with the correct style of input - **Pass**
 - Submit gives feedback if a required field is empty on interaction - **Pass**
 - Submit button links back to the home page - **Pass**
 
 
 ### Footer
 
-- Info@buy-me-a-drink.com link’s once pressed opens up a local email window - **Pass** (note, this email address is fake at time of publishing)
+- Info@buy-me-a-drink.com links once pressed opens up a local email window - **Pass** (note, this email address is fake at time of publishing)
 
 - Facebook icon - opens in new window facebook.com - **Pass**
 - Twitter icon - opens in new window twitter.com - **Pass**
@@ -456,38 +472,38 @@ Testing all links/buttons clicked to have the desired outcome. To pass link will
 
 I needed to create a CSS-only dropdown menu, from an icon that I created and exported from XD.
 	
-    The main problems around using this were, making the exported SVG responsive to user engagement, and then linking that engagement to the exported SVG. After researching a solution via various online forms, I come across a way to use checkbox input, linking that to the icon with an id class, which would be able to toggle between the active displays.
+    The main problems related to this were, making the exported SVG responsive to user engagement, and then linking that engagement to the exported SVG. After researching a solution via various online forms, I discovered a way to use checkbox input, linking that to the icon with an ID class, which would toggle between the active displays.
 
 ## Modal 
 
-I decided to add a Modal which would be triggared by the profile icon in the navbar, and just using CSS, also trying to find a different solution to one that I have done before. 
+I decided to add a Modal which would be triggared by the profile icon in the navbar, just using CSS. This was in addition to searching for a different solution to one that I have done before. 
 
-    This was a feature that I had to do a lot of searching for an answer, the one that I found was cleaver. I copied the code into my editor and edited the styling from there. I have labeled the code clearly in the HTML and the CSS. 
+    Though there was not an immediate need to find an alternative approach, I enjoyed the challenge of finding one. This required a significant amount if time investigating an alternative approach. I was incredibly satisfied with the alternative I discovered, as I believe it was more sophisticated. I copied the code into my editor and edited the styling from there. I have labeled the code clearly in the HTML and the CSS. 
 
 ## Nav-bar
 
-	The search input and icon alignment - This took a lot of adjusting and re-adjusting, I am still written not 100% happy with the outcome. As the code I have written to make minor adjustments makes the code look a bit messy.
+	The search input and icon alignment. This took a significant amount of adjusting and re-adjusting; I am still not 100% happy with the outcome, as I feel the code I have written to make minor adjustments makes the code look a bit unkept/untidy.
 
 ## CSS Grid - Whitespace
 
-	This was another recurring issue to deal with. On each screen size, the grid would spill over from the section. Using overflow:none and adjusting the width and height of the columns and rows was the only fix.  
+	This was another recurring issue to resolve. On each screen size, the grid would spill over from the section. Using overflow:none and adjusting the width and height of the columns and rows was the only fix.  
 
 ## Known bugs
 
 
-        How it works section on a small number of mobile devices in landscape mode, can cut small part of an icon off.
+        How it works section on a small number of mobile devices in landscape mode, can cut off a small part of an icon.
 
-        These issues can be fixed with time. As the likelyhood of anyone veiwing the website from these devices in landscape mode are very very small. The added time and possible change to the formate for deivices in protrait mode is somehting that will have to be looked at before website is live on the internet.
+        These issues can be fixed with time; give the likelihood of anyone veiwing the website from these devices in landscape mode are incredibly small/unlikely. With added time this could potentially be fixed by changing the height formatting to be written in veiw hight instead of pixels.
 
-        Using my pixel in portraite mode on the contact page would encounter a bug where the placemnt on the incons inside the imput boxes would be off screen creating white space. 
+        In Firefox Submit button on form is labelled Submit Query.
 
-        In firefox Submit button on form is labelled Submit Query
+        Formatting for the search bar in the NavBar on test iPhone, the border radius is not formatting as on other devices and web browsers. After researching the problem I still have not found a solution. 
 
 
 
 # Deployment
 
-I used multiple branches in this project, the master branch is the main deployment branch. Which will be the most up-to-date and deployable version of the code.
+I used multiple branches in this project; the master branch is the main deployment branch which will be the most up-to-date and deployable version of the code.
 
 ## How to deploy
 
@@ -495,7 +511,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 - Select Settings from the top menu above the file window
 - Scroll down to the GitHub Pages section
-- Under Source click the drop-down menu labeled None and select Master Branch
+- Under Source click the drop-down menu labelled None and select Master Branch
 - On selecting Master Branch the page will be automatically refreshed and the website is now deployed
 - Scroll back down to the GitHub Pages section in Settings to retrieve the link to the deployed website. 
   
@@ -515,7 +531,7 @@ Clone this project from GitHub by the Git Desktop:
  
  - Under the repository name, click Clone or download
 - Click the option to used GitHub Desktop
-- In the clone, Reositiry Modal choose where you would like it to be stored locally
+- In the clone, Repository Modal choose where you would like it to be stored locally
 - The clone has been created and stored in your local file.
 
 Further reading and troubleshooting on cloning a repository from GitHub can be found
@@ -527,6 +543,8 @@ As I have been using node_modules. You will have to have npm installed on your c
 Once you have got the files in your coder of choice, run `npm install` to install the modules and settings laid out in the package.json file.
 To use the `watch:sass` and the live reload modules for the development environment in the terminal use npm start, once this has started a window with the website loaded with the current code.
 
+# Future Features
+###
 
 # CREDITS 
  
