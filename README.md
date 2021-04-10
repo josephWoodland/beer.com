@@ -348,6 +348,13 @@ Also used the responsive profiles preset in the dev tools of:
 - Laptop (1024px)
 - Laptop L (1440px)
 
+## Layout issues
+
+Hero section on mobile devices in landscape mode.
+How it works section on a small number of mobile devices in landscape mode, can cut small part of an icon off.
+
+These issues can be fixed with time. As the likely hood of anyone veiwing the website from these devices in landscape mode are very very small. The added time and possible change to the formate for deivices in protrait mode is somehting that will have to be looked at before website is live on the internet.
+
 ### User testing
 
 To test if the layout of the website would hit the Client’s goals. I got two sets of 5 brand new users to use the website. One group as the user-focused group and one for the creator focus group. The overall results of this are as follows. 
@@ -466,7 +473,7 @@ I decided to add a Modal which would be triggared by the profile icon in the nav
 
 ## Known bugs
 
-	None through testing have come up
+	Slight formatting issues with some divice in partraite mode on the hero section and how to section. See layout issues section.
 
 # Deployment
 

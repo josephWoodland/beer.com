@@ -68,10 +68,11 @@
       }
 
       @media screen and (max-width: $bp-small) {
-        margin-top: 10%;
-      }
-      @media screen and (max-width: $bp-small) {
         margin-top: 5%;
+      }
+
+      @media screen and (max-width: $bp-fold) {
+        width: 80%;
       }
     }
 

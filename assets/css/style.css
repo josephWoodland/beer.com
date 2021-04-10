@@ -73,7 +73,7 @@ p {
   box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.3);
   border-radius: 4px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .btn__hero {
     margin: 2rem auto 0 auto;
   }
@@ -112,7 +112,7 @@ p {
   margin-top: auto;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .btn__blue {
     width: 100%;
   }
@@ -132,7 +132,7 @@ p {
 .btn__blue-creator {
   margin-top: auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .btn__blue-creator {
     margin-top: 2rem;
     width: 60%;
@@ -147,7 +147,7 @@ p {
     margin: 3rem 0rem !important;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .btn__blue-login {
     width: 17.5rem;
   }
@@ -226,7 +226,7 @@ html {
     font-size: 50%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   html {
     font-size: 40%;
   }
@@ -249,7 +249,7 @@ body {
   display: grid;
   grid-template-rows: 1fr;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .hero {
     background-image: none;
     background-size: contain;
@@ -283,7 +283,7 @@ body {
     height: 60%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .hero__info {
     height: 100%;
     width: auto;
@@ -311,15 +311,15 @@ body {
 }
 @media screen and (max-width: 800px) {
   .hero__info img {
-    margin-top: 10%;
-  }
-}
-@media screen and (max-width: 800px) {
-  .hero__info img {
     margin-top: 5%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
+  .hero__info img {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 650px) {
   .hero__info__logo {
     margin: 10rem auto 0 auto !important;
     display: flex;
@@ -347,7 +347,7 @@ body {
     max-width: 63rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .hero__info h4 {
     margin: 1rem auto 0 auto;
     max-width: 80%;
@@ -361,14 +361,14 @@ body {
 //////////////////////////////////////////////////////////////////////////////////*/
 .footer {
   margin-top: -2rem;
-  height: 25rem;
+  height: 30rem;
   background-color: #2b2b2b;
   color: #f3f7fb;
   z-index: 10;
 }
 @media screen and (max-width: 800px) {
   .footer {
-    height: 30rem;
+    height: 32rem;
   }
 }
 .footer h1 {
@@ -446,14 +446,14 @@ body {
   text-transform: uppercase;
   margin-bottom: 3.5rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .footer {
     margin-top: 0rem;
-    height: max-content;
+    height: 32rem;
     background-color: #2b2b2b;
   }
-  .footer__logo img {
-    align-self: center;
+  .footer__logo {
+    margin: 0 auto;
   }
   .footer__items {
     display: flex;
@@ -463,6 +463,7 @@ body {
   .footer__items__contact {
     max-width: 40%;
     text-align: center;
+    margin-top: 13rem;
   }
   .footer__items__contact-header {
     text-transform: uppercase;
@@ -484,8 +485,15 @@ body {
     align-items: center;
   }
   .footer__items__middle-logo {
-    margin-bottom: 3rem;
+    margin: 0rem 23rem 3rem 0rem;
   }
+}
+@media screen and (max-width: 650px) and (max-width: 400px) {
+  .footer__items__middle-logo {
+    margin: 2rem 14rem 2rem 0rem;
+  }
+}
+@media screen and (max-width: 650px) {
   .footer__items__middle-social {
     margin-bottom: 3rem;
   }
@@ -501,12 +509,16 @@ body {
   .footer__items__middle-social a.fa-twitter {
     margin: 0 3rem 0 3rem;
   }
+}
+@media screen and (max-width: 650px) {
   .footer__items__middle-copywrite {
     text-align: center;
   }
   .footer__items__middle-copywrite-copy {
     font-size: 0.8rem;
   }
+}
+@media screen and (max-width: 650px) {
   .footer__items__jobs {
     display: none;
   }
@@ -524,18 +536,12 @@ body {
 @media screen and (max-width: 1400px) {
   .how {
     width: 100%;
-    margin: 0rem 2rem;
     overflow: hidden;
   }
 }
 @media only screen and (max-width: 900px) {
   .how {
     height: 900px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .how {
-    margin: 0rem 0rem;
   }
 }
 .how h2 {
@@ -554,8 +560,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .how p {
-    margin: 0 3rem 0 3rem;
-    margin-top: 6rem;
+    margin: 6rem 0rem 0 0rem;
   }
 }
 .how__steps {
@@ -713,7 +718,7 @@ body {
     grid-column: 4/span 4;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .how {
     height: max-content;
     display: flex;
@@ -823,7 +828,7 @@ body {
     margin: 0rem auto;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators {
     width: 100%;
     margin: 0 0rem;
@@ -839,7 +844,7 @@ body {
   text-align: center;
   margin-top: 10rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators h2 {
     margin-top: 0rem;
   }
@@ -861,7 +866,7 @@ body {
   grid-column-gap: 1.5rem;
   grid-row-gap: 0rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps {
     display: flex;
     flex-direction: column;
@@ -875,7 +880,7 @@ body {
   width: 10.15rem;
   color: #339cb1;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps-icon {
     width: 8rem;
   }
@@ -902,7 +907,7 @@ body {
     grid-column: 4/span 4;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps__sign-up {
     display: flex;
     flex-direction: column;
@@ -918,13 +923,13 @@ body {
 .how-creators__steps__sign-up-content {
   display: flex;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps__sign-up-content {
     display: flex;
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps__sign-up img {
     align-self: center;
     height: 7rem;
@@ -942,7 +947,7 @@ body {
 .how-creators__steps__create-content {
   display: flex;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps__create-content {
     display: flex;
     flex-direction: column;
@@ -974,7 +979,7 @@ body {
   margin-right: -3rem;
   margin-top: -1rem;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps__create img {
     align-self: center;
     height: 6rem;
@@ -991,7 +996,7 @@ body {
 .how-creators__steps__paid-content {
   display: flex;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .how-creators__steps__paid-content {
     display: flex;
     flex-direction: column;
@@ -1103,7 +1108,7 @@ body {
     margin-left: -5rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .how-creators {
     height: max-content;
     display: flex;
@@ -1112,16 +1117,28 @@ body {
     margin-left: 0rem;
     margin-bottom: 10rem;
   }
+}
+@media screen and (max-width: 650px) and (max-width: 400px) {
+  .how-creators {
+    height: 1100px;
+    margin-bottom: 0rem;
+  }
+}
+@media screen and (max-width: 650px) {
   .how-creators h2 {
     text-align: center;
     margin-top: 12rem;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators p {
     max-width: 90%;
     text-align: center;
     margin-top: 3.4rem;
     margin-bottom: 4rem;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps {
     display: flex;
     width: 100%;
@@ -1131,17 +1148,30 @@ body {
     background-position: center;
     background-size: cover;
   }
+}
+@media screen and (max-width: 650px) and (max-width: 400px) {
+  .how-creators__steps {
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps h3 {
     color: #fd6328;
     text-align: center;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps-icon {
     width: 10.15rem;
     color: #339cb1;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps p {
     text-align: center;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps__sign-up {
     display: flex;
     flex-direction: column;
@@ -1154,6 +1184,8 @@ body {
     align-self: center;
     margin-left: 0rem;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps__find {
     display: flex;
     flex-direction: column;
@@ -1166,6 +1198,8 @@ body {
   .how-creators__steps__find img {
     align-self: center;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps__choose {
     display: flex;
     flex-direction: column;
@@ -1180,12 +1214,18 @@ body {
     align-self: center;
     margin-top: 0rem;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps-pink {
     display: none;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps-orange {
     display: none;
   }
+}
+@media screen and (max-width: 650px) {
   .how-creators__steps-blue {
     display: none;
   }
@@ -1208,7 +1248,7 @@ body {
     height: 1000px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .creator-page {
     height: 900px;
   }
@@ -1477,7 +1517,7 @@ body {
     margin-top: 0.7rem;
   }
 }
-@media screen and (max-width: 800px) and (max-width: 600px) {
+@media screen and (max-width: 800px) and (max-width: 650px) {
   .nav-bar__small-search-icon {
     height: 3.65rem;
     margin-top: 0.68rem;
@@ -1525,7 +1565,7 @@ body {
     height: 600px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .contact-us {
     height: 500px;
   }
@@ -1623,7 +1663,7 @@ body {
   border: 1px solid #707070;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .example h2 {
     text-align: center;
     font-size: 8rem;
@@ -1719,7 +1759,7 @@ The link to the page when I got the code from is in the README file and here htt
     padding: 1rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .modal__window {
     width: 100%;
     height: 250px;
@@ -1748,7 +1788,7 @@ The link to the page when I got the code from is in the README file and here htt
     margin-left: 15% !important;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .modal__window input {
     width: 90%;
     margin-left: 3% !important;

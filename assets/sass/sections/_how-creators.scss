@@ -282,6 +282,11 @@
     margin-left: 0rem;
     margin-bottom: 10rem;
 
+    @media screen and (max-width: $bp-fold) {
+      height: 1100px;
+      margin-bottom: 0rem;
+    }
+
     h2 {
       text-align: center;
       margin-top: 12rem;
@@ -302,6 +307,10 @@
       background-image: url(../images/svg/pink.svg);
       background-position: center;
       background-size: cover;
+
+      @media screen and (max-width: $bp-fold) {
+        height: 1100px;
+      }
 
       h3 {
         color: $color-orange;
