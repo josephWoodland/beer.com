@@ -14,7 +14,7 @@
   }
 
   @media only screen and (max-width: $bp-medium) {
-    height: 900px;
+    height: 1000px;
   }
 
 
@@ -182,12 +182,11 @@
   }
 
   @media screen and (max-width: $bp-xsmall) {
-    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 0rem;
-    margin-bottom: 10rem;
+    // margin-bottom: 5rem;
 
     h2 {
       text-align: center;

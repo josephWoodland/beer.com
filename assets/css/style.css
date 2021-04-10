@@ -541,7 +541,7 @@ body {
 }
 @media only screen and (max-width: 900px) {
   .how {
-    height: 900px;
+    height: 1000px;
   }
 }
 .how h2 {
@@ -720,12 +720,10 @@ body {
 }
 @media screen and (max-width: 650px) {
   .how {
-    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 0rem;
-    margin-bottom: 10rem;
   }
   .how h2 {
     text-align: center;
@@ -1110,7 +1108,6 @@ body {
 }
 @media screen and (max-width: 650px) {
   .how-creators {
-    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1566,11 +1563,6 @@ body {
     height: 600px;
   }
 }
-@media screen and (max-width: 650px) {
-  .contact-us {
-    height: 500px;
-  }
-}
 .contact-us h2 {
   text-align: center;
   font-size: 7rem;
@@ -1595,7 +1587,7 @@ body {
 }
 @media only screen and (max-width: 900px) {
   .example {
-    height: 800px;
+    height: 1000px;
   }
 }
 .example h2 {
@@ -1802,6 +1794,7 @@ The link to the page when I got the code from is in the README file and here htt
 //////////////////////////////////////////////////////////////////////////////////*/
 .form {
   display: flex;
+  overflow: hidden;
 }
 .form__box {
   display: flex;
@@ -1836,6 +1829,7 @@ The link to the page when I got the code from is in the README file and here htt
 }
 .form__input {
   position: relative;
+  display: flex;
 }
 .form__input-name, .form__input-email {
   height: 5rem;
@@ -1847,8 +1841,8 @@ The link to the page when I got the code from is in the README file and here htt
 .form__icon {
   height: 2rem;
   position: absolute;
-  margin-top: -7rem;
-  margin-left: 35rem;
+  margin-top: 1.8rem;
+  margin-left: 33rem;
 }
 .form__text-area {
   box-sizing: border-box;

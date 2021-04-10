@@ -348,7 +348,6 @@ Also used the responsive profiles preset in the dev tools of:
 - Laptop (1024px)
 - Laptop L (1440px)
 
-## Layout issues
 
 Hero section on mobile devices in landscape mode.
 How it works section on a small number of mobile devices in landscape mode, can cut small part of an icon off.
@@ -475,7 +474,16 @@ I decided to add a Modal which would be triggared by the profile icon in the nav
 
 ## Known bugs
 
-	Slight formatting issues with some divice in partraite mode on the hero section and how to section. See layout issues section.
+
+        How it works section on a small number of mobile devices in landscape mode, can cut small part of an icon off.
+
+        These issues can be fixed with time. As the likelyhood of anyone veiwing the website from these devices in landscape mode are very very small. The added time and possible change to the formate for deivices in protrait mode is somehting that will have to be looked at before website is live on the internet.
+
+        Using my pixel in portraite mode on the contact page would encounter a bug where the placemnt on the incons inside the imput boxes would be off screen creating white space. 
+
+        In firefox Submit button on form is labelled Submit Query
+
+
 
 # Deployment
 

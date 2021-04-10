@@ -4,6 +4,7 @@
 
 .form {
   display: flex;
+  overflow: hidden;
 
   &__box {
     display: flex;
@@ -42,6 +43,7 @@
 
   &__input {
     position: relative;
+    display: flex;
 
     &-name,
     &-email {
@@ -56,8 +58,8 @@
   &__icon {
     height: 2rem;
     position: absolute;
-    margin-top: -7rem;
-    margin-left: 35rem;
+    margin-top: 1.8rem;
+    margin-left: 33rem;
 
 
   }
