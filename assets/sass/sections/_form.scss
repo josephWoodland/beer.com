@@ -10,10 +10,10 @@
     display: flex;
     margin: 0 auto 0 auto;
     flex-direction: column;
+    width: 60%;
   }
-
-  textarea {
-    width: 100%;
+  textarea{
+    padding-top: 3rem;
   }
 
   input,
@@ -23,6 +23,8 @@
     border-radius: 8px;
     font-size: $font-size-copy;
     font-family: $font-primary;
+    width: 100%;
+    padding-left: 4rem;
 
     &:focus {
       outline: none;
@@ -38,7 +40,6 @@
   &__inputs {
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
   }
 
   &__input {
@@ -59,7 +60,7 @@
     height: 2rem;
     position: absolute;
     margin-top: 1.8rem;
-    margin-left: 33rem;
+    margin-left: 2rem;
 
 
   }

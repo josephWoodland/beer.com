@@ -1800,9 +1800,10 @@ The link to the page when I got the code from is in the README file and here htt
   display: flex;
   margin: 0 auto 0 auto;
   flex-direction: column;
+  width: 60%;
 }
 .form textarea {
-  width: 100%;
+  padding-top: 3rem;
 }
 .form input,
 .form textarea {
@@ -1811,6 +1812,8 @@ The link to the page when I got the code from is in the README file and here htt
   border-radius: 8px;
   font-size: 2rem;
   font-family: "Noto Sans JP", sans-serif;
+  width: 100%;
+  padding-left: 4rem;
 }
 .form input:focus,
 .form textarea:focus {
@@ -1825,7 +1828,6 @@ The link to the page when I got the code from is in the README file and here htt
 .form__inputs {
   display: flex;
   flex-direction: column;
-  margin-right: 5%;
 }
 .form__input {
   position: relative;
@@ -1842,7 +1844,7 @@ The link to the page when I got the code from is in the README file and here htt
   height: 2rem;
   position: absolute;
   margin-top: 1.8rem;
-  margin-left: 33rem;
+  margin-left: 2rem;
 }
 .form__text-area {
   box-sizing: border-box;
