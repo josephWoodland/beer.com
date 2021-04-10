@@ -335,20 +335,20 @@ body {
     margin: 5% auto 5% auto !important;
   }
 }
-.hero__info h4 {
+.hero__info h4, .hero__info h1 {
   margin-left: 6rem;
   margin-top: 6rem;
   max-width: 62.2rem;
 }
 @media screen and (max-width: 1400px) {
-  .hero__info h4 {
+  .hero__info h4, .hero__info h1 {
     margin-left: 3rem;
     margin-top: 4rem;
     max-width: 63rem;
   }
 }
 @media screen and (max-width: 650px) {
-  .hero__info h4 {
+  .hero__info h4, .hero__info h1 {
     margin: 1rem auto 0 auto;
     max-width: 80%;
     height: max-content;
@@ -1554,6 +1554,7 @@ body {
   background-size: cover;
   background-position-x: center;
   padding-top: 9rem;
+  overflow: hidden;
 }
 @media screen and (max-width: 1200px) {
   .contact-us {

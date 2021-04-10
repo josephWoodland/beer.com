@@ -10,6 +10,7 @@
   background-size: cover;
   background-position-x: center;
   padding-top: 9rem;
+  overflow: hidden;
 
   @media screen and (max-width: $bp-form) {
     margin-top: 5rem;

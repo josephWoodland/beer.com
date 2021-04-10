@@ -355,6 +355,8 @@ How it works section on a small number of mobile devices in landscape mode, can 
 
 These issues can be fixed with time. As the likely hood of anyone veiwing the website from these devices in landscape mode are very very small. The added time and possible change to the formate for deivices in protrait mode is somehting that will have to be looked at before website is live on the internet.
 
+Using my pixel in portraite mode on the contact page would encounter a bug where the placemnt on the incons inside the imput boxes would be off screen creating white space. I fixed this by addeding `overflow: hidden;' to the main element on that page.
+
 ### User testing
 
 To test if the layout of the website would hit the Client’s goals. I got two sets of 5 brand new users to use the website. One group as the user-focused group and one for the creator focus group. The overall results of this are as follows. 
