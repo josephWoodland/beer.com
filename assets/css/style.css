@@ -251,8 +251,10 @@ body {
 }
 @media screen and (max-width: 600px) {
   .hero {
-    background-image: url(../images/svg/hero-small.svg);
-    background-size: cover;
+    background-image: none;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
   }
 }
 .hero__info {
@@ -284,10 +286,9 @@ body {
 @media screen and (max-width: 600px) {
   .hero__info {
     height: 100%;
-    background-image: url(../images/svg/blue-background-small-screen.svg);
-    background-position: center;
+    width: auto;
+    background-image: url(../images/svg/hero-xsmall.svg);
     background-size: cover;
-    display: flex;
     flex-direction: column;
   }
 }
@@ -313,9 +314,14 @@ body {
     margin-top: 10%;
   }
 }
+@media screen and (max-width: 800px) {
+  .hero__info img {
+    margin-top: 5%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .hero__info__logo {
-    margin: 20rem auto 0 auto !important;
+    margin: 10rem auto 0 auto !important;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -518,13 +524,18 @@ body {
 @media screen and (max-width: 1400px) {
   .how {
     width: 100%;
-    margin: 0rem 2rem 0 2rem;
+    margin: 0rem 2rem;
     overflow: hidden;
   }
 }
 @media only screen and (max-width: 900px) {
   .how {
     height: 900px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .how {
+    margin: 0rem 0rem;
   }
 }
 .how h2 {
@@ -723,7 +734,7 @@ body {
   }
   .how__steps {
     display: flex;
-    width: 90%;
+    width: 100%;
     height: 600px;
     flex-direction: column;
     background-image: url(../images/svg/pink.svg);

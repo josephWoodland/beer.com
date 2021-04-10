@@ -262,6 +262,7 @@ I used basic node modules to help me code in a smoother and more organised manno
 ### [Stack Overflow](https://stackoverflow.com/)
 ### [Code Pen](https://codepen.io/)
 ### [npm](https://www.npmjs.com/)
+### [MDN](https://developer.mozilla.org/en-US/)
 
 # Testing
 
