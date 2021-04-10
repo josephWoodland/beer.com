@@ -11,7 +11,7 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
 
 ![image of mockups](assets-readme/README-mockup.png)
  
-[live site]()
+[live site](https://josephwoodland.github.io/beer.com/)
 
 ## index
 
