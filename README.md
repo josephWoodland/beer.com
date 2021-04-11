@@ -8,7 +8,7 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
 - To gauge the level of interest/popularity in the new service
 - To generate leads for potential content creators
 
-![image of mockups](assets/readme/assets/README-mockup.png)
+![image of mockups](assets/readme/Assets/README-mockup.png)
 
 [live site](https://josephwoodland.github.io/beer.com/)
 
