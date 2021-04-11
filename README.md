@@ -8,7 +8,7 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
 - To gauge the level of interest/popularity in the new service
 - To generate leads for potential content creators
 
-![image of mockups](assets-readme/README-mockup.png)
+![image of mockups](assets/readme/README-mockup.png)
 
 [live site](https://josephwoodland.github.io/beer.com/)
 
@@ -22,49 +22,12 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
 - <a href="#future">Future Features</a>
 - <a href="#credits">Credits</a>
 
-
 <span id="#The-Website-Brief"></span>
   
 # The Website Brief
 
-This is a copy of the [brief](assets-readme/Assets/Beer%20Guideline.pdf)
+This is a copy of the [brief](assets/readme/Assets/Beer%20Guideline.pdf)
 
-### Target Audience
-
-There are two target audiences for the website:
-
-- General users (Users): users who want to donate a gift to someone, by donating the value/amount of the gift they want to send. These are also the existing and target audience for Content Creators.
-- Content Creators (Creators): visitors who create content and want another medium to promote their content to fundraising/generate additional income through donations or gifts received. This audience is how the client will make money, taking a percentage of the donations they receive. As the content creators targeted are primarily desktop users, this site will have a desktop-first approach to design.
-
-
-  
-## Audience Goals
-
-### Users
-
-- As a user, I want to understand what the donation service is
-- As a user, I want to how this donation service is different from other donation services
-- As a user, I want to register for more information.
-
-### Creators
-
-- As a creator, I want to understand how I can use this donation service to fundraise/ receive donations from fans and followers.
-- As a creator, I want to register my interest to use the service.
-
-  
-## Website Goals
-
-### Users
-
-- To measure interest in the donation service to indicate the potential/scalability of the user base
-- To track user activity across the site; tracking unique visitors, repeat site visitors, duration on-site, and other related site metrics to validate user interest.
-
-### Creators
-
-- To gauge the interest of existing or potential creators who generate income through creating content on social media.
-- To obtain contact information from creator audiences/visitors; primarily by email as well as through social media handles.
-<span id="#brief-insperation"></span>
-  
 ## Inspiration
 
 This site was inspired by elements of the following competitor websites. These sites, like Beer.com, have two distinct audiences each with a different objective/use for the services provided. These sites create a space for each audience, in some using a search function for donors/users while directing creators/fundraisers to sign up/in. It's essential for a quality UX that Beer.com also delivers a clear user journey and experience for each target audience. To deliver this, I was inspired to produce a separate page for the Creator audience, to separate the journey and experience between Creators and Users so each receives the experience and journeys they need to fundraise and donate respectively.
@@ -74,9 +37,6 @@ This site was inspired by elements of the following competitor websites. These s
 [Patreon](https://www.patreon.com/)
 
 [Just Giving](https://www.justgiving.com/)
-
-
- 
 
 ## Summary of the brief
 
@@ -93,7 +53,38 @@ The site should conform to brand guidelines and the brand TOV, look and feel. Th
   
 # UX
 
-  
+### Target Audience
+
+There are two target audiences for the website:
+
+- General users (Users): users who want to donate a gift to someone, by donating the value/amount of the gift they want to send. These are also the existing and target audience for Content Creators.
+- Content Creators (Creators): visitors who create content and want another medium to promote their content to fundraising/generate additional income through donations or gifts received. This audience is how the client will make money, taking a percentage of the donations they receive. As the content creators targeted are primarily desktop users, this site will have a desktop-first approach to design.
+
+## Audience Goals
+
+### Users
+
+- As a user, I want to understand what the donation service is
+- As a user, I want to how this donation service is different from other donation services
+- As a user, I want to register for more information.
+
+### Creators
+
+- As a creator, I want to understand how I can use this donation service to fundraise/ receive donations from fans and followers.
+- As a creator, I want to register my interest to use the service.
+
+## Website Goals
+
+### Users
+
+- To measure interest in the donation service to indicate the potential/scalability of the user base
+- To track user activity across the site; tracking unique visitors, repeat site visitors, duration on-site, and other related site metrics to validate user interest.
+
+### Creators
+
+- To gauge the interest of existing or potential creators who generate income through creating content on social media.
+- To obtain contact information from creator audiences/visitors; primarily by email as well as through social media handles.
+
 ## User Journey
 
 This is an example of a successful user journey for both audiences.
@@ -118,7 +109,6 @@ This is an example of a successful user journey for both audiences.
 - I now understand exactly how I can use Beer.com to start making money with my content creation. I'm excited it was so straightforward and simple and I click 'Contact Us' to register my interest and details.
 - I want to keep up to date with Beer.com so I click their Twitter icon in the footer before I leave the site.
 
- 
 ## Sections of the website
 
 ### General Layout
@@ -157,20 +147,18 @@ This section has a simple but important function, to capture the right contact d
 
 Like the Hero section, the footer will be consistent throughout the website. It will feature and promote social media links and icons. This is a familiar convention that most sites adopt and that the users will likely expect to see and understand the social icons are linked to relevant social accounts.
 
-
 ## Basic Wireframes
 
 Here is a sample of the original wireframes for the desktop site that was approved by the client.
 
-![desktop](assets-readme/xd/Blue/Landing-info-%20Page%20w-1920px.png)
+![desktop](assets/readme/xd/Blue/Landing-info-%20Page%20w-1920px.png)
 
 Other wireframes can be downloaded [here in xd format](assets-readme/xd/Blue/Beer-Wireframes.xd)
 <span id="#design"></span>
- 
+
 # Design
 
 The design elements were influenced and informed by the client’s brief, specifically the client’s brand guidelines which included the look and feel and TOV (tone of voice).
-
 
 ## Fonts
 
@@ -182,7 +170,6 @@ The design elements were influenced and informed by the client’s brief, specif
 
 -Acumin Pro and as a back up of serif;
 
- 
 ## Imagery and Style
 
 - I used a hero image of a group of people sharing a drink, to tie in the website/client business name and purpose. I decided to overlay the image with a filter so the image appears, as an illustration, to soften the image.
@@ -193,14 +180,13 @@ The design elements were influenced and informed by the client’s brief, specif
 
 ### Main colors
 
-Brand colours are ![brand](assets-readme/brand-colours.png)
+Brand colours are ![brand](assets/readme/brand-colours.png)
 
 Example of the branded wireframes:
 
-![wireframes](assets-readme/xd/Branded/Landing-info-%20Page%20w-1920px.png)
+![wireframes](assets/readme/xd/Branded/Landing-info-%20Page%20w-1920px.png)
 
-More wireframes can be downloaded [here in xd format](assets-readme/xd/Branded/Beer.com-HF.xd)
-
+More wireframes can be downloaded [here in xd format](assets/readme/xd/Branded/Beer.com-HF.xd)
 
 ## Features for the website
 
@@ -220,7 +206,6 @@ More wireframes can be downloaded [here in xd format](assets-readme/xd/Branded/B
 
 - Visitors must be able to link to the brand's social media pages.
 
- 
 ## Technologies Used
 
 ### Languages
@@ -228,7 +213,6 @@ More wireframes can be downloaded [here in xd format](assets-readme/xd/Branded/B
 HTML5 - I used HTML 5 for the layout and structure of the website.
 
 CSS - CSS has been used to style the HTML5 elements
-
 
 ## Architecture - SCSS
 
@@ -240,7 +224,6 @@ Besides,  allowing the use of variables makes the site maintenance smoother, and
 
 Using the nesting feature of SCSS allows for cleaner code making site up-keep and bug fixes easier to locate and address.
 
-
 ## VS Code
 
 I used VS Code as my code editor. In the code editor, the extensions that I used were:
@@ -250,7 +233,6 @@ I used VS Code as my code editor. In the code editor, the extensions that I used
 - Image preview - I used this extension that shows a preview of any linked images in my code to help me quickly identify if the URL path is correct and to identify the right image.
 - Markdown all in one - I used this which enabled me to edit the readme file with live preview in VS Code.
 
- 
 ## Node modules
 
 I used basic node modules to help me code in a smoother and more organised approach.
@@ -264,15 +246,12 @@ I used basic node modules to help me code in a smoother and more organised appro
 - Autoprefixer - I used this extension to add prefixes to my code for added browser support.
 - Font Awesome - I used this extension to integrate free icons into the page.
 
-
 ## Outside libraries
 
 - Unsplash images - I used this library for the hero image on the website.
 
 - Adobe font Typekit - I used the Adobe font library for the font family on the website.
 
-
- 
 ## CSS Pseudo-classes
 
 - Hover: I used the hover class to change the state of various items over the page, all buttons, and icons. This is a familiar convention that signals to the site visitor the interactive site elements/features they can engage with.
@@ -282,7 +261,6 @@ I used basic node modules to help me code in a smoother and more organised appro
 - Focus: I used the focus class for visitors to the website who need extra accessibly support when navigating the website.
 
 - Target: I used the target class to activate the modal on the interaction of the profile icon.
-
 
 ## Software Used
 
@@ -295,7 +273,6 @@ I used basic node modules to help me code in a smoother and more organised appro
 - Adobe XD - I used XD to create and build the wireframes, to design some of the unique icons on the page and the unique color patterns on the page.
 
 - Photoshop - I used photoshop to edit the hero image on the page, I used some filters on the image to create the illustrated filter effect on the image.
-
 
 ## Online resources
 
@@ -311,7 +288,6 @@ I used basic node modules to help me code in a smoother and more organised appro
 <span id="#testing"></span>
  
 # Testing
-
 
 ## Automated Code Validation
 
@@ -331,7 +307,7 @@ This test was well performing across all sites and pages scoring 100 on a deskto
 
 - ### Accessibility = Good
 
-   This test was also performed well, with 90 on mobile, 92-93 across the desktop pages, and being marked down on the font awesome icons imported for the footer using [aria-hidden=” true”]. I researched to investigate if I could change this outcome, however, I could not find a solution. In addition, the score was marked down due to there being a lack of contrast between foreground colors and background. This was a result of a design decision that I am reluctant to change. I checked the areas highlighted with this issue and believe there is sufficient contrast for the users to understand the text, without impacting the quality of their UX or ability to engage with the site.
+   This test was also performed well, with 90 on mobile, 92-93 across the desktop pages, and being marked down on the font awesome icons imported for the footer using `[aria-hidden=”true”]`. I researched to investigate if I could change this outcome, however, I could not find a solution. In addition, the score was marked down due to there being a lack of contrast between foreground colors and background. This was a result of a design decision that I am reluctant to change. I checked the areas highlighted with this issue and believe there is sufficient contrast for the users to understand the text, without impacting the quality of their UX or ability to engage with the site.
 
 - ### Best Practices = Good
 
@@ -340,7 +316,6 @@ This test was well performing across all sites and pages scoring 100 on a deskto
 - ### SEO = Good
 
    100 on all pages both desktop and mobile.
-
 
 ## Manual testing
 
@@ -402,15 +377,13 @@ Also used the responsive profiles preset in the dev tools of:
 - Laptop (1024px)
 - Laptop L (1440px)
 
-
 ## Major testing issues identified
 
-       1. Issue: Safari on a desktop in a small window and on a small iPhone screen would cut off the bottom of sections.
+1. Issue: Safari on a desktop in a small window and on a small iPhone screen would cut off the bottom of sections.
        Resolution applied: increasing the pixel height of certain sections on a small screen.
- 
-       2. Issue: Using my pixel in portrait mode on the contact page would encounter a bug where the placement on the icons inside the input boxes would be off-screen, creating white space.
-       Resolution applied: I fixed this by changing the containing div to `display: flex;` and re-formatting the icon to appear on the left hand side of the input box.
 
+2. Issue: Using my pixel in portrait mode on the contact page would encounter a bug where the placement on the icons inside the input boxes would be off-screen, creating white space.
+       Resolution applied: I fixed this by changing the containing div to `display: flex;` and re-formatting the icon to appear on the left hand side of the input box.
 
 ## User testing
 
@@ -418,41 +391,41 @@ To test if the layout of the website would deliver the client’s goals, I used 
 
 ### User Tests
 
-- What did most users remember about the business after the 5-second showing?
+  What did most users remember about the business after the 5-second showing?
 
-       The constant feedback was that Beer.com is about gifting drinks or meeting up with friends and family.
+- The constant feedback was that Beer.com is about gifting drinks or meeting up with friends and family.
 
-- What did users remember about the sign-up process?
+What did users remember about the sign-up process?
 
-       Everyone recognised that you can sign in by using their existing social media accounts.
-- After asking the Creator to try and contact Beer.com, how did they get on? Could they find the Social Media links?
+- Everyone recognised that you can sign in by using their existing social media accounts.
 
-       All test users understood where to find the 'Contact Us' form very quickly. One user spent a little more time than the other users on the top of the page to locate the link. though all others scrolled down to locate the form very quickly and easily.
+After asking the Creator to try and contact Beer.com, how did they get on? Could they find the Social Media links?
+
+- All test users understood where to find the 'Contact Us' form very quickly. One user spent a little more time than the other users on the top of the page to locate the link. though all others scrolled down to locate the form very quickly and easily.
  
-       Social media links were found by all users within 10 seconds of the question being asked.
+- Social media links were found by all users within 10 seconds of the question being asked.
 
 ### Creator Tests
 
-- What did the test subject remember after 5 seconds on the hero section of the creator page?
+What did the test subject remember after 5 seconds on the hero section of the creator page?
 
-       Beer.com is something to do with earning more money from content.
+- Beer.com is something to do with earning more money from content.
 
-- How did the test subject remember how the service works?
+How did the test subject remember how the service works?
 
-       All seemed familiar with using services to get paid for content but unsure of the specific way that the company would go about that.
+- All seemed familiar with using services to get paid for content but unsure of the specific way that the company would go about that.
 
-- Would you contact the company for more information about the service?
+Would you contact the company for more information about the service?
 
-       All said yes.
+- All said yes.
 
-- After asking the Creator to try and contact the company, how did they get on?
+After asking the Creator to try and contact the company, how did they get on?
 
-       All immediately clicked on the 'Contact Us section in the NavBar, within 5 seconds of being asked the question, and read the top section for a few seconds then down to the form with no issues.
+- All immediately clicked on the 'Contact Us section in the NavBar, within 5 seconds of being asked the question, and read the top section for a few seconds then down to the form with no issues.
 
-- What device do you normally use to look at websites?
+What device do you normally use to look at websites?
 
-       All said laptop or desktop screens mainly, but do go on social media on their phones a lot.
-
+- All said laptop or desktop screens mainly, but do go on social media on their phones a lot.
 
 ## Testing Checklists
 
@@ -504,13 +477,12 @@ Testing all links/buttons clicked to have the desired outcome. To pass, links wi
 - Twitter icon - opens in new window twitter.com - **Pass**
 - Instagram icon - opens in new window instagram.com - **Pass**
 
-
 ## Issues and challenges I encountered
 
 ### Dropdown menu
 
 I needed to create a CSS-only dropdown menu, from an icon that I created and exported from XD.
-   The main problems related to this were, making the exported SVG responsive to user engagement, and then linking that engagement to the exported SVG. After researching a solution via various online forms, I discovered a way to use checkbox input, linking that to the icon with an ID class, which would toggle between the active displays.
+   The main problems related to this were, making the exported SVG responsive to user engagement, and then linking that engagement to the exported SVG. After researching a solution via various online forms, I discovered a way to use check-box input, linking that to the icon with an ID class, which would toggle between the active displays.
 
 ### Modal
 
@@ -526,15 +498,16 @@ The search input and icon alignment. This took a significant amount of adjusting
 
 This was another recurring issue to resolve. On each screen size, the grid would spill over from the section. Using overflow:none and adjusting the width and height of the columns and rows was the only fix.
 
-### Known bugs
+### Textarea of the form section
 
-       How it works section on a small number of mobile devices in landscape mode, can cut off a small part of an icon.
- 
-       These issues can be fixed with time; give the likelihood of anyone viewing the website from these devices in landscape mode are incredibly small/unlikely. With added time this could potentially be fixed by changing the height formatting to be written in view height instead of pixels.
- 
-       In Firefox Submit button on the form is labeled Submit Query.
- 
-       Formatting for the search bar in the NavBar on the test iPhone, the border-radius is not formatting as on other devices and web browsers. After researching the problem I still have not found a solution.
+I had trouble with the responsiveness of the area, and the alignment of the width of the box. I fixed this by deleting the amount of columns in the HTML code. Adding  `width: 100%` to fill the div and managed the width of the div in compared to the available screen width.
+
+## Known bugs
+
+- How it works section on a small number of mobile devices in landscape mode, can cut off a small part of an icon.
+- These issues can be fixed with time; give the likelihood of anyone viewing the website from these devices in landscape mode are incredibly small/unlikely. With added time this could potentially be fixed by changing the height formatting to be written in view height instead of pixels.
+- In Firefox Submit button on the form is labeled Submit Query.
+- Formatting for the search bar in the NavBar on the test iPhone, the border-radius is not formatting as on other devices and web browsers. After researching the problem I still have not found a solution.
 
 <span id="#deployment"></span>
 
@@ -599,20 +572,23 @@ To use the `watch:sass` and the live reload modules for the development environm
 
 - We will need a section that will highlight user profiles, and what they have done to deserve the drink donation.
 <span id="#credits"></span>
+
 # CREDITS
 
- I used the slack community to help me with structuring the README.
+I used the slack community to help me with structuring the README.
 
 To help me with the responsive dropdown menu I used this page as reference.
 
-<https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99>
+[medium.com](https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99)
 
-<https://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack>
+[tutorialzine](https://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack)
 
-<https://stackoverflow.com/questions/4847996/css-animation-onclick>
+[stackoverflow](https://stackoverflow.com/questions/4847996/css-animation-onclick)
 
-textarea not being responsive enough; <https://www.studentstutorial.com/html/responsive-textarea>
+Formatting of the textarea in the form
+
+[Students-turtorial](https://www.studentstutorial.com/html/responsive-textarea)
 
 Here is were I researched how to do a css only open model
 
-<https://codepen.io/timothylong/pen/HhAer>
+[codepen](https://codepen.io/timothylong/pen/HhAer)
