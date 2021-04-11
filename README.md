@@ -53,7 +53,7 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
   
 # The Website Brief
 
-This is a copy of the [brief](assets-readme/assets/beer%20Guideline.pdf)
+This is a copy of the [brief](./assets-readme/assets/beer%20Guideline.pdf)
 
 ### Target Audience
 
