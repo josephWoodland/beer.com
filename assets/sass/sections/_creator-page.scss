@@ -18,8 +18,6 @@
     height: 900px
   }
 
-  
-
   h2 {
     text-align: center;
     font-size: $font-size-heading-large;
@@ -91,10 +89,6 @@
       li:last-child{
         margin-bottom: 3rem;
       }
-
-      a{
-        
-      }
     }
 
     &-images {
@@ -104,7 +98,6 @@
       img{
         width: 100%;
       }
-      
     }
   }
 }

@@ -39,11 +39,11 @@
       margin-top: auto;
       margin-bottom: auto;
 
-    
       &-header {
         text-transform: uppercase;
         margin-bottom: 3.5rem;
       }
+
       &-link {
         font-size: $font-size-copy;
         text-decoration: none;
@@ -148,7 +148,6 @@
           @media screen and (max-width: $bp-fold){
             margin: 2rem 14rem 2rem 0rem;
           }
-
         }
 
         &-social {

@@ -20,6 +20,7 @@
       padding-bottom: 6rem;
     }
   }
+
   &__profile {
     max-width: 936px;
     display: flex;
@@ -28,10 +29,12 @@
     @media only screen and (max-width: $bp-medium) {
       margin: 0 3rem 0 3rem;
     }
+    
     &-bio {
       max-width: 480px;
       margin-right: 2rem;
     }
+
     &-header {
       display: flex;
       border-bottom: 1px solid $color-grey-text;

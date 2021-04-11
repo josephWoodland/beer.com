@@ -1,0 +1,106 @@
+@mixin how-to-small-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0rem;
+    margin-bottom: 10rem;
+
+    @media screen and (max-width: $bp-fold) {
+      height: 1100px;
+      margin-bottom: 0rem;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 12rem;
+    }
+
+    p {
+      max-width: 90%;
+      text-align: center;
+      margin-top: 3.4rem;
+      margin-bottom: 4rem;
+    }
+
+    &__steps {
+      display: flex;
+      width: 100%;
+      height: 600px;
+      flex-direction: column;
+      background-image: url(../images/svg/pink.svg);
+      background-position: center;
+      background-size: cover;
+
+      @media screen and (max-width: $bp-fold) {
+        height: 1100px;
+      }
+
+      h3 {
+        color: $color-orange;
+        text-align: center;
+      }
+      &-icon {
+        width: 10.15rem;
+        color: $color-icon-fill;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      &__sign-up {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        h3 {
+          margin-top: 1rem;
+        }
+
+        img {
+          align-self: center;
+          margin-left: 0rem;
+        }
+      }
+
+      &__find {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 3rem;
+
+        p {
+          margin-top: 1rem;
+        }
+        img {
+          align-self: center;
+        }
+      }
+
+      &__choose {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+          margin-top: 1rem;
+        }
+        p {
+          margin-top: 1rem;
+        }
+        img {
+          align-self: center;
+          margin-top: 0rem;
+        }
+      }
+
+      &-pink {
+        display: none;
+      }
+      &-orange {
+        display: none;
+      }
+      &-blue {
+        display: none;
+      }
+    }
+}
