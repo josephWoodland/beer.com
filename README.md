@@ -23,7 +23,7 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
 - <a href="#credits">Credits</a>
 
 
-- <span id="#The-Website-Brief"></span>
+<span id="#The-Website-Brief"></span>
   
 # The Website Brief
 
@@ -63,7 +63,7 @@ There are two target audiences for the website:
 
 - To gauge the interest of existing or potential creators who generate income through creating content on social media.
 - To obtain contact information from creator audiences/visitors; primarily by email as well as through social media handles.
-- <span id="#brief-insperation"></span>
+<span id="#brief-insperation"></span>
   
 ## Inspiration
 
@@ -89,7 +89,7 @@ There should be several opportunities for site visitors to engage and interact w
 The sites’ content should be relevant, concise, and engaging without having unnecessary information. There should be nothing on the site without a purpose or that does not add value to the site objectives or building the brand image.
 
 The site should conform to brand guidelines and the brand TOV, look and feel. These should be relaxed, friendly, and inviting.
-- <span id="#ux"></span>
+<span id="#ux"></span>
   
 # UX
 
@@ -165,7 +165,7 @@ Here is a sample of the original wireframes for the desktop site that was approv
 ![desktop](assets-readme/xd/Blue/Landing-info-%20Page%20w-1920px.png)
 
 Other wireframes are [here](assets-readme/xd/Blue/Beer-Wireframes.xd)
-- <span id="#design"></span>
+<span id="#design"></span>
  
 # Design
 
@@ -308,7 +308,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 ### [npm](https://www.npmjs.com/)
 
 ### [MDN](https://developer.mozilla.org/en-US/)
-- <span id="#testing"></span>
+<span id="#testing"></span>
  
 # Testing
 
@@ -372,7 +372,7 @@ Browsers:
 
 - Chrome
 - Safari
-  - <span id="#testing-responsive"></span>
+- <span id="#testing-responsive"></span>
 
 ## Testing - Design Responsiveness
 
@@ -503,7 +503,7 @@ Testing all links/buttons clicked to have the desired outcome. To pass, links wi
 - Facebook icon - opens in new window facebook.com - **Pass**
 - Twitter icon - opens in new window twitter.com - **Pass**
 - Instagram icon - opens in new window instagram.com - **Pass**
-  - <span id="#testing-ressolved"></span>
+
 
 ## Issues and challenges I encountered
 
@@ -535,7 +535,8 @@ This was another recurring issue to resolve. On each screen size, the grid would
        In Firefox Submit button on the form is labeled Submit Query.
  
        Formatting for the search bar in the NavBar on the test iPhone, the border-radius is not formatting as on other devices and web browsers. After researching the problem I still have not found a solution.
-- <span id="#deployment"></span>
+
+<span id="#deployment"></span>
 
 # Deployment
 
@@ -578,7 +579,7 @@ As I have been using node_modules. You will have to have npm installed on your c
 
 Once you have got the files in your coder of choice, run `npm install` to install the modules and settings laid out in the package.json file.
 To use the `watch:sass` and the live reload modules for the development environment in the terminal use npm start, once this has started a window with the website loaded with the current code.
-- <span id="#future"></span>
+<span id="#future"></span>
 
 # Future Features
 
@@ -597,7 +598,7 @@ To use the `watch:sass` and the live reload modules for the development environm
 ### Scrolling Profiles
 
 - We will need a section that will highlight user profiles, and what they have done to deserve the drink donation.
-- <span id="#credits"></span>
+<span id="#credits"></span>
 # CREDITS
 
  I used the slack community to help me with structuring the README.
