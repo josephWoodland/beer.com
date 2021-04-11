@@ -180,7 +180,7 @@ The design elements were influenced and informed by the client’s brief, specif
 
 ### Main colors
 
-Brand colours are ![brand](assets/readme/assets/../Assets/brand-colours.pngbrand-colours.png)
+Brand colours are ![brand](assets/readme/assets/../Assets/brand-colours.png)
 
 Example of the branded wireframes:
 
