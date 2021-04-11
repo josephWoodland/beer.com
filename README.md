@@ -153,7 +153,7 @@ Here is a sample of the original wireframes for the desktop site that was approv
 
 ![desktop](assets/readme/xd/Blue/Landing-info-%20Page%20w-1920px.png)
 
-Other wireframes can be downloaded [here in xd format](assets-readme/xd/Blue/Beer-Wireframes.xd)
+Other wireframes can be downloaded [here in xd format](assets/readme/xd/Blue/Beer-Wireframes.xd)
 <span id="#design"></span>
 
 # Design
@@ -180,7 +180,7 @@ The design elements were influenced and informed by the client’s brief, specif
 
 ### Main colors
 
-Brand colours are ![brand](assets/readme/brand-colours.png)
+Brand colours are ![brand](assets/readme/assets/../Assets/brand-colours.pngbrand-colours.png)
 
 Example of the branded wireframes:
 
@@ -300,6 +300,22 @@ I passed the code through the online code checking tool [w3validator](https://va
 ### Chrome DevTools
 
 I completed an audit on all pages for mobile and desktop.
+
+## Home page
+Desktop
+![home-d](assest/../assets/readme/Assets/Test-results/home-desktop.png)
+Mobile
+![hime-m](assest/../assets/readme/Assets/Test-results/home-mobile.png)
+## Creator page
+Desktop
+![creator-d](assest/../assets/readme/Assets/Test-results/creator-desktop.png)
+Mobile
+![creator-m](assest/../assets/readme/Assets/Test-results/creator-mobile.png)
+## Contact page
+Desktop
+![contact-d](assest/../assets/readme/Assets/Test-results/contact-desktop.png)
+Mobile
+![contact-m](assest/../assets/readme/Assets/Test-results/contact-mobile.png)
 
 - ### Performance = Good
 
