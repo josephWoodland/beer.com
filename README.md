@@ -14,12 +14,7 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
 
 ## Index
 
-- <a href="#The-Website-Brief" >The Website Brief</a>
-  - <a href="#brief-agoals" >Audience Goals</a>
-  - <a href="#brief-Wgoals" >Website Goals</a>
-  - <a href="#brief-insperation" >Inspiration</a>
-  - <a href="#brief-summary" >Summary of the brief</a>
- 
+- <a href="#The-Website-Brief" >The Website Brief</a> 
 - <a href="#ux">UX</a>
 - <a href="#design">Design</a>
 - <a href="#testing">Testing</a>
