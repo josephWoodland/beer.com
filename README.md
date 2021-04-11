@@ -40,13 +40,13 @@ This site was inspired by elements of the following competitor websites. These s
 
 ## Summary of the brief
 
-The site should have a clean, clear, and simple layout so the visitor can easily find and quickly understand the site’s purpose and offering.
+The site should have a clean, clear and simple layout so the visitor can easily find and quickly understand the site’s purpose and offering.
 
 The site should be easy to navigate for both target audiences, even if they will use the site in different ways or require different information. Both target audiences should be able to leave their contact details to receive further information.
 
 There should be several opportunities for site visitors to engage and interact with the site content, easily and functionally.
 
-The sites’ content should be relevant, concise, and engaging without having unnecessary information. There should be nothing on the site without a purpose or that does not add value to the site objectives or building the brand image.
+The sites content should be relevant, concise, and engaging without having unnecessary information. There should be nothing on the site without a purpose or that does not add value to the site objectives or building the brand image.
 
 The site should conform to brand guidelines and the brand TOV, look and feel. These should be relaxed, friendly, and inviting.
 <span id="#ux"></span>
@@ -65,13 +65,13 @@ There are two target audiences for the website:
 ### Users
 
 - As a user, I want to understand what the donation service is
-- As a user, I want to how this donation service is different from other donation services
-- As a user, I want to register for more information.
+- As a user, I want to know how this donation service is different from other donation services
+- As a user, I want to know how to contact Beer.com.
 
 ### Creators
 
-- As a creator, I want to understand how I can use this donation service to fundraise/ receive donations from fans and followers.
-- As a creator, I want to register my interest to use the service.
+- As a creator, I want to understand how I can use this donation service to make money/ receive donations from fans and followers.
+- As a creator, I want to know how to contact Beer.com.
 
 ## Website Goals
 
@@ -403,45 +403,45 @@ Also used the responsive profiles preset in the dev tools of:
 
 ## User testing
 
-To test if the layout of the website would deliver the client’s goals, I used two groups each with 5 new users to use the website. One group was the 'user' audience and the other the 'creator' audience.  The overall results of this test are as follows.
+I completed several tests to ensure the website would deliver the client’s goals as well as meet the target audiences expectations. I used two groups each with 5 new users to use and test the website. One group was the 'user' audience and the other the 'creator' audience.  The overall results of this test are as follows.
 
 ### User Tests
 
   What did most users remember about the business after the 5-second showing?
 
-- The constant feedback was that Beer.com is about gifting drinks or meeting up with friends and family.
+- The majority of the group fed back that Beer.com is about gifting drinks, though some also commented it was about meeting up with friends and family.
 
 What did users remember about the sign-up process?
 
-- Everyone recognised that you can sign in by using their existing social media accounts.
+- All users recognised that they can sign in by using their existing social media accounts. From the hero section, all users scrolled down, stopping at the 'How it works' section for 5-10 seconds before feeding back that they can sign up using their existing social media accounts like Instagram or Facebook. 
 
-After asking the Creator to try and contact Beer.com, how did they get on? Could they find the Social Media links?
+After asking the Users to contact Beer.com, how did they get on? Could they find the Social Media links?
 
-- All test users understood where to find the 'Contact Us' form very quickly. One user spent a little more time than the other users on the top of the page to locate the link. though all others scrolled down to locate the form very quickly and easily.
+- All test users understood where to find the 'Contact Us' form very quickly. All users clicked on the 'Contact Us' section link in the nav bar, which directed them to the integrated 'Contact Us' form. One user spent a little more time than the other users on the nav bar to locate the link. Some users also scrolled down from the hero section where they also located the contact us form quickly and easily.
  
-- Social media links were found by all users within 10 seconds of the question being asked.
+- Social media links were found by all users within 10 seconds of the question being asked. Users moved their cursors to the footer where they located the social media icons and recalled what each one was.
 
 ### Creator Tests
 
 What did the test subject remember after 5 seconds on the hero section of the creator page?
 
-- Beer.com is something to do with earning more money from content.
+- All test subjects recalled that Beer.com is something to do with earning more money from content within the first 5 seconds of landing on the hero section of the creator page. After 10 seconds, including scrolling down to the 'How it works' section, some also added that Beer.com helps creators earn money by giving fans a way to send donations.
 
 How did the test subject remember how the service works?
 
-- All seemed familiar with using services to get paid for content but unsure of the specific way that the company would go about that.
+- After closing the site window, all test subjects were able to recall in this order that Beer.com helps creators to make money, that it helps fans connect with their favourite content creators by giving them a way to send donations and gifts that creators could then cash in. Test subjects also commented that they were unsure of the specific payment process Beer.com would use/manage to transfer/payment of fan gifts to creators.
 
 Would you contact the company for more information about the service?
 
-- All said yes.
+- All said yes, referencing that they liked the simplicity of the idea of a third party (beer.com) managing the donation/gifting process for content creators, so they would not have to manage that process themselves while also managing their content.
 
 After asking the Creator to try and contact the company, how did they get on?
 
-- All immediately clicked on the 'Contact Us section in the NavBar, within 5 seconds of being asked the question, and read the top section for a few seconds then down to the form with no issues.
+- All immediately clicked on the 'Contact Us' section in the NavBar while on the creator page within 5 seconds of being asked the question. Once they clicked and were directed to the 'Contact Us' page, some scrolled down to the 'Contact Us' form while others clicked the 'Contact Us' button in the hero section of the 'Contact Us' page, which then re-directed them to the form. 
 
 What device do you normally use to look at websites?
 
-- All said laptop or desktop screens mainly, but do go on social media on their phones a lot.
+- All said laptop or desktop screens mainly, some said laptop and tablet. However all said they prefer to use their phones to access social media accounts via apps.
 
 ## Testing Checklists
 
