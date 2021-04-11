@@ -164,7 +164,7 @@ Here is a sample of the original wireframes for the desktop site that was approv
 
 ![desktop](assets-readme/xd/Blue/Landing-info-%20Page%20w-1920px.png)
 
-Other wireframes are [here](assets-readme/xd/Blue/Beer-Wireframes.xd)
+Other wireframes can be downloaded [here in xd format](assets-readme/xd/Blue/Beer-Wireframes.xd)
 <span id="#design"></span>
  
 # Design
@@ -199,7 +199,7 @@ Example of the branded wireframes:
 
 ![wireframes](assets-readme/xd/Branded/Landing-info-%20Page%20w-1920px.png)
 
-More wireframes can be found [here](assets-readme/xd/Branded/Beer.com-HF.xd)
+More wireframes can be downloaded [here in xd format](assets-readme/xd/Branded/Beer.com-HF.xd)
 
 
 ## Features for the website
@@ -262,7 +262,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 - Watch sass - I used this module to compile the SCSS structure and architecture that I was using into a CSS format.
 
 - Autoprefixer - I used this extension to add prefixes to my code for added browser support.
-- Font Awesome - I       used this extension to integrate free icons into the page.
+- Font Awesome - I used this extension to integrate free icons into the page.
 
 
 ## Outside libraries
