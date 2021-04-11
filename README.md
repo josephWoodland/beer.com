@@ -21,29 +21,8 @@ This website has been developed for a new start-up called, Buy Me a Beer.com, a 
   - <a href="#brief-summary" >Summary of the brief</a>
  
 - <a href="#ux">UX</a>
-  - <a href="#ux-journey">User Journey</a>
-  - <a href="#ux-sections">Sections of the website</a>
-  - <a href="#ux-wireframese">Basic Wireframes</a>
 - <a href="#design">Design</a>
-  - <a href="#design-fonts">Fonts</a>
-  - <a href="#design-style">Imagery and Style</a>
-  - <a href="#design-features">Features for the website</a>
-  - <a href="#design-tech">Technologies Used</a>
-  - <a href="#design-scss">Architecture - SCSS</a>
-  - <a href="#design-vs-code">VS Code</a>
-  - <a href="#design-node">Node modules</a>
-  - <a href="#design-libaries">Outside libraries</a>
-  - <a href="#design-classes">CSS Pseudo-classes</a>
-  - <a href="#design-used">Software Used</a>
-  - <a href="#design-resources">Online resources</a>
 - <a href="#testing">Testing</a>
-  - <a href="#testing-auto">Automated Code Validation</a>
-  - <a href="#testing-manual"> Manual testing</a>
-  - <a href="#testing-responsive">Testing - Design Responsiveness</a>
-  - <a href="#testing-resolved">Major testing issues identified</a>
-  - <a href="#testing-user">User testing</a>
-  - <a href="#testing-checklist">Testing Checklists</a>
-  - <a href="#testing-ressolved">Issues and challenges I encountered</a>
 - <a href="#deployment">Deployment</a>
 - <a href="#future">Future Features</a>
 - <a href="#credits">Credits</a>
@@ -62,7 +41,7 @@ There are two target audiences for the website:
 - General users (Users): users who want to donate a gift to someone, by donating the value/amount of the gift they want to send. These are also the existing and target audience for Content Creators.
 - Content Creators (Creators): visitors who create content and want another medium to promote their content to fundraising/generate additional income through donations or gifts received. This audience is how the client will make money, taking a percentage of the donations they receive. As the content creators targeted are primarily desktop users, this site will have a desktop-first approach to design.
 
-  - <span id="#brief-Agoals"></span>
+
   
 ## Audience Goals
 
@@ -76,7 +55,7 @@ There are two target audiences for the website:
 
 - As a creator, I want to understand how I can use this donation service to fundraise/ receive donations from fans and followers.
 - As a creator, I want to register my interest to use the service.
-- <span id="#brief-Wgoals"></span>
+
   
 ## Website Goals
 
@@ -101,7 +80,7 @@ This site was inspired by elements of the following competitor websites. These s
 
 [Just Giving](https://www.justgiving.com/)
 
-<span id="#brief-summary"></span>
+
  
 
 ## Summary of the brief
@@ -118,7 +97,7 @@ The site should conform to brand guidelines and the brand TOV, look and feel. Th
 - <span id="#ux"></span>
   
 # UX
-- <span id="#ux-journey"></span>
+
   
 ## User Journey
 
@@ -143,7 +122,7 @@ This is an example of a successful user journey for both audiences.
 - If I'm eager I want to get in touch right away so I click the 'Contact Us' button in the hero section which stands out. If I want a little more information I scroll down to immediately see 3 clear simples 'How it works' steps.
 - I now understand exactly how I can use Beer.com to start making money with my content creation. I'm excited it was so straightforward and simple and I click 'Contact Us' to register my interest and details.
 - I want to keep up to date with Beer.com so I click their Twitter icon in the footer before I leave the site.
-- <span id="#ux-sections"></span>
+
  
 ## Sections of the website
 
@@ -182,7 +161,7 @@ This section has a simple but important function, to capture the right contact d
 ### Footer
 
 Like the Hero section, the footer will be consistent throughout the website. It will feature and promote social media links and icons. This is a familiar convention that most sites adopt and that the users will likely expect to see and understand the social icons are linked to relevant social accounts.
- - <span id="#ux-wireframese"></span>
+
 
 ## Basic Wireframes
 
@@ -196,7 +175,7 @@ Other wireframes are [here](assets-readme/xd/Blue/Beer-Wireframes.xd)
 # Design
 
 The design elements were influenced and informed by the client’s brief, specifically the client’s brand guidelines which included the look and feel and TOV (tone of voice).
- - <span id="#design-fonts"></span>
+
 
 ## Fonts
 
@@ -207,7 +186,7 @@ The design elements were influenced and informed by the client’s brief, specif
 ### Heading copy
 
 -Acumin Pro and as a back up of serif;
-  - <span id="#design-style"></span>
+
  
 ## Imagery and Style
 
@@ -226,7 +205,7 @@ Example of the branded wireframes:
 ![wireframes](assets-readme/xd/Branded/Landing-info-%20Page%20w-1920px.png)
 
 More wireframes can be found [here](assets-readme/xd/Branded/Beer.com-HF.xd)
- - <span id="#design-features"></span>
+
 
 ## Features for the website
 
@@ -245,7 +224,7 @@ More wireframes can be found [here](assets-readme/xd/Branded/Beer.com-HF.xd)
 ### Links to social media
 
 - Visitors must be able to link to the brand's social media pages.
-  - <span id="#design-tech"></span>
+
  
 ## Technologies Used
 
@@ -254,7 +233,7 @@ More wireframes can be found [here](assets-readme/xd/Branded/Beer.com-HF.xd)
 HTML5 - I used HTML 5 for the layout and structure of the website.
 
 CSS - CSS has been used to style the HTML5 elements
- - <span id="#design-scss"></span>
+
 
 ## Architecture - SCSS
 
@@ -265,7 +244,7 @@ Using the import feature of SCSS would first allow me to structure the architect
 Besides,  allowing the use of variables makes the site maintenance smoother, and helps significantly with the responsive design. Giving the option to just change the variable and this will change every time that variable has been used throughout the code.
 
 Using the nesting feature of SCSS allows for cleaner code making site up-keep and bug fixes easier to locate and address.
-  - <span id="#design-vs-code"></span>
+
 
 ## VS Code
 
@@ -275,7 +254,7 @@ I used VS Code as my code editor. In the code editor, the extensions that I used
 - Npm - I used this extension to give npm support for the version of VS Code I have.
 - Image preview - I used this extension that shows a preview of any linked images in my code to help me quickly identify if the URL path is correct and to identify the right image.
 - Markdown all in one - I used this which enabled me to edit the readme file with live preview in VS Code.
-  - <span id="#design-node"></span>
+
  
 ## Node modules
 
@@ -289,7 +268,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 
 - Autoprefixer - I used this extension to add prefixes to my code for added browser support.
 - Font Awesome - I       used this extension to integrate free icons into the page.
- - <span id="#design-libaries"></span>
+
 
 ## Outside libraries
 
@@ -297,8 +276,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 
 - Adobe font Typekit - I used the Adobe font library for the font family on the website.
 
-- Google fonts - I used Google fonts for one of the font families on the website.
-  - <span id="#design-classes"></span>
+
  
 ## CSS Pseudo-classes
 
@@ -309,7 +287,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 - Focus: I used the focus class for visitors to the website who need extra accessibly support when navigating the website.
 
 - Target: I used the target class to activate the modal on the interaction of the profile icon.
- - <span id="#design-used"></span>
+
 
 ## Software Used
 
@@ -322,7 +300,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 - Adobe XD - I used XD to create and build the wireframes, to design some of the unique icons on the page and the unique color patterns on the page.
 
 - Photoshop - I used photoshop to edit the hero image on the page, I used some filters on the image to create the illustrated filter effect on the image.
-- <span id="#design-resources"></span>
+
 
 ## Online resources
 
@@ -338,7 +316,7 @@ I used basic node modules to help me code in a smoother and more organised appro
 - <span id="#testing"></span>
  
 # Testing
- - <span id="#testing-auto"></span>
+
 
 ## Automated Code Validation
 
@@ -367,7 +345,7 @@ This test was well performing across all sites and pages scoring 100 on a deskto
 - ### SEO = Good
 
    100 on all pages both desktop and mobile.
-  - <span id="#testing-manual"></span>
+
 
 ## Manual testing
 
@@ -428,7 +406,7 @@ Also used the responsive profiles preset in the dev tools of:
 - Tablet (768px)
 - Laptop (1024px)
 - Laptop L (1440px)
-  - <span id="#testing-resolved"></span>
+
 
 ## Major testing issues identified
 
@@ -437,7 +415,7 @@ Also used the responsive profiles preset in the dev tools of:
  
        2. Issue: Using my pixel in portrait mode on the contact page would encounter a bug where the placement on the icons inside the input boxes would be off-screen, creating white space.
        Resolution applied: I fixed this by changing the containing div to `display: flex;` and re-formatting the icon to appear on the left hand side of the input box.
-  - <span id="#testing-user"></span>
+
 
 ## User testing
 
@@ -479,7 +457,7 @@ To test if the layout of the website would deliver the client’s goals, I used 
 - What device do you normally use to look at websites?
 
        All said laptop or desktop screens mainly, but do go on social media on their phones a lot.
-  - <span id="#testing-checklist"></span>
+
 
 ## Testing Checklists
 
