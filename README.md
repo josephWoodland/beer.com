@@ -294,9 +294,9 @@ I used basic node modules to help me code in a smoother and more organised appro
 
 I passed the code through the online code checking tool [w3validator](https://validator.w3.org/)
 
-- Html Code has passed through the validator with no issues.
+- Html Code has passed through the validator with no issues, or warnings.
 ![image of](assets/readme/Assets/Test-results/HTML%20validation.png)
-- CSS code passed through the validator with no issues. I have three warnings that I believe are necessary for the website to run. Two are around importing the fonts into the stylesheet. The other is a warning around using pointer-events, which I need to be able to close the modal.
+- CSS code passed through the validator with no issues, or warnings.
 ![image of](assets/readme/Assets/Test-results/CSS%20validation.png)
 
 ### Chrome DevTools
